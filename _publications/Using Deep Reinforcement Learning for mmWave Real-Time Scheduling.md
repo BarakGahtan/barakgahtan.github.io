@@ -5,7 +5,7 @@ title: "Using Deep Reinforcement Learning for mmWave Real-Time Scheduling"
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-10-01
 venue: '2023 14th International Conference on Network of the Future (NoF)'
-slidesurl: ''
+#slidesurl: ''
 paperurl: 'https://ieeexplore.ieee.org/document/10302794'
 citation: '@inproceedings{gahtan2023using,
   title={Using Deep Reinforcement Learning for mmWave Real-Time Scheduling},
