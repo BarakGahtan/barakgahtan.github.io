@@ -10,7 +10,7 @@ repository               : "BarakGahtan/barakgahtan.github.io" # Your GitHub rep
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 author:
-  avatar           : "profile.png"
+  avatar           : "email-picture.jpg"
   name             : "Barak Gahtan"
   pronouns         : # example: "she/her"  
   bio              : "I am a PhD candidate in the Computer Science Department at the Technion, advised by  Prof. Alex Bronstein and Prof. Reuven Cohen. My research is about leveraging a deep learning approach to temporal data analysis for communications networks and sports physiology.
@@ -38,7 +38,7 @@ Additionally, I am an ASICS FrontRunner with a marathon PR of 2:43:22. Check out
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
