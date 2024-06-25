@@ -5,7 +5,7 @@ date: 2024-06-25
 categories: blog
 ---
 
-Nowadays, many smart watches record and measure many parameters other than heart rate, such as cadence, vertical ratio, vertical oscillation, and many more. Runners can gain much better insight into their techniques and training progress by using these measurements.
+*Nowadays, many smart watches record and measure many parameters other than heart rate, such as cadence, vertical ratio, vertical oscillation, and many more. Runners can gain much better insight into their techniques and training progress by using these measurements.*
 
 A runner's running dynamics describe their form, efficiency, and performance based on a variety of metrics. These metrics can be measured using specialized sensors or devices, such as Garmin watches, and can help runners gain a better understanding of their running mechanics. Running dynamics variables include cadence, vertical oscillation, ground contact time, stride length, and more. A runner can improve their performance by monitoring and analyzing these variables, adjusting their training plans, and identifying areas for improvement. Understanding the variables of running dynamics can provide valuable insight into a runner's training and help them become more efficient and effective. So let’s dive into some of the metrics. 
 
@@ -29,22 +29,12 @@ Step Length
 ------
 The step length is a running dynamics variable that measures the distance between a runner's steps, typically measured in meters or feet. Longer strides are generally associated with better running efficiency and performance since the runner covers more ground with each step. Increasing step length can be challenging since it is affected by several factors, including running form, leg strength, and flexibility. However, the following tips may assist in increasing step length in running:
 
-Improve Running Form: Focusing on proper running form can improve step length by promoting efficient movement and reducing wasted energy. Proper running form includes keeping the body tall, leaning slightly forward from the ankles, and landing midfoot or forefoot.
+* Improve Running Form: Focusing on proper running form can improve step length by promoting efficient movement and reducing wasted energy. Proper running form includes keeping the body tall, leaning slightly forward from the ankles, and landing midfoot or forefoot.
 
-Increasing leg strength can help runners improve their step length by enabling them to generate more power with each step. Leg strength can be developed through exercises such as squats, lunges, and calf raises.
+* Increasing leg strength can help runners improve their step length by enabling them to generate more power with each step. Leg strength can be developed through exercises such as squats, lunges, and calf raises.
 
-Increasing flexibility can enhance step length by increasing hip, knee, and ankle range of motion. Flexibility can be improved by performing stretching exercises such as lunges, hamstring stretches, and hip openers.
+* Increasing flexibility can enhance step length by increasing hip, knee, and ankle range of motion. Flexibility can be improved by performing stretching exercises such as lunges, hamstring stretches, and hip openers.
 
-Gradual Increase: It is important to gradually increase step length over time to avoid injury.
+* Gradual Increase: It is important to gradually increase step length over time to avoid injury.
 
-In conclusion, running dynamics parameters provide valuable insight into a runner's form, technique, and efficiency. Tracking and analyzing these parameters can help runners improve their training, reduce their risk of injury, and achieve better results.
-
-Cadence, vertical oscillation, ground contact time, step length, and stance time balance are some of the most important running dynamics parameters. These parameters can provide insights into a runner's stride efficiency, symmetry, and overall form.
-Headings are cool
-======
-
-You can have many headings
-======
-
-Aren't headings cool?
-------
+In conclusion, running dynamics parameters provide valuable insight into a runner's form, technique, and efficiency. Tracking and analyzing these parameters can help runners improve their training, reduce their risk of injury, and achieve better results.  Cadence, vertical oscillation, ground contact time, step length, and stance time balance are some of the most important running dynamics parameters. These parameters can provide insights into a runner's stride efficiency, symmetry, and overall form.
