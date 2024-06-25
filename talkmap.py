@@ -18,6 +18,7 @@ from geopy import Nominatim
 g = glob.glob("*.md")
 
 
+
 geocoder = Nominatim()
 location_dict = {}
 location = ""
