@@ -9,3 +9,11 @@ author_profile: true
 
 **Understanding running dynamics parameters**
 ======
+
+**Unraveling the mystery of running shoes carbon plated running shoes part I**
+======
+
+**Unraveling the mystery of running shoes carbon plated running shoes part II**
+======
+
+
