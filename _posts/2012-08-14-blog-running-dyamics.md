@@ -1,11 +1,8 @@
 ---
-title: 'Understanding running dynamics parameters'
-date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
-tags:
-  - cool posts
-  - category1
-  - category2
+layout: single
+title: "Understanding Running Dynamics Parameters"
+date: 2024-06-25
+categories: blog
 ---
 
 Nowadays, many smart watches record and measure many parameters other than heart rate, such as cadence, vertical ratio, vertical oscillation, and many more. Runners can gain much better insight into their techniques and training progress by using these measurements.
