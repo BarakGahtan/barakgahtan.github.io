@@ -4,10 +4,10 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-Below are my publications and preprints. You can also find them on my Google scholar profile.
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my papers on <a href="https://scholar.google.com/citations?user=Uph8rcwAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</div>
+Below are my publications and preprints. You can also find them on my {% if site.author.googlescholar %}
+  <div class="wordwrap"><a href="https://scholar.google.com/citations?user=Uph8rcwAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</div>
 {% endif %}
+
 
 {% include base_path %}
 
