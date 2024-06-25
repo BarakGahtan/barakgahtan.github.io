@@ -218,7 +218,7 @@ defaults:
   # _running
   - scope:
       path: ""
-      type: teaching
+      type: running
     values:
       layout: single
       author_profile: true
