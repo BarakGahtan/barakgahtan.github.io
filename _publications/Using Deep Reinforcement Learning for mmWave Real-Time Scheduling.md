@@ -17,4 +17,4 @@ citation: '@inproceedings{gahtan2023using,
 }'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+We study the problem of real-time scheduling in a multi-hop millimeter-wave (mmWave) mesh. We develop a model-free deep reinforcement learning algorithm called Adaptive Activator RL (AARL), which determines the subset of mmWave links that should be activated during each time slot and the power level for each link. The most important property of AARL is its ability to make scheduling decisions within the strict time frame constraints of typical 5G mmWave networks.
