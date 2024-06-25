@@ -215,7 +215,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # Teaching
+  # _running
   - scope:
       path: ""
       type: teaching
