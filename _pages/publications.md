@@ -9,8 +9,12 @@ Below are my publications and preprints. You can also find them on my Google sch
   <div class="wordwrap">You can also find my papers on <a href="https://scholar.google.com/citations?user=Uph8rcwAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+[//]: # ()
+[//]: # ({% include base_path %})
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+[//]: # ()
+[//]: # ({% for post in site.publications reversed %})
+
+[//]: # (  {% include archive-single.html %})
+
+[//]: # ({% endfor %})
