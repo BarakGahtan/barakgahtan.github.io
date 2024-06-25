@@ -13,8 +13,8 @@ author:
   avatar           : "email-picture.jpg"
   name             : "Barak Gahtan"
   pronouns         : # example: "she/her"  
-  bio              : "I am a PhD candidate in the Computer Science Department at the Technion, advised by  Prof. Alex Bronstein and Prof. Reuven Cohen. My research is about leveraging a deep learning approach to temporal data analysis for communications networks and sports physiology.
-Additionally, I am an ASICS FrontRunner with a marathon PR of 2:43:22. Check out my blog posts in the running related section."
+  bio              : "PhD candidate in the Computer Science Department at the Technion, advised by  Prof. Alex Bronstein and Prof. Reuven Cohen.
+Additionally, ASICS FrontRunner with a marathon PR of 2:43:22."
   location         : "Israel"
   employer         : "Technion, Israel Institute of Technology"
   uri              : # URL
