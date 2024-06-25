@@ -14,7 +14,7 @@ paperurl: 'https://ieeexplore.ieee.org/document/10302794'
 #  pages={71--79},
 #  year={2023},
 #  organization={IEEE}
-}'
+#}'
 ---
 
 This paper presents Robusta, a hybrid recoverable cache leveraging PMem and DRAM to get the best of the two: DRAM-like low latency for very frequent items, reduced tail latency due to Pmem’s large capacity, and warm start on fail- ure recovery. Robusta is implemented as a wrapper around Caffeine, a state-of-the-art Java cache that is integrated into a range of production systems, including HBase, Druid, Solr, and Cassandra.
