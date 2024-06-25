@@ -14,7 +14,7 @@ In my work, I explore how deep learning can be utilized to understand and predic
 My deepest academic passion involves merging my primary hobby, running, with my research. I strive to estimate and predict physiological parameters, which are traditionally expensive to measure, using affordable equipment such as sport watches. Developing a complex system to predict VO2 using only watches instead of a costly metabolic system, and predicting injuries from long-term training trends, is my primary passion.
 
 
-Outside of the academia
+Outside of work
 ======
 
-I am married to Shir Cohen, who holds a PhD in computer science as well. I am a proud father to Romy, and we have a German shepherd named Zeus. Additionally, if I am not with my family, I can usually be found running or reading books about running. I am a marathon runner with a personal best of 2:43 in the Valencia marathon.
+I am married to Shir Cohen, who holds a PhD in computer science as well. I am a proud father to Romy, and we have a German shepherd named Zeus. Additionally, if I am not with my family, I can usually be found running or reading books about running. I am a marathon runner, ASICS Front Runner member, with a personal best of 2:43 in the Valencia marathon.
