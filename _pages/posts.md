@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-1
 title: "Running Blog Posts"
 permalink: /posts/
 author_profile: true
