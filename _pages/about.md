@@ -11,12 +11,10 @@ I am currently pursuing my PhD in computer science under the guidance of Prof. A
 
 In my work, I explore how deep learning can be utilized to understand and predict complex temporal patterns in these fields. For the physiological aspect, I aim to estimate VO2 using wearables such as Garmin watches and predict injuries using wearable data. In communication networks, my focus is on optimizing and predicting network behavior under varying conditions for 5G networks, QUIC protocols, and teleoperated driving. This dual focus allows for a broad application of temporal deep learning methods and provides insights into both human and technological systems.
 
+My deepest academic passion involves merging my primary hobby, running, with my research. I strive to estimate and predict physiological parameters, which are traditionally expensive to measure, using affordable equipment such as sport watches. Developing a complex system to predict VO2 using only watches instead of a costly metabolic system, and predicting injuries from long-term training trends, is my primary passion.
 
-[//]: # (A data-driven personal website)
 
-[//]: # (======)
+Outside of the academia
+======
 
-[//]: # (Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown &#40;.md&#41;, YAML &#40;.yml&#41;, HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages]&#40;https://pages.github.com/&#41; service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.)
-
-[//]: # ()
-[//]: # (Many of the features of dynamic content management systems &#40;like Wordpress&#41; can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one]&#40;https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb&#41; that analyzes metadata in pages about talks to display [a map of every location you've given a talk]&#40;https://academicpages.github.io/talkmap.html&#41;.)
+I am married to Shir Cohen, who holds a PhD in computer science as well. I am a proud father to Romy, and we have a German shepherd named Zeus. Additionally, if I am not with my family, I can usually be found running or reading books about running. I am a marathon runner with a personal best of 2:43 in the Valencia marathon.
