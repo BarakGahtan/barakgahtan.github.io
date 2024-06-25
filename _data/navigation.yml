@@ -4,11 +4,7 @@ main:
     url: /publications/
 
   - title: "Experience"
-    url: /talks/    
-
-  - title: "Running Related"
-    url: /running/
-
-  - title: "Experience"
     url: /cv/
 
+  - title: "Running"
+    url: /talks/
