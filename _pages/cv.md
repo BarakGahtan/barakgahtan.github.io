@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-1
 title: "Experience"
 permalink: /cv/
 author_profile: true
