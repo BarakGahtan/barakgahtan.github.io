@@ -18,3 +18,5 @@ Outside of work
 ======
 
 I am married to Shir Cohen, who holds a PhD in computer science as well. I am a proud father to Romy, and we have a German shepherd named Zeus. Additionally, if I am not with my family, I can usually be found running or reading books about running. I am a marathon runner, ASICS Front Runner member, with a personal best of 2:43 in the Valencia marathon.
+
+![Shir and I](https://www.barakgahtan.com/images/wedding.jpg)
