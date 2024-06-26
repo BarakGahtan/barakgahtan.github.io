@@ -5,8 +5,6 @@ permalink: /recommended-books/
 author_profile: true
 ---
 
-## Recommended Books
-
 Here are some of the books I recommend:
 
 1. [ENDURE - ALEX HUTCHINSON
