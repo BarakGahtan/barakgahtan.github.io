@@ -7,26 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-**ABOUT MYSELF**
-======
+<section>
+  <h2>ABOUT MYSELF</h2>
+  <p>I am a seasoned long-distance runner with a decade of experience, also I'm an ASICS FrontRunner athlete. I've participated in numerous marathons, half-marathons worldwide, achieving a personal best of 2:43:22 for the marathon. I'm passionate about running, and I believe in its transformative power to promote mental health and wellbeing.</p>
+</section>
 
-I am a seasoned long-distance runner with a decade of experience, also I'm an ASICS FrontRunner athlete. I've participated in numerous marathons, half-marathons worldwide, achieving a personal best of 2:43:22 for the marathon. I'm passionate about running, and I believe in its transformative power to promote mental health and wellbeing.
-
-**BLOG POSTS:**
------
-**Understanding running dynamics parameters**
------
-**Unraveling the mystery of running shoes carbon plated running shoes part I**
------
-**Unraveling the mystery of running shoes carbon plated running shoes part II**
------
-**THE BENEFITS OF ROTATING RUNNING SHOES**
------
-**The Science Behind Running - VO2**
------
-**The Science Behind Running - Lactate**
------
-**Nutrition**
------
-
-
+<section>
+  <h2>BLOG POSTS:</h2>
+</section>

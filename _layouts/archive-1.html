@@ -20,18 +20,20 @@ layout: default
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
 
-    <!-- Add the page content here -->
+    <!-- Render the page content -->
     {{ content }}
 
     <!-- Blog Posts List -->
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h2>
-        </li>
-      {% endfor %}
-    </ul>
+    <section>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
   </div>
 </div>
