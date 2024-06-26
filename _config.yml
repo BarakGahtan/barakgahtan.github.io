@@ -62,7 +62,7 @@ Additionally, ASICS FrontRunner with a marathon PR of 2:43:22."
   xing             : # Username
   youtube          : # Username
   zhihu            : # URL
-  Strava           : "athletes/4852882"
+  strava           : "athletes/4852882"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
