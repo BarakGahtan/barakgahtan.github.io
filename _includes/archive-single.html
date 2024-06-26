@@ -55,6 +55,8 @@
         <p>Published in <i>{{ post.venue }}</i></p>
       {% elsif post.date %}
         <p>Published in {{ post.date | date: "%Y" }}</p>
+      {% elsif post.title == "Robusta" %}
+        <p>Can be sent upon request</p>
       {% else %}
         <p>Under Review</p>
       {% endif %}
