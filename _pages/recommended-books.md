@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archive
 title: "Recommended Books"
 permalink: /recommended-books/
 author_profile: true
