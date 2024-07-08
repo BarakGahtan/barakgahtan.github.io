@@ -19,4 +19,4 @@ title: "Data-Driven Cellular Network Selector for Vehicle Teleoperations"
 
 The effectiveness of video-based teleoperation systems is heavily influenced by the quality of the cellular network and, in particular, its packet loss rate and latency. To optimize these parameters, an autonomous vehicle can be connected to multiple cellular networks and determine in real time over which cellular network each video packet will be transmitted. We present an algorithm, called Active Network Selector (ANS), which uses a time series machine learning approach for solving this problem. We compare ANS to a baseline algorithm, which is used today in commercial systems, and show that ANS performs much better, with respect to both packet loss and packet latency.
 
-Currently under review.                                      
+Accepted as a full paper in 2024 15th International Conference on Network of the Future (NoF)
