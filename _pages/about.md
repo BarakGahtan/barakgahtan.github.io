@@ -17,5 +17,7 @@ My passion lies in using real-world datasets to solve practical problems. I merg
 Outside of work
 ======
 
-Outside of work, I am married to Dr. Shir Cohen, who also holds a PhD in computer science. I am a proud father to Romy, and we share our home with Zeus, our loyal and energetic German Shepherd. When I’m not spending time with my family, I can usually be found running, coaching amateur athletes in long-distance running, or reading books about the sport. As a passionate marathon runner, I am a proud member of the ASICS Front Runner team and hold a personal best of 2:43 from the Valencia Marathon.
+### Outside of work
+
+I am married to Dr. Shir Cohen, who also holds a PhD in computer science. I am a proud father to Romy, and we share our home with Zeus, our loyal and energetic German Shepherd. When I’m not spending time with my family, I can usually be found running, coaching amateur athletes in long-distance running, or reading books about the sport. As a passionate marathon runner, I am a proud member of the ASICS Front Runner team and hold a personal best of 2:43 from the Valencia Marathon.
 ![Shir and I](https://www.barakgahtan.com/images/wedding.jpg)
