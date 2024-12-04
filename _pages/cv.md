@@ -27,7 +27,7 @@ Work experience
 ======
 * **Technion 2021-Present** 
 
-  * TA in charge at Data-Structures 234218 (W21-22, S22, W22-23, S23, W24, S24)
+  * TA in charge at Data-Structures 234218 (W22, S22, W23, S23, W24, S24)
   * Project advisor in the LCCN-CS lab. I oversee several projects centered on applying deep learning techniques to network communication problems.
   * Project advisor in the VISTA-CS lab. I oversaw several projects centered on applying deep learning techniques to wind-surfing projects, working in parallel with the Olympian committee.
   * TA for Introduction to Computer Networks (236334).
