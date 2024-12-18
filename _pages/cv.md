@@ -15,11 +15,11 @@ Education
 
 * **2021-Present** - PhD direct track at the Technion. 
 
-  PhD in the computer science department at the Technion, under the supervision of Prof. Reuven Cohen and Prof. Alex Bronstein. My research is about using deep learning to temporal data analysis in communication networks and physiological responses to exercise.
+  PhD in the computer science department at the Technion, under the supervision of Prof. Reuven Cohen and Prof. Alex Bronstein. My research is about using deep learning to temporal data in communication networks and physiological responses to exercise.
 * **2016-2020** - Bachelor at the Technion
 
   Computer Engineering (combined Computer Science and Electrical Engineering).
-* **2002-2005** - Overseas Family School, Singapore\
+* **2002-2005** - Overseas Family School, Singapore
 
   Attended middle school of “Overseas Family School – British international school”, Singapore.
 
