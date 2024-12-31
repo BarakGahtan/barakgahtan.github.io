@@ -3,10 +3,10 @@ title: "Data-Driven Cellular Network Selector for Vehicle Teleoperations"
 #collection: publications
 #permalink: /publication/2009-10-01-paper-title-number-1
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-#date: 2023-10-01
+date: 2024-10-02
 venue: '2024 15th International Conference on Network of the Future (NoF)'
 #slidesurl: ''
-#paperurl: 'https://ieeexplore.ieee.org/document/10302794'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10741500'
 citation: '@INPROCEEDINGS{10741500,
   author={Gahtan, Barak and Cohen, Reuven and Bronstein, Alex M. and Shapira, Eli},
   booktitle={2024 15th International Conference on Network of the Future (NoF)}, 
