@@ -51,7 +51,7 @@
     {% elsif post.collection == 'publications' %}
 <!--      {% if post.title contains "Data-Driven Cellular Network Selector for Vehicle Teleoperations" %}-->
 <!--        <p>Accepted as a full paper in 2024 15th International Conference on Network of the Future (NoF)</p>-->
-      {% elsif post.title == "Robusta" %}
+      {% if post.title == "Robusta" %}
         <p>Can be sent upon request</p>
       {% elsif post.venue and post.date %}
         <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
