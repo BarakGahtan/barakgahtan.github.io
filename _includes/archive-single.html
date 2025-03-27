@@ -55,6 +55,8 @@
         <p>Can be sent upon request</p>
       {% elsif post.title == "Estimating the number of HTTP/3 Responses in QUIC Using Deep Learning" %}
         <p>Accepted to IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN 2025).</p>
+    {% elsif post.title == "WearableMil: An End-to-End Framework for Military Activity Recognition and Performance Monitoring" %}
+        <p>Accepted for publication in the 2025 13th International Conference on Healthcare Informatics (ICHI)..</p>
       {% elsif post.venue and post.date %}
         <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
       {% elsif post.venue %}
