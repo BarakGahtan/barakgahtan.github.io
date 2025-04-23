@@ -3,20 +3,9 @@
 {% if post.collection == "publications" %}
   <div class="publication__item">
     <h2 class="publication__title" style="color: black;">
-      <a href="{{ post.paperurl | default: base_path | append: post.url }}" target="_blank" rel="noopener">
-        {{ post.title }}
-      </a>
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
     </h2>
-    {%- comment -%} publication status: accepted, published or under review {%- endcomment -%}
-    {% if post.title contains "Data-Driven Cellular Network Selector for Vehicle Teleoperations" %}
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
-    {% elsif post.title == "Robusta" %}
-      <p>Can be sent upon request</p>
-    {% elsif post.title == "Estimating the number of HTTP/3 Responses in QUIC Using Deep Learning" %}
-      <p>Accepted to IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN 2025).</p>
-    {% elsif post.title == "WearableMil: An End-to-End Framework for Military Activity Recognition and Performance Monitoring" %}
-      <p>Accepted for publication in the 2025 13th International Conference on Healthcare Informatics (ICHI).</p>
-    {% elsif post.venue and post.date %}
+    {% if post.venue and post.date %}
       <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
     {% elsif post.venue %}
       <p>Published in <i>{{ post.venue }}</i></p>
