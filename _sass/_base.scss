@@ -13,14 +13,20 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.7;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
 }
-
+/* constrain line-length for readability */
+.main-content,
+.page-content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 1rem;               // small gutter on mobile
+}
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
