@@ -5,17 +5,24 @@
     <h2 class="publication__title" style="color: black;">
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
     </h2>
-    {% if post.venue and post.date %}
-      <p><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
-    {% elsif post.venue %}
-      <p><i>{{ post.venue }}</i></p>
-    {% elsif post.date %}
-      <p>{{ post.date | date: "%Y" }}</p>
+
+    {% comment %}
+      1) If this is Robusta → custom internship text
+      2) Else if venue or date present → print them
+      3) Otherwise → “Under Review”
+    {% endcomment %}
+    {% if post.title == "Robusta" %}
+      <p>Internship, can be sent upon request</p>
+    {% elsif post.venue or post.date %}
+      <p>
+        {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}
+        {% if post.venue and post.date %}, {% endif %}
+        {% if post.date %}{{ post.date | date: "%Y" }}{% endif %}
+      </p>
     {% else %}
       <p>Under Review</p>
     {% endif %}
   </div>
-
 
 {% else %}
   {% if post.header.teaser %}
