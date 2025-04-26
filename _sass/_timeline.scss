@@ -6,54 +6,51 @@
 
 .timeline {
   position: relative;
-
-  // move all the content in 3rem to the right
-  padding-left: 3rem;
-  list-style: none;
   margin: 0;
+  padding-left: 0;        // we’ll indent each <li> instead
+  list-style: none;
 }
 
+// the vertical line down the gutter
 .timeline::before {
   content: "";
   position: absolute;
   top: 0;
-
-  // draw the line 1.25rem from the UL’s left edge
-  left: 1.25rem;
+  left: 1rem;             // 1rem from the left edge of the UL
   bottom: 0;
   width: 2px;
   background: $border-color;
 }
 
+// each top-level entry
 .timeline > li {
   position: relative;
-  margin-bottom: 4rem;   // generous spacing
+  margin-bottom: 4rem;    // space between entries
+  padding-left: 2rem;     // indent text so it sits to the right of the dot+line
 }
 
-// style any <time> you add inside top-level entries
-.timeline > li time {
-  display: block;
-  font-size: 0.85rem;
-  color: darken($text-color, 30%);
-  margin-bottom: 0.25rem;
-}
-
-// place the dot so it sits centered on the line
+// the circular dot marker
 .timeline > li::before {
   content: "";
   position: absolute;
-
-  // dot’s center matches the line at 1.25rem
-  left: 1rem;            // 1rem is 0.25rem left of the line
-  top: 0.75rem;          // tweak this to vertical-center against your heading
+  left: 1rem;             // aligns center of dot on the line
+  top: 0.75rem;           // tweak this if your headings shift vertically
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
   background: $accent1-color;
 }
 
-// nested lists inside each entry fall back to normal bullets
+// nested lists inside an entry fall back to normal bullets
 .timeline > li > ul {
   list-style: disc inside;
   margin-left: 1.5rem;
+}
+
+// Optional: style any <time> inside your top-level <li>
+.timeline > li time {
+  display: block;
+  font-size: 0.85rem;
+  color: darken($text-color, 30%);
+  margin-bottom: 0.25rem;
 }
