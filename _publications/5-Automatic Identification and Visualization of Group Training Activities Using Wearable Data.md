@@ -3,8 +3,8 @@ title: "WearableMil: An End-to-End Framework for Military Activity Recognition a
 #collection: publications
 #permalink: /publication/2009-10-01-paper-title-number-1
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-#date: 2023-10-01
-venue: '2025 13th International Conference on Healthcare Informatics (ICHI).'
+date: 2025-06-18
+venue: '13th International Conference on Healthcare Informatics (ICHI).'
 #slidesurl: ''
 #paperurl: 'https://ieeexplore.ieee.org/document/10302794'
 #citation: '@inproceedings{gahtan2023using,
