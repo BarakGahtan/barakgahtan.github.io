@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
+<section class="site-section">
 {% if site.author.googlescholar %}
   <div class="wordwrap">
     Below are my publications and preprints. You can also find them on
@@ -21,3 +21,4 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 </div>
+</section>
