@@ -221,10 +221,10 @@ $sidebar-link-max-width     : 250px;
    ========================================================================== */
 
 /* Primary and base colors */
-$primary-color              : #4086AA; // Vibrant blue (matches ASICS blue)
-$secondary-color            : #333333; // Dark gray for text
-$accent1-color              : #FF5350; // ASICS red for accent
-$accent2-color              : #47C1BF; // Teal accent (complementary)
+$primary-color              : #1A3A63; // deep navy blue
+$secondary-color            : #4E5D6C; // slate gray
+$accent1-color              : #FF5A5F; // energetic coral/orange
+$accent2-color              : #4ECDC4; // light teal
 
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
@@ -233,12 +233,13 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
-$background-color           : #FCFCFC; // Slightly off-white
+$background-color           : #F9F9F9; // off-white
 $code-background-color      : #f8f8f8;
 $code-background-color-dark : $light-gray;
-$text-color                 : $secondary-color;
+$text-color                 : #333333; // dark charcoal
 $border-color               : $lighter-gray;
 
+$primary-color              : $primary-color;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -272,11 +273,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $primary-color;
-$link-color-hover           : $accent1-color;
+$link-color                 : $accent1-color;
+$link-color-hover           : darken($link-color, 15%);
 $link-color-visited         : mix(#fff, $link-color, 15%);
-$masthead-link-color        : $secondary-color;
-$masthead-link-color-hover  : $primary-color;
+$masthead-link-color        : $primary-color;
+$masthead-link-color-hover  : $accent1-color;
 
 
 /*
@@ -284,6 +285,13 @@ $masthead-link-color-hover  : $primary-color;
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
+/*
+$small                      : 400px;
+$medium                     : 500px;
+$medium-wide                : 550px;
+$large                      : 1200px;
+$x-large                    : 1800px;
+*/
 
 $small                      : 600px !default;
 $medium                     : 768px !default;
@@ -308,6 +316,12 @@ $susy: (
   gutter-position: after,
   container: $large,
   global-box-sizing: border-box,
+  // debug: (
+  //   image: show,
+  //   color: blue,
+  //   output: overlay,
+  //   toggle: top right,
+  // ),
 );
 
 
