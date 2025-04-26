@@ -51,5 +51,5 @@ Work experience
 * **Talmor School for Psychometrics 2015-2019** 
 
   An essay check in a pre-center-Talmor School for psychometric exams
-
+{: .timeline}
   
