@@ -245,11 +245,12 @@
       &:hover,
       &:focus {
         color: $accent1-color;
+        transform: scale(1.1);
       }
 
       &:hover::before,
       &:focus::before {
-        transform: scaleX(2);
+        transform: scaleX(1.0);
       }
     }
 
