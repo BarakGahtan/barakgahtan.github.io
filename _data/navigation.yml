@@ -3,7 +3,10 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Experience"
+  - title: "Academic"
+    url: /Academic/
+
+  - title: "Work Experience"
     url: /cv/
 
   - title: "Running"
