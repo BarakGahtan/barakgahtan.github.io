@@ -55,7 +55,7 @@ I’m Barak Gahtan, a PhD candidate at the Technion University leveraging deep l
 <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">12/2023</span>
-        <a href="/news/manifold-vqr-aistats/" class="w-2/3 text-pink-600 hover:underline">
+        <a href="/FacultyMerit/" class="w-2/3 text-pink-600 hover:underline">
           Awarded Faculty merit excellence for research December 2023
         </a>
       </li>
