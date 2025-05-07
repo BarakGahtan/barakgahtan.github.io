@@ -15,7 +15,7 @@ I’m Barak Gahtan, a PhD candidate at the Technion University leveraging deep l
 <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">03/2025</span>
-        <a href="/news/manifold-vqr-aistats/" class="w-2/3 text-pink-600 hover:underline">
+        <a href="/publication/4" class="w-2/3 text-pink-600 hover:underline">
           "WearableMil: An End-to-End Framework for Military Activity Recognition and Performance Monitoring" has been accepted to 13th IEEE International Conference on Healthcare Informatics (IEEE ICHI)
         </a>
       </li>
@@ -23,7 +23,7 @@ I’m Barak Gahtan, a PhD candidate at the Technion University leveraging deep l
 <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">02/2025</span>
-        <a href="/news/manifold-vqr-aistats/" class="w-2/3 text-pink-600 hover:underline">
+        <a href="/publication/3" class="w-2/3 text-pink-600 hover:underline">
           "Estimating the Number of HTTP/3 Responses in QUIC Using Deep Learning" has been accepted to IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN 2025)
         </a>
       </li>
@@ -39,7 +39,7 @@ I’m Barak Gahtan, a PhD candidate at the Technion University leveraging deep l
 <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">07/2024</span>
-        <a href="/news/manifold-vqr-aistats/" class="w-2/3 text-pink-600 hover:underline">
+        <a href="/publication/2" class="w-2/3 text-pink-600 hover:underline">
           "Data-Driven Cellular Network Selector for Vehicle Teleoperations" has been accepted to the 15th International Conference on Network of the Future (NoF)
         </a>
       </li>

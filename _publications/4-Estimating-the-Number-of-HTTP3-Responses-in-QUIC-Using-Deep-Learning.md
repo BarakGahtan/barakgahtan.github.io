@@ -2,7 +2,7 @@
 title: "Estimating the Number of HTTP/3 Responses in QUIC Using Deep Learning
 "
 #collection: publications
-#permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/3
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-05-26
 venue: 'IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)'

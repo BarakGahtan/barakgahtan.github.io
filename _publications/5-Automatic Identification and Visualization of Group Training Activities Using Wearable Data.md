@@ -1,7 +1,7 @@
 ---
 title: "WearableMil: An End-to-End Framework for Military Activity Recognition and Performance Monitoring"
 #collection: publications
-#permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/4
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-06-18
 venue: '13th International Conference on Healthcare Informatics (ICHI)'

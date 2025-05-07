@@ -1,7 +1,7 @@
 ---
 title: "Data-Driven Cellular Network Selector for Vehicle Teleoperations"
 #collection: publications
-#permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-10-02
 venue: '15th International Conference on Network of the Future (NoF)'
