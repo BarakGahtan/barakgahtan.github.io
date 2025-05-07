@@ -5,4 +5,4 @@ permalink: /Reserve/
 author_profile: true
 ---
 
-I received the Ministry of Science scholarship for second- or third-degree students who serve in the reserves on a regular basis. 
+I received the Ministry of Science scholarship for second- or third-degree students who serve in the reserves on a regular basis. It is approximately 10,000 NIS. 

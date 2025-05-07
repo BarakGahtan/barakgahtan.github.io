@@ -5,4 +5,4 @@ permalink: /VatatMerit/
 author_profile: true
 ---
 
-I received the VATAT Prize for Student Research in Data Science at Tech.AI—a PBC-funded award that promotes cross-PI collaborations and joint student supervision between two Technion principal investigators.
+I received the VATAT Prize for Student Research in Data Science at Tech.AI—a PBC-funded award that promotes cross-PI collaborations and joint student supervision between two Technion principal investigators. It is approximately 12,000 NIS. 
