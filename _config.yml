@@ -13,7 +13,7 @@ author:
   avatar           : "email-picture.jpg"
   name             : "Barak Gahtan"
   pronouns         : # example: "she/her"  
-  bio              : "An ASICS FrontRunner with a marathon PR of 2:43:22."
+  bio              : #""
   location         : "Israel"
   employer         : "Technion, Israel"
   uri              : # URL
