@@ -28,7 +28,7 @@ Service
 ======
 * Reviewing for KDD, NeurIPS, IEEE journals and conferences.
 
-Work Experience
+Teaching 
 ======
 * **Technion 2021-Present** 
 
