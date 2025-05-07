@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "	VATAT Prize for students researching in the field of data science at the Tech.AI"
+title: "VATAT Prize for students researching in the field of data science at the Tech.AI"
 permalink: /VatatMerit/
 author_profile: true
 ---

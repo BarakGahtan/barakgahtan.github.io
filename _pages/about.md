@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Barak Gahtan, a PhD candidate at the Technion University leveraging deep learning to analyze physiological signals and optimize high-throughput network communication. Outside the lab, I enjoy family time, coach runners, explore new trails, and train for my next marathon.
-
+I’m Barak Gahtan, a PhD candidate at Technion University leveraging deep learning to analyze physiological signals and optimize high-throughput network communications. My research spans estimating VO₂ consumption from wearable data, predicting heart rate from video, and designing hash-based clustering frameworks to improve QUIC traffic and datacenter network performance. Outside the lab, I enjoy family time, coaching runners, exploring new trails, and training for my next marathon.
 <section id="academic-news" class="bg-gray-50 py-16">
   <div class="container mx-auto max-w-3xl px-6">
     <h2 class="text-3xl font-semibold mb-6">News</h2>
@@ -31,7 +30,7 @@ I’m Barak Gahtan, a PhD candidate at the Technion University leveraging deep l
 <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">10/2024</span>
-        <a href="/news/VatatMerit/" class="w-2/3 text-pink-600 hover:underline">
+        <a href="/VatatMerit/" class="w-2/3 text-pink-600 hover:underline">
           Awarded the VATAT Prize for students researching in the field of data science at the Tech.AI
         </a>
       </li>
@@ -47,7 +46,7 @@ I’m Barak Gahtan, a PhD candidate at the Technion University leveraging deep l
 <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">01/2024</span>
-        <a href="/news/manifold-vqr-aistats/" class="w-2/3 text-pink-600 hover:underline">
+        <a href="/Reserve/" class="w-2/3 text-pink-600 hover:underline">
           Awarded the Ministry of Science scholarship for second- or third-degree students who serve in the reserves on a regular basis.
         </a>
       </li>
