@@ -1,5 +1,5 @@
 ---
-layout: archive-1
+layout: archive
 title: "Faculty Merit Excellence"
 permalink: /FacultyMerit/
 author_profile: true
