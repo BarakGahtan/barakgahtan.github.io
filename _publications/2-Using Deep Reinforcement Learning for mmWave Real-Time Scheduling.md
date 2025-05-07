@@ -1,7 +1,7 @@
 ---
 title: "Using Deep Reinforcement Learning for mmWave Real-Time Scheduling"
 #collection: publications
-#permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/UsingDeepReinforcement
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-10-01
 venue: '14th International Conference on Network of the Future (NoF)'

@@ -31,7 +31,7 @@ I’m Barak Gahtan, a PhD candidate at the Technion University leveraging deep l
 <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">10/2024</span>
-        <a href="/news/manifold-vqr-aistats/" class="w-2/3 text-pink-600 hover:underline">
+        <a href="/news/VatatMerit/" class="w-2/3 text-pink-600 hover:underline">
           Awarded the VATAT Prize for students researching in the field of data science at the Tech.AI
         </a>
       </li>
@@ -63,7 +63,7 @@ I’m Barak Gahtan, a PhD candidate at the Technion University leveraging deep l
     <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">07/2023</span>
-        <a href="/news/manifold-vqr-aistats/" class="w-2/3 text-pink-600 hover:underline">
+        <a href="/publication/UsingDeepReinforcement/" class="w-2/3 text-pink-600 hover:underline">
           Using Deep Reinforcement Learning for mmWave Real-Time Scheduling" has been accepted to the 14th International Conference on Network of the Future (NoF)
         </a>
       </li>
