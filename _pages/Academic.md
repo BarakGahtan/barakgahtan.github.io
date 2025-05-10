@@ -38,4 +38,13 @@ Teaching
   * TA for Introduction to Computer Networks (236334).
 
 
+Resources
+======
+* [PhD comics](https://phdcomics.com/comics/archive.php?comicid=1286)
+* [How to give a good presentation](https://users.ece.cmu.edu/~pueschel/teaching/guides/guide-presentations.pdf)
+* [What problems to solve:](https://fs.blog/richard-feynman-what-problems-to-solve/)
+* [How TO DO: Great research :)](https://www.youtube.com/watch?v=a1zDuOPkMSw&ab_channel=securitylectures)
+
+
+
   
