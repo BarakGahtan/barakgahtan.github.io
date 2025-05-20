@@ -4,7 +4,7 @@ title: "Exploring QUIC Dynamics: A Large-Scale Dataset for Encrypted Traffic Ana
 permalink: /publication/5
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 #date: 2023-10-01
-#venue: '2023 14th International Conference on Network of the Future (NoF)'
+venue: '2025 Mediterranean Conference on Networks and Communications (MeditCom)'
 #slidesurl: ''
 #paperurl: 'https://ieeexplore.ieee.org/document/10302794'
 #citation: '@inproceedings{gahtan2023using,
