@@ -10,7 +10,7 @@ repository               : "BarakGahtan/barakgahtan.github.io" # Your GitHub rep
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 author:
-  avatar           : "email-picture.jpg"
+  avatar           : "email-picture.jpeg"
   name             : "Barak Gahtan"
   pronouns         : # example: "she/her"  
   bio              : #""
