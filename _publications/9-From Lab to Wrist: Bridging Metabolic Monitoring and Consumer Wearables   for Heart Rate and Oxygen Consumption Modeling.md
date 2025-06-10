@@ -40,3 +40,5 @@ embedding physiological constraints within modern machine learning, this
 framework democratizes advanced metabolic monitoring, bridging laboratory-grade
 accuracy and everyday accessibility, thus empowering both elite athletes and
 recreational fitness enthusiasts.
+
+[URL for the paper](https://arxiv.org/abs/2505.00101)
