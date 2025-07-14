@@ -2,7 +2,7 @@
 title: "From Lab to Wrist: Bridging Metabolic Monitoring and Consumer Wearables
   for Heart Rate and Oxygen Consumption Modeling"
 #collection: publications
-#permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/8
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 #date: 2023-10-01
 #venue: '2023 14th International Conference on Network of the Future (NoF)'
