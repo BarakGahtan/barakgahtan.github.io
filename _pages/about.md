@@ -15,6 +15,15 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">05/2025</span>
         <a href="/publication/5" class="w-2/3 text-pink-600 hover:underline">
+          "From Lab to Wrist: Bridging Metabolic Monitoring and Consumer Wearables for Heart Rate and Oxygen Consumption Modeling" has been accepted to 27th ACM International Conference on Multimodal Interaction
+ (ICMI 2025)
+        </a>
+      </li>
+    </ul>
+<ul class="space-y-4">
+      <li class="flex">
+        <span class="w-1/3 font-semibold text-gray-800">05/2025</span>
+        <a href="/publication/5" class="w-2/3 text-pink-600 hover:underline">
           "Exploring QUIC Dynamics: A Large-Scale Dataset for Encrypted Traffic Analysis" has been accepted to IEEE International Mediterranean Conference on Communications and Networking
  (MEDITCOM 2025)
         </a>
