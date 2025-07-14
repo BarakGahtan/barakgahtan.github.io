@@ -41,4 +41,6 @@ framework democratizes advanced metabolic monitoring, bridging laboratory-grade
 accuracy and everyday accessibility, thus empowering both elite athletes and
 recreational fitness enthusiasts.
 
+Accepted for publication in the 27th ACM International Conference on Multimodal Interaction (ICMI 2025).
+
 [URL for the paper](https://arxiv.org/abs/2505.00101)
