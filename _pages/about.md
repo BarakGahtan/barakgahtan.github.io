@@ -13,7 +13,7 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
     <h2 class="text-3xl font-semibold mb-6">News</h2>
 <ul class="space-y-4">
       <li class="flex">
-        <span class="w-1/3 font-semibold text-gray-800">05/2025</span>
+        <span class="w-1/3 font-semibold text-gray-800">07/2025</span>
         <a href="/publication/5" class="w-2/3 text-pink-600 hover:underline">
           "From Lab to Wrist: Bridging Metabolic Monitoring and Consumer Wearables for Heart Rate and Oxygen Consumption Modeling" has been accepted to 27th ACM International Conference on Multimodal Interaction
  (ICMI 2025)
