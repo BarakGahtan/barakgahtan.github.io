@@ -5,7 +5,7 @@ title: "From Lab to Wrist: Bridging Metabolic Monitoring and Consumer Wearables
 permalink: /publication/8
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 #date: 2023-10-01
-#venue: '2023 14th International Conference on Network of the Future (NoF)'
+venue: '27th ACM International Conference on Multimodal Interaction (ICMI 2025)'
 #slidesurl: ''
 #paperurl: 'https://ieeexplore.ieee.org/document/10302794'
 #citation: '@inproceedings{gahtan2023using,
