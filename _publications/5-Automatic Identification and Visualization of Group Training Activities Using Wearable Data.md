@@ -6,7 +6,7 @@ permalink: /publication/4
 date: 2025-06-18
 venue: '13th International Conference on Healthcare Informatics (ICHI)'
 #slidesurl: ''
-#paperurl: 'https://ieeexplore.ieee.org/document/10302794'
+paperurl: 'https://ieeexplore.ieee.org/document/11081697'
 #citation: '@inproceedings{gahtan2023using,
 #  title={Using Deep Reinforcement Learning for mmWave Real-Time Scheduling},
 #  author={Gahtan, Barak and Cohen, Reuven and Bronstein, Alex M and Kedar, Gil},
@@ -21,4 +21,4 @@ Musculoskeletal injuries during military training significantly impact readiness
 
 Presented in the 2025 13th International Conference on Healthcare Informatics (ICHI).
 
-[URL for the paper](https://arxiv.org/abs/2410.05452)
+[URL for the paper](https://ieeexplore.ieee.org/document/11081697)
