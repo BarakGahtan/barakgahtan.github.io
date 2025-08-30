@@ -21,4 +21,5 @@ QUIC, an increasingly adopted transport protocol, addresses limitations of TCP b
 
 Presented in the 2025 Mediterranean Conference on Networks and Communications (MeditCom).
 
-[URL for the paper](https://arxiv.org/abs/2410.03728)
+[URL for the paper](https://arxiv.org/abs/2410.03728) | [Download PDF](/files/Exploring QUIC Dynamics- A Large-Scale Dataset for Encrypted Traffic Analysis.pdf)
+

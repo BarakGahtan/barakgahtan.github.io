@@ -21,4 +21,4 @@ The exponential growth of digital data has fueled interest in DNA as a storage m
 
 Currently under review.      
 
-[URL for the paper](https://arxiv.org/abs/2410.06188)
+[URL for the paper](https://arxiv.org/abs/2410.06188) | [Download PDF](/files/Beyond the Alphabet- Deep Signal Embedding for Enhanced DNA Clustering.pdf)

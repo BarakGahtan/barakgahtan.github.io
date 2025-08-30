@@ -25,4 +25,4 @@ QUIC, a new and increasingly used transport protocol, enhances TCP by offering i
 
 Presented in the IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN 2025).
 
-[URL for the paper](https://arxiv.org/abs/2410.06140)
+[URL for the paper](https://arxiv.org/abs/2410.06140) | [Download PDF](/files/Estimating the Number of HTTP3 Responses in QUIC Using Deep Learning.pdf)

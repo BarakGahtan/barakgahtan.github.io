@@ -33,3 +33,5 @@ Our single-center study confirms the potential utility of the HOSPITAL score in 
 
 **Conclusions.**
 The HOSPITAL score demonstrates \textbf{moderate} utility in our Israeli tertiary hospital setting. Despite its modest predictive performance, the score effectively stratifies patients by risk of readmission. Future refinements or the addition of further predictive features could further enhance accuracy. Nonetheless, our data support the use of the HOSPITAL score as part of a broader interventional strategy to reduce readmissions.Currently under review.      
+
+[Download PDF](/files/External_Validation_of_the_HOSPITAL_Score_for_30_Day_Readmission_in_Internal_Medicine_Departments_of_a_Tertiary_Center_in_Israel.pdf)

@@ -28,4 +28,4 @@ We also introduce a fair-comparison methodology that fixes the effective sample 
 
 Under review 
 
-[//]: # ([URL for the paper]&#40;https://arxiv.org/abs/2505.00101&#41;)
+[//]: # ([URL for the paper]&#40;https://arxiv.org/abs/2505.00101&#41;) | [Download PDF](/files/Betamixing.pdf)

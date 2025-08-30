@@ -21,4 +21,4 @@ Musculoskeletal injuries during military training significantly impact readiness
 
 Presented in the 2025 13th International Conference on Healthcare Informatics (ICHI).
 
-[URL for the paper](https://ieeexplore.ieee.org/document/11081697)
+[URL for the paper](https://ieeexplore.ieee.org/document/11081697) | [Download PDF](/files/WearableMil_V3_ICHI_final.pdf)

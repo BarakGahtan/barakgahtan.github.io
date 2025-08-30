@@ -43,4 +43,4 @@ recreational fitness enthusiasts.
 
 Accepted for publication in the 27th ACM International Conference on Multimodal Interaction (ICMI 2025).
 
-[URL for the paper](https://arxiv.org/abs/2505.00101)
+[URL for the paper](https://arxiv.org/abs/2505.00101) | [Download PDF](/files/Lab-to-Wrist-final.pdf)
