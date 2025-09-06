@@ -7,7 +7,7 @@ permalink: /publication/3
 date: 2025-05-26
 venue: 'IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)'
 #slidesurl: ''
-paperurl: 'https://arxiv.org/abs/2410.06140'
+paperurl: 'https://ieeexplore.ieee.org/document/11139934'
 #citation: '@INPROCEEDINGS{10741500,
 #  author={Gahtan, Barak and Cohen, Reuven and Bronstein, Alex M. and Shapira, Eli},
 #  booktitle={2024 15th International Conference on Network of the Future (NoF)}, 
@@ -25,4 +25,4 @@ QUIC, a new and increasingly used transport protocol, enhances TCP by offering i
 
 Presented in the IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN 2025).
 
-[URL for the paper](https://arxiv.org/abs/2410.06140) | [Download PDF](/files/Estimating the Number of HTTP3 Responses in QUIC Using Deep Learning.pdf)
+[URL for the paper](https://ieeexplore.ieee.org/document/11139934) | [Download PDF](/files/Estimating the Number of HTTP3 Responses in QUIC Using Deep Learning.pdf)
