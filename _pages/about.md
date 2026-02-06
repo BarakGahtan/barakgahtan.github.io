@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technion.ac.il/en/) leveraging deep learning to analyze physiological signals and optimize high-throughput network communications, under the supervision of [Prof. Alex Bronstein](https://bron.cs.technion.ac.il/) and [Prof. Reuven Cohen](https://rcohen.cs.technion.ac.il/). My research spans estimating VO₂ consumption from wearable data, predicting heart rate from video, and designing hash-based clustering frameworks to DNA storage applications, and optimizing communication networks parameters from encrypted traffic to signals controlling teleoperated vehicles. Outside the lab, I enjoy family time, coaching runners, exploring new trails, and training for my next marathon.
+I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technion.ac.il/en/)  under the supervision of [Prof. Alex Bronstein](https://bron.cs.technion.ac.il/) and [Prof. Reuven Cohen](https://rcohen.cs.technion.ac.il/). My research builds task-specific deep learning systems for real-world temporal and spatiotemporal data. I work on physiological modeling from wearables and video (e.g., VO₂ estimation), encrypted QUIC traffic analysis, learning-based network selection for teleoperated vehicles, and differentiable eikonal-equation solvers for wildfire propagation. I care about end-to-end systems that remain reliable under noise, missingness, and real deployment constraints. Outside the lab, I enjoy family time, coaching runners, exploring new trails, and training for my next marathon.
+
 <section id="academic-news" class="bg-gray-50 py-16">
   <div class="container mx-auto max-w-3xl px-6">
     <h2 class="text-3xl font-semibold mb-6">News</h2>
