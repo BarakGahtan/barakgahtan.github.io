@@ -35,6 +35,6 @@
     searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
     noResultsText: '<li>No results found</li>',
     limit: 10,
-    fuzzy: false
+    fuzzy: true
   });
 })();
