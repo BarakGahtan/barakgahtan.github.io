@@ -1,5 +1,6 @@
 ---
 title: "Architecture-Aware Generalization Bounds for Temporal Networks: Theory and Fair Comparison Methodology"
+excerpt: "First non-vacuous, architecture-aware generalization bounds for deep temporal models with beta-mixing sequences."
 #collection: publications
 permalink: /publication/10
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'

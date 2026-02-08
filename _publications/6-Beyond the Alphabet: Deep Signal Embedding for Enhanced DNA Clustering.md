@@ -1,5 +1,6 @@
 ---
 title: "Beyond the Alphabet: Deep Signal Embedding for Enhanced DNA Clustering"
+excerpt: "Signal-model approach for DNA storage that bypasses basecalling, reducing computation by 1000x with superior clustering accuracy."
 #collection: publications
 #permalink: /publication/2009-10-01-paper-title-number-1
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'

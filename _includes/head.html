@@ -19,3 +19,19 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
+
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search/dest/simple-jekyll-search.min.js" defer></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  if (typeof SimpleJekyllSearch !== "undefined") {
+    SimpleJekyllSearch({
+      searchInput: document.getElementById("search-input"),
+      resultsContainer: document.getElementById("search-results"),
+      json: "{{ site.baseurl }}/search.json",
+      searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+      noResultsText: '<li>No results found</li>',
+      limit: 10
+    });
+  }
+});
+</script>
