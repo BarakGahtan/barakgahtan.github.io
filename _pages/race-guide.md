@@ -11,23 +11,23 @@ A curated guide to 20 of the world's top marathon courses, ranked by PR-friendli
 
 ## Top 15 Marathons Ranked by PR-Friendliness
 
-| Rank | Race | Score | Sub-3:00 % | Course | Weather |
-|:----:|------|:-----:|:----------:|:------:|:-------:|
-| 1 | [REVEL Big Cottonwood](#revel-big-cottonwood) | 92.5 | 20.0% | 95 | 85 |
-| 2 | [Valencia Marathon](#valencia-marathon) | 91.2 | 14.0% | 98 | 92 |
-| 3 | [Seville Marathon](#seville-marathon) | 88.5 | 12.0% | 95 | 88 |
-| 4 | [Rotterdam Marathon](#rotterdam-marathon) | 87.8 | 11.0% | 97 | 82 |
-| 5 | [California International Marathon](#california-international-marathon) | 86.2 | 10.0% | 88 | 78 |
-| 6 | [Amsterdam Marathon](#amsterdam-marathon) | 85.5 | 10.0% | 95 | 75 |
-| 7 | [Frankfurt Marathon](#frankfurt-marathon) | 84.2 | 9.0% | 92 | 78 |
-| 8 | [Boston Marathon](#boston-marathon) | 83.5 | 8.0% | 75 | 70 |
-| 9 | [Houston Marathon](#houston-marathon) | 82.8 | 8.0% | 90 | 75 |
-| 10 | [Grandma's Marathon](#grandmas-marathon) | 80.5 | 7.0% | 85 | 78 |
-| 11 | [Berlin Marathon](#berlin-marathon) | 79.8 | 4.9% | 98 | 90 |
-| 12 | [Chicago Marathon](#chicago-marathon) | 78.5 | 5.0% | 95 | 82 |
-| 13 | [London Marathon](#london-marathon) | 78.2 | 5.0% | 93 | 78 |
-| 14 | [Tokyo Marathon](#tokyo-marathon) | 77.5 | 5.0% | 92 | 85 |
-| 15 | [New York City Marathon](#new-york-city-marathon) | 72.0 | 3.0% | 70 | 75 |
+| Rank | Race | Score | Sub-3:00 % | Sub-3:00 Count | Course | Weather |
+|:----:|------|:-----:|:----------:|:--------------:|:------:|:-------:|
+| 1 | [REVEL Big Cottonwood](#revel-big-cottonwood) | 92.5 | 20.0% | 640 | 95 | 85 |
+| 2 | [Valencia Marathon](#valencia-marathon) | 91.2 | 14.0% | 3,150 | 98 | 92 |
+| 3 | [Seville Marathon](#seville-marathon) | 88.5 | 12.0% | 1,020 | 95 | 88 |
+| 4 | [Rotterdam Marathon](#rotterdam-marathon) | 87.8 | 11.0% | 1,485 | 97 | 82 |
+| 5 | [California International Marathon](#california-international-marathon) | 86.2 | 10.0% | 620 | 88 | 78 |
+| 6 | [Amsterdam Marathon](#amsterdam-marathon) | 85.5 | 10.0% | 1,280 | 95 | 75 |
+| 7 | [Frankfurt Marathon](#frankfurt-marathon) | 84.2 | 9.0% | 945 | 92 | 78 |
+| 8 | [Boston Marathon](#boston-marathon) | 83.5 | 8.0% | 2,120 | 75 | 70 |
+| 9 | [Houston Marathon](#houston-marathon) | 82.8 | 8.0% | 624 | 90 | 75 |
+| 10 | [Grandma's Marathon](#grandmas-marathon) | 80.5 | 7.0% | 504 | 85 | 78 |
+| 11 | [Berlin Marathon](#berlin-marathon) | 79.8 | 4.9% | 1,750 | 98 | 90 |
+| 12 | [Chicago Marathon](#chicago-marathon) | 78.5 | 5.0% | 2,410 | 95 | 82 |
+| 13 | [London Marathon](#london-marathon) | 78.2 | 5.0% | 2,115 | 93 | 78 |
+| 14 | [Tokyo Marathon](#tokyo-marathon) | 77.5 | 5.0% | 1,840 | 92 | 85 |
+| 15 | [New York City Marathon](#new-york-city-marathon) | 72.0 | 3.0% | 1,570 | 70 | 75 |
 
 ### How the scores work
 
