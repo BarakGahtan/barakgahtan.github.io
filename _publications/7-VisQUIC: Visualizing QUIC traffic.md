@@ -1,6 +1,7 @@
 ---
 title: "Exploring QUIC Dynamics: A Large-Scale Dataset for Encrypted Traffic Analysis"
 excerpt: "Public dataset of 100K+ labeled QUIC traces with SSL keys from 40K+ websites, enabling encrypted traffic analysis."
+thumbnail: "thumb-visquic.jpg"
 #collection: publications
 permalink: /publication/5
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
