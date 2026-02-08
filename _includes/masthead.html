@@ -19,7 +19,7 @@
         <ul class="hidden-links hidden"></ul>
         <div class="search-toggle-wrapper">
           <button class="search-toggle" aria-label="Toggle search">
-            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+            <i class="fas fa-search" aria-hidden="true"></i>
           </button>
           <div class="search-container" style="display: none;">
             <input type="text" id="search-input" placeholder="Search...">
@@ -30,24 +30,3 @@
     </div>
   </div>
 </div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  var toggle = document.querySelector(".search-toggle");
-  var container = document.querySelector(".search-container");
-  var input = document.getElementById("search-input");
-
-  toggle.addEventListener("click", function (e) {
-    e.stopPropagation();
-    var visible = container.style.display !== "none";
-    container.style.display = visible ? "none" : "block";
-    if (!visible) input.focus();
-  });
-
-  document.addEventListener("click", function (e) {
-    if (!e.target.closest(".search-toggle-wrapper")) {
-      container.style.display = "none";
-    }
-  });
-});
-</script>
