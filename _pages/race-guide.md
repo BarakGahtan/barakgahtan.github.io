@@ -7,6 +7,14 @@ author_profile: true
 
 A curated guide to 20 of the world's top marathon courses, ranked by PR-friendliness. Whether you're chasing a Boston qualifier or a personal best, this guide will help you pick the right race.
 
+### Current World Records
+
+| Record | Holder | Time | Course | Date |
+|--------|--------|:----:|--------|------|
+| Men's WR | Kelvin Kiptum (KEN) | **2:00:35** | Chicago | Oct 2023 |
+| Women's WR | Ruth Chepngetich (KEN) | **2:09:56** | Chicago | Oct 2024 |
+| Women's Only WR | Tigst Assefa (ETH) | **2:15:50** | London | Apr 2025 |
+
 ---
 
 ## Top 15 Marathons Ranked by PR-Friendliness
@@ -38,6 +46,10 @@ Each race is evaluated on three factors, combined into a weighted overall score:
 - **Weather** (out of 100) — Rates how favorable typical race-day weather is for fast times. Cool, dry, low-wind conditions score best (Valencia: 92, Berlin: 90), while variable or warm conditions score lower (Boston: 70, Amsterdam: 75).
 
 Note that large-field races like Berlin and Chicago rank lower in sub-3:00 percentage because their massive fields include many charity and casual runners — even though they produce the highest *absolute count* of sub-3:00 finishers (Chicago: 2,410, Berlin: 1,750). Smaller, more competitive fields like REVEL Big Cottonwood naturally have a higher percentage of fast finishers.
+
+### What about sub-2:40?
+
+Unlike sub-3:00, which is the standard benchmark tracked across all major races, sub-2:40 finisher data is not comprehensively published by most race organizers. From the data that is available, Valencia and Boston consistently lead in both percentage and absolute count of sub-2:40 finishers. At Valencia, roughly 30% of men under 45 finish sub-3:00, and the race also produces among the highest concentrations of sub-2:45 finishers (~1,500 men annually). For races like NYC, the sub-2:40 count among men under 40 was ~318 in 2024. As a rough rule of thumb, sub-2:40 finishers typically represent about 15-25% of the sub-3:00 count at any given race.
 
 ---
 
