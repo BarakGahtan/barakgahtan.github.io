@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+(function () {
   var toggle = document.querySelector(".search-toggle");
   var container = document.querySelector(".search-container");
   var input = document.getElementById("search-input");
@@ -28,4 +28,4 @@ document.addEventListener("DOMContentLoaded", function () {
       limit: 10
     });
   }
-});
+})();
