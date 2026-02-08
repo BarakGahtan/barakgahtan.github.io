@@ -58,7 +58,15 @@
   }
 }
 
-/* Search toggle and dropdown */
+/* Dark mode + Search toggles */
+.dark-mode-toggle {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+}
+
 .search-toggle-wrapper {
   position: absolute;
   right: 0;

@@ -1,0 +1,242 @@
+/* ==========================================================================
+   Dark Mode
+   ========================================================================== */
+
+:root {
+  --bg-color: #F9F9F9;
+  --bg-surface: #fff;
+  --text-color: #333;
+  --text-muted: #555;
+  --heading-color: #000;
+  --link-color: #052180;
+  --link-hover: #031050;
+  --border-color: #e0e0e0;
+  --code-bg: #f8f8f8;
+  --masthead-bg: #fff;
+  --footer-bg: #F9F9F9;
+  --sidebar-bg: #F9F9F9;
+  --card-bg: #fff;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --pub-excerpt: #555;
+  --search-bg: #fff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a2e;
+  --bg-surface: #16213e;
+  --text-color: #e0e0e0;
+  --text-muted: #a0a0a0;
+  --heading-color: #f0f0f0;
+  --link-color: #6fa3ef;
+  --link-hover: #9fc5f8;
+  --border-color: #2a2a4a;
+  --code-bg: #1e1e3a;
+  --masthead-bg: #16213e;
+  --footer-bg: #16213e;
+  --sidebar-bg: #16213e;
+  --card-bg: #1e1e3a;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --pub-excerpt: #a0a0a0;
+  --search-bg: #16213e;
+}
+
+/* Apply variables to key elements */
+
+[data-theme="dark"] {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  html, body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .author__name,
+  .archive__item-title a {
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+
+    &:hover {
+      color: var(--link-hover);
+    }
+  }
+
+  .masthead {
+    background: var(--masthead-bg);
+    border-bottom-color: var(--border-color);
+  }
+
+  .greedy-nav {
+    background: var(--masthead-bg);
+
+    a {
+      color: var(--link-color);
+
+      &:hover {
+        color: var(--link-hover);
+      }
+    }
+
+    button {
+      background-color: var(--border-color);
+    }
+  }
+
+  .masthead__menu-item--lg a {
+    color: var(--heading-color);
+  }
+
+  /* Sidebar */
+  .sidebar,
+  .author__urls-wrapper {
+    background-color: var(--sidebar-bg);
+  }
+
+  .author__urls-wrapper button {
+    background-color: var(--border-color);
+    color: var(--text-color);
+  }
+
+  .author__urls li a {
+    color: var(--text-color);
+  }
+
+  /* Page content */
+  .page {
+    background-color: var(--bg-color);
+  }
+
+  .page__content {
+    color: var(--text-color);
+
+    p, li, td {
+      color: var(--text-color);
+    }
+  }
+
+  /* Publications */
+  .publication__title {
+    color: var(--heading-color) !important;
+
+    a {
+      color: var(--heading-color) !important;
+    }
+  }
+
+  .publication__item {
+    border-bottom-color: var(--border-color);
+  }
+
+  .publication__excerpt {
+    color: var(--pub-excerpt) !important;
+  }
+
+  .publication__thumbnail img {
+    border-color: var(--border-color);
+  }
+
+  /* Cards */
+  .card {
+    background: var(--card-bg);
+    box-shadow: 0 2px 6px var(--shadow);
+  }
+
+  /* Footer */
+  .page__footer {
+    background-color: var(--footer-bg);
+    color: var(--text-muted);
+
+    a {
+      color: var(--link-color);
+    }
+  }
+
+  .page__footer-follow .social-icons a {
+    color: var(--text-color);
+  }
+
+  /* Code */
+  code, pre {
+    background-color: var(--code-bg);
+    color: var(--text-color);
+  }
+
+  /* Search */
+  .search-container {
+    background: var(--search-bg);
+    border-color: var(--border-color);
+  }
+
+  #search-input {
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-color: var(--border-color);
+  }
+
+  #search-results li {
+    border-bottom-color: var(--border-color);
+
+    a {
+      color: var(--text-color);
+    }
+  }
+
+  .search-toggle {
+    color: var(--text-color);
+  }
+
+  /* Tables */
+  table {
+    color: var(--text-color);
+
+    th, td {
+      border-color: var(--border-color);
+    }
+  }
+
+  /* News section */
+  .text-gray-800 {
+    color: var(--text-color) !important;
+  }
+
+  .text-pink-600 {
+    color: var(--link-color) !important;
+  }
+
+  /* Selection */
+  ::selection {
+    background: var(--link-color);
+    color: var(--bg-color);
+  }
+
+  /* Images - slightly reduce brightness */
+  img:not(.author__avatar) {
+    opacity: 0.9;
+  }
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 0.25em;
+  color: var(--text-color, #333);
+  vertical-align: middle;
+  line-height: 1;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+  }
+}
