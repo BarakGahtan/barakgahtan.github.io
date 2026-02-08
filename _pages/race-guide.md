@@ -29,7 +29,15 @@ A curated guide to 20 of the world's top marathon courses, ranked by PR-friendli
 | 14 | [Tokyo Marathon](#tokyo-marathon) | 77.5 | 5.0% | 92 | 85 |
 | 15 | [New York City Marathon](#new-york-city-marathon) | 72.0 | 3.0% | 70 | 75 |
 
-*Scores based on sub-3:00 percentage, course profile, and weather conditions.*
+### How the scores work
+
+Each race is evaluated on three factors, combined into a weighted overall score:
+
+- **Sub-3:00 %** — The percentage of all finishers who crossed the line under 3 hours. This is the most direct measure of how "fast" a race is and carries the most weight in the overall score.
+- **Course** (out of 100) — Rates how fast the course profile is. Flat courses score highest (Valencia: 98, Berlin: 98), while rolling or hilly courses score lower (NYC: 70, Boston: 75).
+- **Weather** (out of 100) — Rates how favorable typical race-day weather is for fast times. Cool, dry, low-wind conditions score best (Valencia: 92, Berlin: 90), while variable or warm conditions score lower (Boston: 70, Amsterdam: 75).
+
+Note that large-field races like Berlin and Chicago rank lower in sub-3:00 percentage because their massive fields include many charity and casual runners — even though they produce the highest *absolute count* of sub-3:00 finishers (Chicago: 2,410, Berlin: 1,750). Smaller, more competitive fields like REVEL Big Cottonwood naturally have a higher percentage of fast finishers.
 
 ---
 
