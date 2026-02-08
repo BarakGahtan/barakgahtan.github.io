@@ -37,6 +37,7 @@
 }
 
 .masthead__menu {
+  position: relative;
 
   ul {
     margin: 0;
@@ -59,10 +60,11 @@
 
 /* Search toggle and dropdown */
 .search-toggle-wrapper {
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  margin-left: 0.5em;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
 }
 
 .search-toggle {
