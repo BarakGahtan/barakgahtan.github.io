@@ -1,7 +1,7 @@
 ---
 title: "Architecture-Aware Generalization Bounds for Temporal Networks: Theory and Fair Comparison Methodology"
 order: 10
-excerpt: "First non-vacuous, architecture-aware generalization bounds for deep temporal models with beta-mixing sequences."
+excerpt: "Architecture-aware generalization bounds for deep temporal models with beta-mixing sequences."
 thumbnail: "thumb-betamixing.jpg"
 #collection: publications
 permalink: /publication/10
@@ -19,16 +19,7 @@ permalink: /publication/10
 #  organization={IEEE}
 #}'
 ---
-Deep temporal architectures such as Temporal Convolutional Networks (TCNs) achieve strong predictive performance on sequential data, yet theoretical understanding of their generalization remains limited. We address this gap by providing both the first non-vacuous, architecture-aware generalization bounds for deep temporal models and a principled evaluation methodology.  
-
-For exponentially $\beta$-mixing sequences, we derive bounds scaling as  
-$
-\mathcal{O}\!\Bigl(R\,\sqrt{\tfrac{D\,p\,n\,\log N}{N}}\Bigr),
-$  
-where $D$ is network depth, $p$ kernel size, $n$ input dimension, and $R$ weight norm. Our delayed-feedback blocking mechanism transforms dependent samples into effectively independent ones while discarding only $O(1/\log N)$ of the data, yielding $\sqrt{D}$ scaling instead of exponential-implying that doubling depth requires approximately quadrupling the training data.  
-
-We also introduce a fair-comparison methodology that fixes the effective sample size to isolate the effect of temporal structure from information content. Under $N_{\text{eff}}=2{,}000$, strongly dependent sequences ($\rho=0.8$) exhibit $\approx76\%$ smaller generalization gaps than weakly dependent ones ($\rho=0.2$), challenging the intuition that dependence is purely detrimental. Yet convergence rates diverge from theory: weak dependencies follow $N_{\text{eff}}^{-1.21}$ scaling and strong dependencies follow $N_{\text{eff}}^{-0.89}$, both steeper than the predicted $N^{-0.5}$. These findings reveal that temporal dependence can enhance learning under fixed information budgets, while highlighting gaps between theory and practice that motivate future research.  
-
+Learning from time series is fundamentally different from learning from i.i.d.\ data: temporal dependence can make long sequences effectively information-poor, yet standard evaluation protocols conflate sequence length with statistical information. We propose a dependence-aware evaluation methodology that controls for effective sample size $N_{\text{eff}}$ rather than raw length $N$, and provide end-to-end generalization guarantees for Temporal Convolutional Networks (TCNs) on $\beta$-mixing sequences. Our analysis combines a blocking/coupling reduction that extracts $B = \Theta(N/\log N)$ approximately independent anchors with an architecture-aware Rademacher bound for $\ell_{2,1}$-norm-controlled convolutional networks, yielding $O(\sqrt{D\log p / B})$ complexity scaling in depth $D$ and kernel size $p$. Empirically, we find that stronger temporal dependence can \emph{reduce} generalization gaps when comparisons control for $N_{\text{eff}}$ - a conclusion that reverses under standard fixed-$N$ evaluation, with observed rates of $N_{\text{eff}}^{-0.9}$ to $N_{\text{eff}}^{-1.2}$ substantially faster than the worst-case $O(N^{-1/2})$ mixing-based prediction. Our results suggest that dependence-aware evaluation should become standard practice in temporal deep learning benchmarks.
 Under review 
 
 ([URL for the paper]https://arxiv.org/abs/2505.00101&#41) | [Download PDF](/files/Betamixing.pdf)
