@@ -1,9 +1,7 @@
 ---
-title: "ML-ENHANCE: A Machine Learning Framework for Hospital
-Readmission Prediction with Cost-Optimized Decision Thresholds"
+title: "ML-ENHANCE: A Machine Learning Framework for Hospital Readmission Prediction with Cost-Optimized Decision Thresholds"
 order: 8
-excerpt: "Decision-theoretic ML ensemble for 30-day readmission prediction, outperforming HOSPITAL and clinical scores with AUC 0.752 on 113K    
-  admissions."
+excerpt: "Decision-theoretic ML ensemble for 30-day readmission prediction, outperforming HOSPITAL and clinical scores with AUC 0.752 on 113K admissions."
 #collection: publications
 permalink: /publication/8
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
