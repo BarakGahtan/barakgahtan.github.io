@@ -1,5 +1,6 @@
 ---
 title: "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers"
+order: 11
 excerpt: "Differentiable Randers-Finsler Eikonal solver for GPU-accelerated wildfire spread simulation with learnable anisotropic metrics."
 thumbnail: "thumb-eikonal.jpg"
 #collection: publications

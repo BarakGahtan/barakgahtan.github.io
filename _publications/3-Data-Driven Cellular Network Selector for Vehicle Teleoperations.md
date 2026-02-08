@@ -1,5 +1,6 @@
 ---
 title: "Data-Driven Cellular Network Selector for Vehicle Teleoperations"
+order: 3
 excerpt: "ML-based cellular network selector that dynamically routes video packets for autonomous vehicle teleoperation, reducing packet loss and latency."
 thumbnail: "thumb-vehicle.jpg"
 #collection: publications

@@ -1,5 +1,6 @@
 ---
 title: "External Validation of the HOSPITAL Score for 30-Day Readmission"
+order: 8
 excerpt: "Comprehensive validation of the HOSPITAL readmission risk score on 77,625 discharges from an Israeli tertiary medical center."
 #collection: publications
 #permalink: /publication/2009-10-01-paper-title-number-1

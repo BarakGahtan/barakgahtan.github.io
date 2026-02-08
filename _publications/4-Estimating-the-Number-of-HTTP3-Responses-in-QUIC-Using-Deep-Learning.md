@@ -1,6 +1,6 @@
 ---
-title: "Estimating the Number of HTTP/3 Responses in QUIC Using Deep Learning
-"
+title: "Estimating the Number of HTTP/3 Responses in QUIC Using Deep Learning"
+order: 4
 excerpt: "Deep learning method to estimate HTTP/3 response counts from encrypted QUIC traffic, achieving 97% accuracy on 7M+ images."
 thumbnail: "thumb-http3.jpg"
 #collection: publications

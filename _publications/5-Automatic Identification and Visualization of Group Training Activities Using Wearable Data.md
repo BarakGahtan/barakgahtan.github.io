@@ -1,5 +1,6 @@
 ---
 title: "WearableMil: An End-to-End Framework for Military Activity Recognition and Performance Monitoring"
+order: 5
 excerpt: "End-to-end framework for military activity recognition from smartwatch data, achieving 93.8% accuracy across 135 soldiers."
 thumbnail: "thumb-wearablemil.jpg"
 #collection: publications

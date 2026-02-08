@@ -1,6 +1,7 @@
 ---
 title: "From Lab to Wrist: Bridging Metabolic Monitoring and Consumer Wearables
   for Heart Rate and Oxygen Consumption Modeling"
+order: 9
 excerpt: "First framework predicting instantaneous VO2 from consumer wearables, using a physiologically constrained ODE and neural Kalman filter."
 thumbnail: "thumb-labtowrist.jpg"
 #collection: publications

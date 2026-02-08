@@ -1,5 +1,6 @@
 ---
 title: "Using Deep Reinforcement Learning for mmWave Real-Time Scheduling"
+order: 2
 excerpt: "Model-free deep RL algorithm for real-time link scheduling in 5G mmWave mesh networks, meeting strict time constraints."
 thumbnail: "thumb-mmwave.jpg"
 #collection: publications

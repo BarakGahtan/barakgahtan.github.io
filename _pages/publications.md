@@ -17,7 +17,8 @@ author_profile: true
 {% include base_path %}
 
 <div class="publications-grid">
-  {% for post in site.publications reversed %}
+  {% assign sorted_pubs = site.publications | sort: "order" | reverse %}
+  {% for post in sorted_pubs %}
     {% include archive-single.html %}
   {% endfor %}
 </div>
