@@ -1,7 +1,9 @@
 ---
-title: "External Validation of the HOSPITAL Score for 30-Day Readmission"
+title: "ML-ENHANCE: A Machine Learning Framework for Hospital
+Readmission Prediction with Cost-Optimized Decision Thresholds"
 order: 8
-excerpt: "Comprehensive validation of the HOSPITAL readmission risk score on 77,625 discharges from an Israeli tertiary medical center."
+excerpt: "Decision-theoretic ML ensemble for 30-day readmission prediction, outperforming HOSPITAL and clinical scores with AUC 0.752 on 113K    
+  admissions."
 #collection: publications
 #permalink: /publication/2009-10-01-paper-title-number-1
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
