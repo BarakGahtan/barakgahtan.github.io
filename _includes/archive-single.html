@@ -1,24 +1,19 @@
 {% include base_path %}
 
 {% if post.collection == "publications" %}
-  <div class="publication__item" style="display: flex; align-items: flex-start; margin-bottom: 1.5em;">
+  <div class="publication__item">
     {% if post.thumbnail %}
-      <div class="publication__thumbnail" style="flex-shrink: 0; margin-right: 1em;">
+      <div class="publication__thumbnail">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          <img src="{{ base_path }}/images/{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 160px; height: auto; border: 1px solid #ddd; border-radius: 3px;">
+          <img src="{{ base_path }}/images/{{ post.thumbnail }}" alt="{{ post.title }}">
         </a>
       </div>
     {% endif %}
     <div class="publication__text">
-      <h2 class="publication__title" style="color: black; margin-top: 0;">
+      <h2 class="publication__title">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
       </h2>
 
-      {% comment %}
-        1) If this is Robusta → custom internship text
-        2) Else if venue or date present → print them
-        3) Otherwise → "Under Review"
-      {% endcomment %}
       {% if post.title == "Robusta" %}
         <p>Internship, can be sent upon request</p>
       {% elsif post.venue or post.date %}
@@ -31,9 +26,7 @@
         <p>Under review, can be sent upon request.</p>
       {% endif %}
       {% if post.excerpt %}
-        <p class="publication__excerpt" style="font-size: 0.85em; color: #555; margin-top: 0.25em;">
-          {{ post.excerpt }}
-        </p>
+        <p class="publication__excerpt">{{ post.excerpt }}</p>
       {% endif %}
     </div>
   </div>
