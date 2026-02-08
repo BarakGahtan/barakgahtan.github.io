@@ -5,7 +5,7 @@ order: 9
 excerpt: "First framework predicting instantaneous VO2 from consumer wearables, using a physiologically constrained ODE and neural Kalman filter."
 thumbnail: "thumb-labtowrist.jpg"
 #collection: publications
-permalink: /publication/8
+permalink: /publication/9
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 #date: 2023-10-01
 venue: '27th ACM International Conference on Multimodal Interaction (ICMI 2025)'
