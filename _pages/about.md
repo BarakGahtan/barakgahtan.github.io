@@ -14,6 +14,22 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
     <h2 class="text-3xl font-semibold mb-6">News</h2>
 <ul class="space-y-4">
       <li class="flex">
+        <span class="w-1/3 font-semibold text-gray-800">2/2026</span>
+        <a href="/publication/11" class="w-2/3 text-pink-600 hover:underline">
+          New preprint: "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers" 
+        </a>
+      </li>
+    </ul>
+<ul class="space-y-4">
+      <li class="flex">
+        <span class="w-1/3 font-semibold text-gray-800">12/2025</span>
+        <a href="/publication/8" class="w-2/3 text-pink-600 hover:underline">
+          New preprint: "ML-ENHANCE: A Machine Learning Framework for Hospital Readmission Prediction with Cost-Optimized Decision Thresholds" 
+        </a>
+      </li>
+    </ul>
+<ul class="space-y-4">
+      <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">08/2025</span>
         <a href="/publication/10" class="w-2/3 text-pink-600 hover:underline">
           New preprint: "Architecture-Aware Generalization Bounds for Temporal Networks: Theory and Fair Comparison Methodology" 

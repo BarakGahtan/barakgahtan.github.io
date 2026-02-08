@@ -5,7 +5,7 @@ order: 8
 excerpt: "Decision-theoretic ML ensemble for 30-day readmission prediction, outperforming HOSPITAL and clinical scores with AUC 0.752 on 113K    
   admissions."
 #collection: publications
-#permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/8
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 #date: 2023-10-01
 #venue: '2023 14th International Conference on Network of the Future (NoF)'
