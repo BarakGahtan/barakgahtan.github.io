@@ -23,4 +23,4 @@ Fast and differentiable solvers for anisotropic and asymmetric distance fields a
 
 Under review 
 
-[//]: # (&#40;[URL for the paper]https://arxiv.org/abs/2505.00101&#41&#41; | [Download PDF]&#40;/files/Betamixing.pdf&#41;)
+[//]: # (&#40;[URL for the paper]https://arxiv.org/abs/2505.00101&#41&#41; | [Download PDF]&#40;/files/Differentiable_Eikonal_Solvers_v4 (1).pdf&#41;)
