@@ -30,6 +30,5 @@ GitHub: [BarakGahtan/garmin-lap-analyzer](https://github.com/BarakGahtan/garmin-
 ---
 
 ### Other Projects
-Additional projects spanning DNA storage, hospital readmission prediction, and caching systems.
 
 *Coming soon.*
