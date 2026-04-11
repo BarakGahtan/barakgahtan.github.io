@@ -22,5 +22,3 @@ Across projects, I like going end-to-end: understanding the problem, building th
 ## Outside of work
 
 I’m married to Shir Cohen, who also holds a PhD in Computer Science. I’m a proud father to Romy and Elay, and we share our home with Zeus, our loyal German Shepherd. When I’m not spending time with my family, I’m usually running, coaching amateur long-distance runners, or reading about the sport. I’m a proud member of the ASICS Front Runner team and hold a personal best of **2:43** from the Valencia Marathon.
-
-![Shir and I](https://www.barakgahtan.com/images/wedding.jpg)
