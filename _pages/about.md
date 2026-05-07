@@ -14,6 +14,22 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
     <h2 class="text-3xl font-semibold mb-6">News</h2>
 <ul class="space-y-4">
       <li class="flex">
+        <span class="w-1/3 font-semibold text-gray-800">5/2026</span>
+        <a href="/publication/13" class="w-2/3 text-pink-600 hover:underline">
+          Submitted "The Shuffle Gap: Diagnosing Personalization Collapse in LLMs" to NeurIPS 2026
+        </a>
+      </li>
+    </ul>
+<ul class="space-y-4">
+      <li class="flex">
+        <span class="w-1/3 font-semibold text-gray-800">5/2026</span>
+        <a href="/publication/12" class="w-2/3 text-pink-600 hover:underline">
+          Submitted "Effective Residual-Stream Depth of Language Models" to NeurIPS 2026
+        </a>
+      </li>
+    </ul>
+<ul class="space-y-4">
+      <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">3/2026</span>
         <a href="/publication/11" class="w-2/3 text-pink-600 hover:underline">
           "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers" has been accepted to Symposium on Geometry Processing (SGP 2026)
@@ -40,7 +56,7 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">08/2025</span>
         <a href="/publication/10" class="w-2/3 text-pink-600 hover:underline">
-          New preprint: "Architecture-Aware Generalization Bounds for Temporal Networks: Theory and Fair Comparison Methodology" 
+          New preprint: "Matched Effective Sample Size for Temporal Evaluation with Conservative TCN Bounds"
         </a>
       </li>
     </ul>
@@ -120,7 +136,5 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
     </ul>
   </div>
 </section>
-
-
 
 

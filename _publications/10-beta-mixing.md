@@ -1,10 +1,11 @@
 ---
-title: "Architecture-Aware Generalization Bounds for Temporal Networks: Theory and Fair Comparison Methodology"
+title: "Matched Effective Sample Size for Temporal Evaluation with Conservative TCN Bounds"
 order: 10
-excerpt: "Architecture-aware generalization bounds for deep temporal models with beta-mixing sequences."
+excerpt: "Dependence-aware temporal evaluation protocol that matches operational effective sample size, with conservative TCN bounds for beta-mixing sequences."
 thumbnail: "thumb-betamixing.jpg"
 #collection: publications
 permalink: /publication/10
+venue: "Submitted to NeurIPS 2026"
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 #date: 2023-10-01
 #venue: '27th ACM International Conference on Multimodal Interaction (ICMI 2025)'
@@ -19,7 +20,8 @@ permalink: /publication/10
 #  organization={IEEE}
 #}'
 ---
-Learning from time series is fundamentally different from learning from i.i.d.\ data: temporal dependence can make long sequences effectively information-poor, yet standard evaluation protocols conflate sequence length with statistical information. We propose a dependence-aware evaluation methodology that controls for effective sample size $N_{\text{eff}}$ rather than raw length $N$, and provide end-to-end generalization guarantees for Temporal Convolutional Networks (TCNs) on $\beta$-mixing sequences. Our analysis combines a blocking/coupling reduction that extracts $B = \Theta(N/\log N)$ approximately independent anchors with an architecture-aware Rademacher bound for $\ell_{2,1}$-norm-controlled convolutional networks, yielding $O(\sqrt{D\log p / B})$ complexity scaling in depth $D$ and kernel size $p$. Empirically, we find that stronger temporal dependence can \emph{reduce} generalization gaps when comparisons control for $N_{\text{eff}}$ - a conclusion that reverses under standard fixed-$N$ evaluation, with observed rates of $N_{\text{eff}}^{-0.9}$ to $N_{\text{eff}}^{-1.2}$ substantially faster than the worst-case $O(N^{-1/2})$ mixing-based prediction. Our results suggest that dependence-aware evaluation should become standard practice in temporal deep learning benchmarks.
-Under review 
+Temporal dependence makes raw sequence length a poor proxy for statistical information, yet temporal deep-learning benchmarks often compare regimes at fixed raw $N$. We propose a dependence-aware evaluation protocol that matches an operational effective sample size $N_{\text{eff}}$: estimate integrated autocorrelation time, allocate raw lengths to a common information budget, verify achieved $N_{\text{eff}}$, and report both fixed-$N$ and matched-$N_{\text{eff}}$ views. In controlled AR(1), AR(2), and Beijing PM2.5 diagnostics, the protocol shows that stronger dependence does not necessarily increase signed or absolute train-test gaps once comparisons control for effective information. We complement the protocol with a conservative TCN baseline for exponentially beta-mixing sequences by combining standard blocking/coupling with existing convolutional norm bounds. This guarantee controls population risk against anchor empirical risk and serves as a worst-case reference for dependence and architecture scaling.
 
-([URL for the paper]https://arxiv.org/abs/2505.00101&#41) | [Download PDF](/files/Betamixing.pdf)
+Submitted to NeurIPS 2026.
+
+Manuscript under review.
