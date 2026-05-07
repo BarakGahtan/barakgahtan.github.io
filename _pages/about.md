@@ -31,9 +31,11 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
 <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">3/2026</span>
-        <a href="/publication/11" class="w-2/3 text-pink-600 hover:underline">
-          "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers" has been accepted to Symposium on Geometry Processing (SGP 2026)
-        </a>
+        <span class="w-2/3">
+          <a href="/publication/11" class="text-pink-600 hover:underline">"Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers"</a>
+          has been accepted to <a href="https://sgp26.org/" class="text-pink-600 hover:underline">SGP 2026</a> and will appear in the
+          <a href="https://diglib.eg.org/handle/10.2312/434" class="text-pink-600 hover:underline">Eurographics Digital Library</a>.
+        </span>
       </li>
     </ul>
 <ul class="space-y-4">
@@ -136,4 +138,3 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
     </ul>
   </div>
 </section>
-
