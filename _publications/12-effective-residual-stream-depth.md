@@ -2,7 +2,7 @@
 title: "Effective Residual-Stream Depth of Language Models"
 order: 12
 excerpt: "A residual-stream diagnostic for measuring how many statistically distinguishable representation states decoder-only language models traverse."
-thumbnail: "thumb-betamixing.jpg"
+thumbnail: "thumb-depth.jpg"
 #collection: publications
 permalink: /publication/12
 venue: "Preprint"

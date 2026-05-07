@@ -2,7 +2,7 @@
 title: "The Shuffle Gap: Diagnosing Personalization Collapse in LLMs"
 order: 13
 excerpt: "A support-sensitivity audit showing that large personalization perplexity gains can coexist with near-zero dependence on the matched user's support."
-thumbnail: "thumb-betamixing.jpg"
+thumbnail: "thumb-shuffle-gap.jpg"
 #collection: publications
 permalink: /publication/13
 venue: "Preprint"
