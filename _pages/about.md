@@ -16,7 +16,7 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">5/2026</span>
         <a href="/publication/13" class="w-2/3 text-pink-600 hover:underline">
-          Submitted "The Shuffle Gap: Diagnosing Personalization Collapse in LLMs" to NeurIPS 2026
+          New preprint: "The Shuffle Gap: Diagnosing Personalization Collapse in LLMs"
         </a>
       </li>
     </ul>
@@ -24,7 +24,7 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">5/2026</span>
         <a href="/publication/12" class="w-2/3 text-pink-600 hover:underline">
-          Submitted "Effective Residual-Stream Depth of Language Models" to NeurIPS 2026
+          New preprint: "Effective Residual-Stream Depth of Language Models"
         </a>
       </li>
     </ul>
@@ -136,5 +136,4 @@ I’m Barak Gahtan, a PhD candidate at [Technion University](https://www.technio
     </ul>
   </div>
 </section>
-
 
