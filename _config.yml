@@ -4,7 +4,7 @@ title                    : "Barak Gahtan"
 title_separator          : "-"
 name                     : &name "Barak Gahtan"
 description              : &description "Barak Gahtan - PhD researcher at Technion, Israel. Research in deep learning, wearables, communication networks, and differentiable solvers."
-url                      : "https://barakgahtan.github.io" # temporary fallback until the custom domain is verified
+url                      : "https://www.barakgahtan.com" # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "BarakGahtan/barakgahtan.github.io" # Your GitHub repository
 
