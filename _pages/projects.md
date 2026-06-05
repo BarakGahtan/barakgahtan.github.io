@@ -29,6 +29,8 @@ GitHub: [BarakGahtan/garmin-lap-analyzer](https://github.com/BarakGahtan/garmin-
 
 ---
 
-### Other Projects
+### Personal Finance
 
-*Coming soon.*
+**BarakFinance** is a local-first, open-source personal finance tracker for Israeli banks. It scrapes your transactions server-side, stores them in a local SQLite database with credentials encrypted at rest (AES-256-GCM), and uses an LLM (Claude or a local Ollama model) to auto-categorize your spending. Built with Next.js and TypeScript and designed to self-host, so your financial data never leaves your machine.
+
+GitHub: [BarakGahtan/BarakFinance](https://github.com/BarakGahtan/BarakFinance)
