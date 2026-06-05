@@ -35,7 +35,7 @@ precise HR modeling, a novel VO$_{2}$ prediction architecture requiring only
 the initial second of VO$_{2}$ data for calibration, enabling robust,
 sequence-to-sequence metabolic demand estimation. Despite relying solely on
 smartwatch and chest-strap data, our method achieves mean absolute percentage
-errors of approximately 13\%, effectively capturing rapid physiological
+errors as low as 11.4\%, effectively capturing rapid physiological
 transitions and steady-state conditions across diverse running intensities. Our
 synchronized dataset, complemented by blood lactate measurements, further lays
 the foundation for future noninvasive metabolic zone identification. By

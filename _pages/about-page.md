@@ -17,6 +17,8 @@ I’m also interested in **differentiable solvers and inverse problems**, where 
 
 In communication networks, I use real traffic and telemetry to build models that help **understand and optimize performance in modern systems**. This includes analyzing **encrypted QUIC dynamics** to infer aspects of server–client interactions, and developing learning-based approaches for teleoperation settings (e.g., teleoperated driving), where predicting and adapting to network behavior is critical for reliability and latency.
 
+More recently, I have turned these tools toward **large language models**, building calibration-free **diagnostics** that audit what a model actually does rather than what its headline scores suggest. One direction measures the **effective depth** of the residual stream: how many genuinely distinct computational stages a model performs, as opposed to how many layers it nominally has. Another, the **shuffle gap**, audits **personalization**, testing whether a model said to be personalized truly conditions on a specific user’s history or has quietly collapsed onto population-level adaptation. What ties this to the rest of my work is the same lens of structure and effective sample size, now applied along the layer and user-support axes instead of time.
+
 Across projects, I like going end-to-end: understanding the problem, building the data pipeline, designing the right model, and evaluating it carefully. I also occasionally provide professional guidance—whether it’s on modeling choices, evaluation design, or turning a research idea into a working system. (See the Publications section for paper links and details.)
 
 ## Outside of work

@@ -12,7 +12,7 @@ redirect_from:
 Work Experience
 ======
 
-* **Hauwai Research Intern 2023-2024** 
+* **Huawei Research Intern 2023-2024** 
 
   Part of the innovation team on building an ML-based scheduler for data-center switching. During my internship at Toga Networks, I implemented a deep reinforcement learning solution for optical circuit switching matching. The goal of the project was to create a system that, given a demand matrix, can decide in real-time which ports to use to satisfy the data while distinguishing between direct and indirect links.
 
