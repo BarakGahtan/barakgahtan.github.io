@@ -12,24 +12,55 @@ redirect_from:
 Work Experience
 ======
 
-* **Huawei Research Intern 2023-2024** 
+* **Deep Learning Researcher | Apple, Video Engineering Group (June 2026 - Present)**
 
-  Part of the innovation team on building an ML-based scheduler for data-center switching. During my internship at Toga Networks, I implemented a deep reinforcement learning solution for optical circuit switching matching. The goal of the project was to create a system that, given a demand matrix, can decide in real-time which ports to use to satisfy the data while distinguishing between direct and indirect links.
+  Developing deep learning models for physiological estimation from video: modeling instantaneous VO₂ and related metabolic dynamics from 3D human pose, including step-test protocols.
 
-* **Accenture Research - Research Intern 2022-Summer** 
+* **Graduate Researcher & Teaching Assistant | Technion (April 2021 - June 2026)**
 
-  I worked as an intern as a research engineer at Accenture Labs. I created a data-driven machine learning model that uses the CVSS calculator for CVEs to calculate the severity of a CWE-Product-Vendor triple. In addition, we used CYBERT and BERT to build two NLP models, one based on key words and the other using semantics, to create links between Capecs and different attack techniques in the SMESH knowledge graph.
+  Mentored several MSc students, providing day-to-day guidance on research, implementation, and experimental evaluation. Project advisor for deep learning, vision, medical data, communication data, and LLM projects. Collaborated with the Israel Olympic Committee and the IQFoil national team on ML-driven analysis of training data toward Paris 2024. Head TA for Data Structures (234218) across 6 semesters; TA for Computer Networks (236334).
 
-* **YAHOO Research - Research Intern 2021-2022** 
+* **Research Engineer Intern | Huawei Research Labs (July 2023 - February 2024)**
 
-  I was a research engineer intern at Yahoo Research, and I was part of the Scalables team. My project was integrating Persistent Memory (PMem) capabilities into an open-source cache, Caffeine. We developed Robusta as a wrapper around Caffeine. It is a hybrid cache leveraging PMem and DRAM to get the best of both worlds: DRAM-like low latency for frequent items, reduced tail latency thanks to Pmem’s high capacity, and a warm start on recovery from failures. Robusta can have different policies for where it is possible to place values. The code can be found in my Git. The paper can be sent upon request.
+  System and Network Architecture team. Developed a deep-reinforcement-learning approach for predicting traffic demand matrices in data-center networks, enabling dynamic ToR switch port reconfiguration using optical circuit switching.
 
-* **IBM Research Labs - Software Engineer Intern 2019-2021** 
+* **Research Engineer Intern | Accenture Research Labs (July 2022 - November 2022)**
 
-  I was a member of the Hybrid Cloud Quality Technologies department. I worked on several projects, some more data science-oriented, such as parallel execution of jobs, and others, such as automatic code generation of tests, while using different open-source tools such as Evosuite and Randoop.
+  Cyber Security Research team. Built NLP models using CyBERT and BERT for cybersecurity knowledge-graph construction, linking CAPEC attack patterns to the SMESH knowledge graph, and developed ML severity scoring for CWE-product-vendor triples.
 
-* **Talmor School for Psychometrics 2015-2019** 
+* **Research Engineer Intern | Yahoo Research (July 2021 - November 2021)**
 
-  An essay check in a pre-center-Talmor School for psychometric exams
+  Scalables team. Co-developed Robusta, a hybrid PMem-DRAM cache achieving DRAM-like latency with high capacity and a warm start on recovery from failures.
+
+* **Software Engineering Research Intern | IBM Research Labs (October 2019 - March 2021)**
+
+  Hybrid Cloud Quality Technologies department. Developed data-science solutions for parallel job-execution optimization in cloud infrastructure and automatic test-code generation.
 {: .timeline}
-  
+
+Education
+======
+
+* **MSc + PhD in Computer Science, Direct Track | Technion (April 2021 - June 2026)**
+
+  Advisors: Prof. Alex Bronstein and Prof. Reuven Cohen. Focus: deep learning.
+
+* **BSc in Computer Engineering | Technion (2016 - 2021)**
+
+  Combined Computer Science and Electrical Engineering program. Summa cum laude (Winter 2020).
+{: .timeline}
+
+Awards & Grants
+======
+
+* **MAFAT, Israel National Research Directorate (2026):** co-author of the proposal and assistant investigator on "Adaptive Video Transmission over a Drone Ad-hoc Network using Reinforcement Learning" (PI: Prof. Reuven Cohen, 1-year grant).
+* **VATAT Prize** for student research in data science at Tech.AI (2024).
+* **Faculty Merit Excellence for Research** (December 2023).
+* **Ministry of Science Scholarship** for graduate students serving in military reserves (2024).
+* **Technion Sports Excellence Scholarship** for athletic contributions.
+
+Service & Personal
+======
+
+* Major (Res.), Israel Defense Forces, 55th Paratroopers Brigade.
+* Long-distance running athlete and coach; marathon PB 2:43 (Valencia).
+* Languages: Hebrew (native), English (fluent).

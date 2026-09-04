@@ -6,7 +6,7 @@ excerpt: >-
 thumbnail: "thumb-betamixing.jpg"
 #collection: publications
 permalink: /publication/10
-venue: "Preprint"
+venue: "Preprint (under review)"
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 #date: 2023-10-01
 #venue: '27th ACM International Conference on Multimodal Interaction (ICMI 2025)'
