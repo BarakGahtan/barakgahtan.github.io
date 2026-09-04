@@ -17,6 +17,8 @@ Sources of truth used: CV docx `/Users/barak/Library/Mobile Documents/com~apple~
 
 **Conventions:** publication cards sort by `order` desc; `thumbnail` optional; news feed = raw HTML `<ul>` blocks in about.md, newest first, "M/YYYY" dates. No em-dashes in site text (user rule).
 
+**2026-09-04 later:** CGF publication confirmed via Wiley/Crossref: official title "Differentiable Randers-Finsler Eikonal Solvers", doi 10.1111/cgf.70489, online 2026-08-13. Site updated (pub 11 title/paperurl, 8/2026 news item, kramdown pipe fix in cv.md, see lessons.md). New CV docx created: `BarakGahtan4-9-26.docx` in iCloud CV folder (title + DOI fixed; PDF export still manual, no LibreOffice). Wiki pages Personal Website + Gahtan2026-Wildfire refreshed.
+
 **Open / judgment calls to confirm with Barak:**
 - "Completed my PhD (2026)" phrasing mirrors his CV; thesis submitted ~June 2026, degree possibly not yet conferred.
 - News dates 7/2026 (SGP presentation) and 9/2026 (cardio-drift announcement) are best guesses.
