@@ -22,10 +22,11 @@ I’m Barak Gahtan, a deep learning researcher. I completed my PhD in Computer S
     </ul>
 <ul class="space-y-4">
       <li class="flex">
-        <span class="w-1/3 font-semibold text-gray-800">7/2026</span>
+        <span class="w-1/3 font-semibold text-gray-800">8/2026</span>
         <span class="w-2/3">
-          <a href="/publication/11" class="text-pink-600 hover:underline">"Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers"</a>
-          was presented at <a href="https://sgp26.org/" class="text-pink-600 hover:underline">SGP 2026</a> and is published in Computer Graphics Forum.
+          <a href="/publication/11" class="text-pink-600 hover:underline">"Differentiable Randers-Finsler Eikonal Solvers"</a>
+          (presented at <a href="https://sgp26.org/" class="text-pink-600 hover:underline">SGP 2026</a>) is now published online in Computer Graphics Forum:
+          <a href="https://doi.org/10.1111/cgf.70489" class="text-pink-600 hover:underline">doi.org/10.1111/cgf.70489</a>.
         </span>
       </li>
     </ul>
