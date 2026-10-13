@@ -4,6 +4,9 @@ order: 12
 authors: "Barak Gahtan, Ido Galil, Alex M. Bronstein"
 venue: "Asian Conference on Machine Learning (ACML 2026), PMLR"
 status: published
+featured: true
+venue_short: "ACML 2026 · PMLR"
+takeaway: "A calibrated scalar for how much of a transformer's depth is distinct computation: fifteen of sixteen decoder-only models fall below the orthogonal-update reference, and matched controls trace the gap to correlated residual updates."
 arxiv: "https://arxiv.org/abs/2609.31098"
 thumbnail: "thumb-depth.jpg"
 permalink: /publication/12

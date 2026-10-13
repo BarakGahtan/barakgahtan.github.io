@@ -4,6 +4,9 @@ order: 11
 authors: "Barak Gahtan, Jacob Shpund, Alex M. Bronstein"
 venue: "Computer Graphics Forum (Proceedings of SGP 2026)"
 status: published
+featured: true
+venue_short: "Computer Graphics Forum · SGP 2026"
+takeaway: "A GPU fast-sweeping solver made exactly differentiable through implicit differentiation, used to recover anisotropic metrics from sparse arrival times and learn spread models on real wildfire perimeters."
 paperurl: 'https://doi.org/10.1111/cgf.70489'
 arxiv: "https://arxiv.org/abs/2603.00035"
 pdf: "/files/Differentiable_Eikonal_Solvers_v4.pdf"

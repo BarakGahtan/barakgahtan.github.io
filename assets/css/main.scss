@@ -10,7 +10,7 @@
  *
 */
 /* 1.a) Web-fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Sans:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 /* font stacks */
 $font-sans  : 'Inter', sans-serif;
 $font-serif : 'Merriweather', serif;
@@ -46,4 +46,5 @@ $font-serif : 'Merriweather', serif;
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "dark-mode";
+@import "home";
 @import "print";

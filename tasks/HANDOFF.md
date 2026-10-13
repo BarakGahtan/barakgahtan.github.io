@@ -40,3 +40,26 @@ Sources of truth used: CV docx `/Users/barak/Library/Mobile Documents/com~apple~
 **Assumptions to confirm with Barak:** Apple end month = October 2026 (CV docx `BarakGahtan_CV26-9-26.docx` still says "Present"); cardio-drift author order Yuval David, Barak Gahtan, Alex M. Bronstein; Shuffle Gap (pub 13) kept as under review (no ACML outcome recorded); PMLR volume/pages for pubs 12 and 14 still unknown.
 
 **Gotcha:** a bare `$` inside an `excerpt` can open MathJax inline math on the list page; write "40 billion dollars", never "$40 billion". Pubs 14 and 15 have no thumbnail (cards render without the image column).
+
+## 2026-10-13 (later): redesign research + prototype (no site changes yet)
+
+Barak wants the whole layout redone ("less of that tight template"). Done so far, nothing committed or pushed for this:
+- Audit + research report: `/Users/barak/research/academic-website-redesign-2026-10-13.md` (section 1 audit, 2 design findings, 3 template options, 4 proposed layout, 5 plan).
+- Prototype artifact (home + publications page, directions A editorial serif / B modern sans, light + dark, real content and headshot): https://claude.ai/artifact/3LPSKZzLrSwAXBPJwzs1ec . Source: scratchpad `barakgahtan-prototype.html` built by `build_proto.py` (images embedded as data URIs; headshot = `images/email-picture.jpeg`, NOT `profile.png`, which is a placeholder).
+- Plan with checkboxes: `tasks/todo.md`. Waiting on Barak: direction A/B, rebuild path, which personal pages stay.
+- Gotchas: macOS Chrome.app headless ignores window widths under ~500 px (use the Playwright headless shell for mobile shots); zsh variable named `path` clobbers PATH.
+
+## 2026-10-13 (evening): redesign SHIPPED as a restyle in place
+
+Barak rejected the artifact prototype ("something different... a mix between my current design and the design you showed me. do what you think is best for industry"). Implemented in the Jekyll site itself:
+- `_layouts/home.html` + `_data/home.yml` (all home copy lives in the data file: eyebrow, headline, lede, status line, buttons, links, highlights, themes). `_pages/about.md` is now just front matter (`layout: home`).
+- `_data/news.yml` holds every news item (newest first); home shows 8, `_pages/news.md` (/news/) shows all. The old raw-HTML news list in about.md is gone.
+- Featured papers = `_publications` entries with `featured: true` (+ `venue_short`, `takeaway`, optional `tile` for a card with no thumbnail): pubs 12, 14, 11, 9.
+- `_sass/_home.scss`: CSS tokens (`--c-*`, `--f-*`) for light and `[data-theme="dark"]`, masthead tweaks, search button hidden, `.page` wider at large, sidebar Follow button hidden with links always visible, all home components. Imported last in `assets/css/main.scss`.
+- Fonts: Inter (body), Instrument Sans (headings/nav), JetBrains Mono (eyebrow, badges, dates) via the Google Fonts import in `main.scss`; `_variables.scss` text #1F2937 on white; `_dark-mode.scss` palette moved to the navy set #0F1424 / #121833 / #262D47 / #8AB4FF.
+- `_config.yml`: new description; `exclude` now hides CLAUDE.md, tasks/, markdown_generator, talkmap.py/ipynb, CONTRIBUTING.md, package.json (they WERE being published before).
+- Nav: Publications · CV · Projects · News · Running · Contact. The long-form About page stays at /about-page/ (linked from the hero as "More about my research").
+
+**Local toolchain (new):** Homebrew `ruby@3.3`, gems in `vendor/bundle` (gitignored), bundler in `~/.gem/ruby33`. Build: `PATH=/opt/homebrew/opt/ruby@3.3/bin:$PATH GEM_HOME=~/.gem/ruby33 BUNDLE_PATH=$PWD/vendor/bundle ~/.gem/ruby33/bin/bundle exec jekyll build -d <out>`; for file:// previews add a second config with `url: "file://<out>"`. Mobile screenshots: Playwright headless shell (see memory lessons).
+
+**Open:** confirm the "Open to research scientist..." status line wording; thumbnails for pubs 14/15; PMLR volume numbers; optional filter chips on /publications/; the Astro rebuild recommended by the template-evaluation pass remains a future option (report section 3).

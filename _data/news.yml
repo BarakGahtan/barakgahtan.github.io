@@ -1,0 +1,67 @@
+# Newest first. `date` is the first of the month; the templates show month/year.
+- date: 2026-10-01
+  text: "Completed my research contract with Apple's Video Engineering group, where I modeled instantaneous VO₂ from 3D human pose in video."
+- date: 2026-09-01
+  text: "\"Invertible Query-Key Coupling Composes with Attention Mechanisms\" has been accepted to the Asian Conference on Machine Learning (ACML 2026)."
+  url: /publication/14
+- date: 2026-09-01
+  text: "\"The Residual Stream's Effective Depth\" has been accepted to the Asian Conference on Machine Learning (ACML 2026)."
+  url: /publication/12
+- date: 2026-09-01
+  text: "New paper under review: \"Predicting Cardiovascular Drift from 3D Running Pose via Spatio-Temporal Graph Attention\" (led by my student Yuval David)."
+  url: /publication/15
+- date: 2026-08-01
+  text: "\"Differentiable Randers-Finsler Eikonal Solvers\" (presented at SGP 2026) is now published online in Computer Graphics Forum, doi 10.1111/cgf.70489."
+  url: /publication/11
+- date: 2026-06-01
+  text: "New paper under review: \"Invertible Query-Key Coupling Composes with Attention Mechanisms\"."
+  url: /publication/14
+- date: 2026-06-01
+  text: "Joined Apple's Video Engineering group as a Deep Learning Researcher, modeling physiological state from 3D human pose in video."
+- date: 2026-06-01
+  text: "Submitted my PhD thesis at the Technion."
+- date: 2026-05-01
+  text: "New preprint: \"The Shuffle Gap: Diagnosing Personalization Collapse in LLMs\"."
+  url: /publication/13
+- date: 2026-05-01
+  text: "New preprint: \"Effective Residual-Stream Depth of Language Models\"."
+  url: /publication/12
+- date: 2026-03-01
+  text: "\"Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers\" has been accepted to SGP 2026 and will appear in the Eurographics Digital Library."
+  url: /publication/11
+- date: 2026-02-01
+  text: "New preprint: \"Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers\"."
+  url: /publication/11
+- date: 2025-12-01
+  text: "New preprint: \"ML-ENHANCE: A Machine Learning Framework for Hospital Readmission Prediction with Cost-Optimized Decision Thresholds\"."
+  url: /publication/8
+- date: 2025-08-01
+  text: "New preprint: \"Matched Effective Sample Size for Temporal Evaluation with Conservative TCN Bounds\"."
+  url: /publication/10
+- date: 2025-07-01
+  text: "\"From Lab to Wrist: Bridging Metabolic Monitoring and Consumer Wearables for Heart Rate and Oxygen Consumption Modeling\" has been accepted to the 27th ACM International Conference on Multimodal Interaction (ICMI 2025) as an oral presentation."
+  url: /publication/9
+- date: 2025-05-01
+  text: "\"Exploring QUIC Dynamics: A Large-Scale Dataset for Encrypted Traffic Analysis\" has been accepted to the IEEE International Mediterranean Conference on Communications and Networking (MeditCom 2025)."
+  url: /publication/5
+- date: 2025-03-01
+  text: "\"WearableMil: An End-to-End Framework for Military Activity Recognition and Performance Monitoring\" has been accepted to the 13th IEEE International Conference on Healthcare Informatics (ICHI 2025)."
+  url: /publication/4
+- date: 2025-02-01
+  text: "\"Estimating the Number of HTTP/3 Responses in QUIC Using Deep Learning\" has been accepted to the IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN 2025)."
+  url: /publication/3
+- date: 2024-10-01
+  text: "Awarded the VATAT Prize for students researching in the field of data science at Tech.AI."
+  url: /VatatMerit/
+- date: 2024-07-01
+  text: "\"Data-Driven Cellular Network Selector for Vehicle Teleoperations\" has been accepted to the 15th International Conference on Network of the Future (NoF 2024)."
+  url: /publication/2
+- date: 2024-01-01
+  text: "Awarded the Ministry of Science scholarship for graduate students who serve in the reserves on a regular basis."
+  url: /Reserve/
+- date: 2023-12-01
+  text: "Awarded Faculty merit excellence for research."
+  url: /FacultyMerit/
+- date: 2023-07-01
+  text: "\"Using Deep Reinforcement Learning for mmWave Real-Time Scheduling\" has been accepted to the 14th International Conference on Network of the Future (NoF 2023)."
+  url: /publication/UsingDeepReinforcement

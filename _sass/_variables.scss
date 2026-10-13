@@ -193,8 +193,8 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$global-font-family         : "Inter", $sans-serif;
+$header-font-family         : "Instrument Sans", "Inter", $sans-serif;
 $caption-font-family        : $serif;
 
 /* type scale */
@@ -233,10 +233,10 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
-$background-color           : #F9F9F9; // off-white
+$background-color           : #FFFFFF;
 $code-background-color      : #f8f8f8;
 $code-background-color-dark : $light-gray;
-$text-color                 : #333333; // dark charcoal
+$text-color                 : #1F2937; // near-black
 $border-color               : $lighter-gray;
 
 $primary-color              : $primary-color;

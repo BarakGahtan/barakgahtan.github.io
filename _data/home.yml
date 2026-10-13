@@ -1,0 +1,72 @@
+# Home page content. Edit text here; layout lives in _layouts/home.html.
+eyebrow: "Deep learning researcher · PhD, Technion (2026)"
+headline: "I study what deep models actually compute, and how to build physical and physiological structure into them."
+lede: >-
+  My recent work builds calibrated diagnostics for language models: effective depth, the shuffle gap and
+  invertible query-key coupling, with two first-author papers at ACML 2026. Alongside, I keep classical structure
+  inside the learning loop: a differentiable Randers-Finsler eikonal solver for wildfire spread (SGP 2026,
+  Computer Graphics Forum) and physiologically constrained models that estimate VO₂ from smartwatches and from
+  3D human pose in video (ACM ICMI 2025, Apple). PhD advised by Alex Bronstein and Reuven Cohen.
+status: "Open to research scientist and applied scientist roles in LLM understanding, physics-informed AI and sensing."
+buttons:
+  - label: "Curriculum vitae"
+    url: /cv/
+    primary: true
+  - label: "Google Scholar"
+    url: https://scholar.google.com/citations?user=Uph8rcwAAAAJ&hl=en&oi=ao
+  - label: "arXiv"
+    url: https://arxiv.org/a/gahtan_b_1
+links:
+  - label: "GitHub"
+    url: https://github.com/BarakGahtan
+  - label: "LinkedIn"
+    url: https://www.linkedin.com/in/barak-gahtan
+  - label: "barakgahtan@gmail.com"
+    url: mailto:barakgahtan@gmail.com
+  - label: "More about my research"
+    url: /about-page/
+highlights:
+  - label: "2 × ACML 2026"
+    caption: "First-author papers on LLM depth and attention"
+    url: /publications/
+  - label: "SGP 2026"
+    caption: "Differentiable eikonal solvers, Computer Graphics Forum"
+    url: /publication/11
+  - label: "ICMI 2025 · oral"
+    caption: "First instantaneous VO₂ from a consumer smartwatch"
+    url: /publication/9
+  - label: "Technion · Apple"
+    caption: "PhD in Computer Science; research contractor, Video Engineering"
+    url: /cv/
+themes:
+  - title: "What transformers actually compute"
+    text: >-
+      Calibration-free diagnostics that audit a model instead of trusting its headline scores: how much of its depth
+      is distinct computation, whether a personalized model conditions on the user at all, and where pre-scoring
+      query-key geometry helps attention.
+    papers:
+      - { title: "Effective depth", url: /publication/12 }
+      - { title: "The shuffle gap", url: /publication/13 }
+      - { title: "Coupled query-key dynamics", url: /publication/14 }
+  - title: "Differentiable physics and inverse problems"
+    text: >-
+      Classical solvers kept inside the learning loop. Implicit differentiation through fast sweeping turns
+      anisotropic Eikonal distance fields into trainable models of wildfire spread.
+    papers:
+      - { title: "Randers-Finsler eikonal solvers", url: /publication/11 }
+  - title: "Physiology from low-friction signals"
+    text: >-
+      Instantaneous VO₂ and cardiovascular load estimated from smartwatches, chest straps and monocular 3D pose in
+      video, with neural ODE and Kalman structure and four datasets collected in the field.
+    papers:
+      - { title: "From Lab to Wrist", url: /publication/9 }
+      - { title: "WearableMil", url: /publication/4 }
+      - { title: "Cardiovascular drift from 3D pose", url: /publication/15 }
+  - title: "Encrypted network traffic as time series"
+    text: >-
+      QUIC traces rendered as image sequences and multi-operator cellular links as multivariate series, from a
+      100,000-trace public dataset to real-time network selection for teleoperated vehicles.
+    papers:
+      - { title: "VisQUIC", url: /publication/5 }
+      - { title: "HTTP/3 response estimation", url: /publication/3 }
+      - { title: "Active Network Selector", url: /publication/2 }

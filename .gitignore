@@ -10,3 +10,8 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Local Jekyll toolchain
+vendor/
+.bundle/
+.DS_Store

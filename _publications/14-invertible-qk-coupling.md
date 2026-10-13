@@ -4,6 +4,10 @@ order: 14
 authors: "Barak Gahtan, Alex M. Bronstein"
 venue: "Asian Conference on Machine Learning (ACML 2026), PMLR"
 status: published
+featured: true
+venue_short: "ACML 2026 · PMLR"
+tile: "q, k ↦ (q′, k′)"
+takeaway: "An identity-initialized, invertible coupling applied before scoring that adds 0.3% parameters and composes with Differential Attention, with significant gains at 150M and 455M parameters."
 arxiv: "https://arxiv.org/abs/2604.01683"
 permalink: /publication/14
 excerpt: "Most attention variants change how scores are computed; this work instead transforms each token's query and key jointly before scoring, through an invertible, identity-initialized coupling that adds about 0.3% parameters and leaves the softmax untouched. Because it acts before scoring it composes with existing mechanisms: on WikiText-103 it yields statistically significant perplexity gains on top of Differential Attention at both 150M and 455M parameters."

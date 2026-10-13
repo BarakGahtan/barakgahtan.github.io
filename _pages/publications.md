@@ -5,14 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 <section class="site-section">
-{% if site.author.googlescholar %}
-  <div class="wordwrap">
-    Peer-reviewed papers first, then preprints and papers under review, each with a two-sentence summary. You can also find them on
-    <a href="https://scholar.google.com/citations?user=Uph8rcwAAAAJ&hl=en&oi=ao">
-      my Google Scholar profile
-    </a>.
-  </div>
-{% endif %}
+<p class="pubs-intro">Peer-reviewed papers first, then preprints and papers under review, each with a two-sentence summary. Also on <a href="https://scholar.google.com/citations?user=Uph8rcwAAAAJ&hl=en&oi=ao">Google Scholar</a>.</p>
 
 {% include base_path %}
 

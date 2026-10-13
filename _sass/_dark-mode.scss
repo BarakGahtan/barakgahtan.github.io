@@ -4,59 +4,59 @@
 
 [data-theme="dark"] {
   &, body {
-    background-color: #1a1a2e !important;
-    color: #e0e0e0 !important;
+    background-color: #0F1424 !important;
+    color: #E6E8F0 !important;
   }
 
   /* Headings */
   h1, h2, h3, h4, h5, h6 {
-    color: #f0f0f0 !important;
+    color: #F2F4F8 !important;
   }
 
   /* Links */
   a {
-    color: #6fa3ef !important;
+    color: #8AB4FF !important;
 
     &:hover {
-      color: #9fc5f8 !important;
+      color: #B8CEFF !important;
     }
   }
 
   /* Masthead */
   .masthead {
-    background: #16213e !important;
-    border-bottom-color: #2a2a4a !important;
+    background: #121833 !important;
+    border-bottom-color: #262D47 !important;
   }
 
   .greedy-nav {
-    background: #16213e !important;
+    background: #121833 !important;
 
     a {
-      color: #6fa3ef !important;
+      color: #8AB4FF !important;
 
       &:hover {
-        color: #9fc5f8 !important;
+        color: #B8CEFF !important;
       }
     }
 
     button {
-      background-color: #2a2a4a !important;
+      background-color: #262D47 !important;
     }
   }
 
   .masthead__menu-item--lg a {
-    color: #f0f0f0 !important;
+    color: #F2F4F8 !important;
   }
 
   /* Sidebar */
   .sidebar {
-    background-color: #1a1a2e !important;
+    background-color: #0F1424 !important;
   }
 
   .author__urls-wrapper {
     button {
-      background-color: #2a2a4a !important;
-      color: #e0e0e0 !important;
+      background-color: #262D47 !important;
+      color: #E6E8F0 !important;
     }
   }
 
@@ -64,11 +64,11 @@
   .author__content,
   .author__name,
   .author__bio {
-    color: #e0e0e0 !important;
+    color: #E6E8F0 !important;
   }
 
   .author__desktop {
-    color: #a0a0a0 !important;
+    color: #A3ABBF !important;
   }
 
   /* Page */
@@ -77,56 +77,56 @@
   .page__inner-wrap,
   #main,
   article {
-    background-color: #1a1a2e !important;
-    color: #e0e0e0 !important;
+    background-color: #0F1424 !important;
+    color: #E6E8F0 !important;
   }
 
   .page__content {
     p, li, td, th, span, div {
-      color: #e0e0e0 !important;
+      color: #E6E8F0 !important;
     }
   }
 
   /* Publications */
   .publication__title {
-    color: #f0f0f0 !important;
+    color: #F2F4F8 !important;
 
     a {
-      color: #f0f0f0 !important;
+      color: #F2F4F8 !important;
 
       &:hover {
-        color: #9fc5f8 !important;
+        color: #B8CEFF !important;
       }
     }
   }
 
   .publication__item {
-    border-bottom-color: #2a2a4a !important;
+    border-bottom-color: #262D47 !important;
   }
 
   .publication__excerpt {
-    color: #a0a0a0 !important;
+    color: #A3ABBF !important;
   }
 
   .publication__authors {
-    color: #d0d0d0 !important;
+    color: #C9D0DD !important;
   }
 
   .publication__venue {
-    color: #a0a0a0 !important;
+    color: #A3ABBF !important;
   }
 
   .publications__group {
-    color: #f0f0f0 !important;
-    border-bottom-color: #2a2a4a !important;
+    color: #F2F4F8 !important;
+    border-bottom-color: #262D47 !important;
   }
 
   .publication__thumbnail img {
-    border-color: #2a2a4a !important;
+    border-color: #262D47 !important;
   }
 
   .publications-grid {
-    background-color: #1a1a2e !important;
+    background-color: #0F1424 !important;
   }
 
   /* Cards */
@@ -137,86 +137,86 @@
 
   /* Footer */
   .page__footer {
-    background-color: #16213e !important;
-    color: #a0a0a0 !important;
+    background-color: #121833 !important;
+    color: #A3ABBF !important;
 
     a {
-      color: #6fa3ef !important;
+      color: #8AB4FF !important;
     }
   }
 
   .page__footer-follow .social-icons a {
-    color: #e0e0e0 !important;
+    color: #E6E8F0 !important;
   }
 
   .page__footer-copyright {
-    color: #a0a0a0 !important;
+    color: #A3ABBF !important;
   }
 
   /* Code */
   code, pre {
     background-color: #1e1e3a !important;
-    color: #e0e0e0 !important;
+    color: #E6E8F0 !important;
   }
 
   /* Search */
   .search-container {
-    background: #16213e !important;
-    border-color: #2a2a4a !important;
+    background: #121833 !important;
+    border-color: #262D47 !important;
   }
 
   #search-input {
-    background: #1a1a2e !important;
-    color: #e0e0e0 !important;
-    border-color: #2a2a4a !important;
+    background: #0F1424 !important;
+    color: #E6E8F0 !important;
+    border-color: #262D47 !important;
   }
 
   #search-results li {
-    border-bottom-color: #2a2a4a !important;
+    border-bottom-color: #262D47 !important;
 
     a {
-      color: #e0e0e0 !important;
+      color: #E6E8F0 !important;
     }
   }
 
   .search-toggle {
-    color: #e0e0e0 !important;
+    color: #E6E8F0 !important;
   }
 
   /* Dark mode toggle icon */
   .dark-mode-toggle {
-    color: #e0e0e0 !important;
+    color: #E6E8F0 !important;
   }
 
   /* Tables */
   table {
-    color: #e0e0e0 !important;
+    color: #E6E8F0 !important;
 
     th, td {
-      border-color: #2a2a4a !important;
+      border-color: #262D47 !important;
     }
   }
 
   /* News section */
   .font-semibold {
-    color: #e0e0e0 !important;
+    color: #E6E8F0 !important;
   }
 
   /* Blockquotes */
   blockquote {
-    border-left-color: #2a2a4a !important;
-    color: #a0a0a0 !important;
+    border-left-color: #262D47 !important;
+    color: #A3ABBF !important;
   }
 
   /* Horizontal rule */
   hr {
-    border-color: #2a2a4a !important;
+    border-color: #262D47 !important;
   }
 
   /* Selection */
   ::selection {
-    background: #6fa3ef !important;
-    color: #1a1a2e !important;
+    background: #8AB4FF !important;
+    color: #0F1424 !important;
   }
 
   /* Images - slightly dim */
@@ -226,17 +226,17 @@
 
   /* Archive items (non-publication) */
   .archive__item-title a {
-    color: #f0f0f0 !important;
+    color: #F2F4F8 !important;
   }
 
   .archive__item-excerpt {
-    color: #a0a0a0 !important;
+    color: #A3ABBF !important;
   }
 
   /* Notices */
   .notice, .notice--info, .notice--warning, .notice--success, .notice--danger {
     background-color: #1e1e3a !important;
-    color: #e0e0e0 !important;
+    color: #E6E8F0 !important;
   }
 }
 

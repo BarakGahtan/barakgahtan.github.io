@@ -4,6 +4,9 @@ order: 9
 authors: "Barak Gahtan, Sanketh Vedula, Gil Samuelly Leichtag, Einat Kodesh, Alex M. Bronstein"
 venue: '27th ACM International Conference on Multimodal Interaction (ICMI 2025), oral presentation'
 status: published
+featured: true
+venue_short: "ACM ICMI 2025 · oral"
+takeaway: "Full VO₂ trajectories from smartwatch and chest-strap data alone: a physiologically constrained ODE with a neural Kalman filter for heart rate, and a one-second-calibration VO₂ model at about 11% MAPE."
 arxiv: "https://arxiv.org/abs/2505.00101"
 pdf: "/files/Lab-to-Wrist-final.pdf"
 thumbnail: "thumb-labtowrist.jpg"

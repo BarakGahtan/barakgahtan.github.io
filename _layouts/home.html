@@ -1,0 +1,81 @@
+---
+layout: default
+---
+{% include base_path %}
+{% assign home = site.data.home %}
+{% assign featured = site.publications | where: "featured", true | sort: "order" | reverse %}
+{% assign pubcount = site.publications | size %}
+
+<main id="main" class="home" role="main">
+  <section class="hero">
+    <div class="hero__text">
+      <p class="eyebrow">{{ home.eyebrow }}</p>
+      <h1 class="hero__title">{{ home.headline }}</h1>
+      <p class="hero__lede">{{ home.lede }}</p>
+      {% if home.status %}<p class="hero__status"><span class="hero__dot" aria-hidden="true"></span>{{ home.status }}</p>{% endif %}
+      <div class="hero__cta">
+        {% for b in home.buttons %}<a class="btn-hero{% if b.primary %} btn-hero--primary{% endif %}" href="{% unless b.url contains '://' %}{{ base_path }}{% endunless %}{{ b.url }}">{{ b.label }}</a>{% endfor %}
+      </div>
+      <ul class="hero__links">
+        {% for l in home.links %}<li><a href="{% unless l.url contains ':' %}{{ base_path }}{% endunless %}{{ l.url }}">{{ l.label }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    <figure class="hero__photo">
+      <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}" width="400" height="400">
+    </figure>
+  </section>
+
+  <section class="highlights" aria-label="Highlights">
+    {% for h in home.highlights %}<a class="hl" href="{{ base_path }}{{ h.url }}"><b>{{ h.label }}</b><span>{{ h.caption }}</span></a>{% endfor %}
+  </section>
+
+  <section class="selected">
+    <div class="sec-head"><h2>Selected work</h2><a href="{{ base_path }}/publications/">All {{ pubcount }} publications</a></div>
+    <div class="sel-grid">
+      {% for post in featured %}
+      <article class="sel-card">
+        {% if post.thumbnail %}
+        <a class="sel-card__fig" href="{{ base_path }}{{ post.url }}"><img src="{{ base_path }}/images/{{ post.thumbnail }}" alt="" loading="lazy"></a>
+        {% else %}
+        <a class="sel-card__fig sel-card__fig--type" href="{{ base_path }}{{ post.url }}">{{ post.tile | default: "Paper" }}</a>
+        {% endif %}
+        <div class="sel-card__body">
+          <span class="badge">{{ post.venue_short | default: post.venue }}</span>
+          <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+          {% if post.authors %}<p class="authors">{{ post.authors | replace: "Barak Gahtan", "<strong>Barak Gahtan</strong>" }}</p>{% endif %}
+          <p class="takeaway">{{ post.takeaway | default: post.excerpt }}</p>
+          <div class="links">
+            {% if post.arxiv %}<a href="{{ post.arxiv }}">arXiv</a>{% endif %}
+            {% if post.paperurl %}<a href="{{ post.paperurl }}">Publisher</a>{% endif %}
+            {% if post.pdf %}<a href="{{ base_path }}{{ post.pdf }}">PDF</a>{% endif %}
+            <a href="{{ base_path }}{{ post.url }}">Details</a>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="split">
+    <div class="themes">
+      <div class="sec-head"><h2>Research themes</h2></div>
+      <ul class="themes__list">
+        {% for th in home.themes %}
+        <li>
+          <h3>{{ th.title }}</h3>
+          <p>{{ th.text }}</p>
+          <div class="themes__papers">{% for pp in th.papers %}<a href="{{ base_path }}{{ pp.url }}">{{ pp.title }}</a>{% endfor %}</div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="newscol">
+      <div class="sec-head"><h2>News</h2><a href="{{ base_path }}/news/">All news</a></div>
+      <ul class="newslist">
+        {% for n in site.data.news limit: 8 %}
+        <li><time datetime="{{ n.date | date: '%Y-%m' }}">{{ n.date | date: '%-m/%Y' }}</time><span>{% if n.url %}<a href="{{ base_path }}{{ n.url }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+</main>
