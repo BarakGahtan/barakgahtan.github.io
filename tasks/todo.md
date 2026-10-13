@@ -16,7 +16,7 @@ Implementation (after approval)
 - [x] Home: hero, highlights, selected work (4 featured cards), themes + news (`_layouts/home.html`, `_data/home.yml`)
 - [x] Publications page: grouped rows kept, intro fixed, wider column (filter chips deferred)
 - [x] Inner pages: wider column, sidebar without the Follow button
-- [ ] Consistent 16:9 teaser images for the selected papers; thumbnails for pubs 14 and 15 (pub 14 uses a typographic tile for now)
+- [x] Pub 14 thumbnail: designed attention-coupling illustration (`images/thumb-coupledqk.jpg`, editable SVG source `images/thumb-coupledqk.svg`); still open: pub 15 thumbnail, consistent 16:7 crops for the other featured papers
 - [x] Navigation: Publications · CV · Projects · News · Running · Contact; old URLs untouched (`/about-page/`, `/Academic/` still exist)
 - [ ] Verify live at 1440 and 390, light and dark after the push
 
