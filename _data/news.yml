@@ -17,9 +17,9 @@
   text: "New paper under review: \"Invertible Query-Key Coupling Composes with Attention Mechanisms\"."
   url: /publication/14
 - date: 2026-06-01
-  text: "Joined Apple's Video Engineering group as a Deep Learning Researcher, modeling physiological state from 3D human pose in video."
-- date: 2026-06-01
   text: "Submitted my PhD thesis at the Technion."
+- date: 2026-05-01
+  text: "Joined Apple's Video Engineering group as a Deep Learning Researcher, modeling physiological state from 3D human pose in video."
 - date: 2026-05-01
   text: "New preprint: \"The Shuffle Gap: Diagnosing Personalization Collapse in LLMs\"."
   url: /publication/13

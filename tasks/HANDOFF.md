@@ -65,3 +65,5 @@ Barak rejected the artifact prototype ("something different... a mix between my 
 **Open:** confirm the "Open to research scientist..." status line wording; thumbnails for pubs 14/15; PMLR volume numbers; optional filter chips on /publications/; the Astro rebuild recommended by the template-evaluation pass remains a future option (report section 3).
 
 **2026-10-13 (late):** pub 14 now has a thumbnail, a designed illustration of the mechanism (q,k -> invertible coupling -> q',k' -> causal softmax map) rendered from `images/thumb-coupledqk.svg` to `thumb-coupledqk.jpg` (1120x490, 16:7, site palette). Recipe: edit the SVG, render with the Playwright headless shell at `--force-device-scale-factor=2`, `sips -Z 1120` to JPEG. Pub 15 (cardio drift) still has no image; no PDF is available locally for it. Commit 49d8c6e, verified live.
+
+**2026-10-13 (correction from Barak):** Apple start month is MAY 2026, not June (news item now 5/2026; CV says May 2026 - October 2026). His CV docx still says June; the end month (October) remains his to confirm.
