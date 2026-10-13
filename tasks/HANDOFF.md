@@ -25,3 +25,18 @@ Sources of truth used: CV docx `/Users/barak/Library/Mobile Documents/com~apple~
 - Nothing committed/pushed yet — repo also has untracked CLAUDE.md + tasks/ from the 2026-07-10 standardization pass.
 - Under-review venues (NeurIPS/ACML) intentionally omitted; ACML decision due Sep 15, 2026 — update site on notification.
 - Wiki page `wiki/projects/Personal Website.md` is stale (last_updated 2026-04-11, says "PhD candidate", 11 pubs) — optional follow-up.
+
+## 2026-10-13: ACML acceptances, Apple contract ended, recruiter-friendly publications
+
+**Changed:**
+- `_publications/*` (all 13): new front-matter fields `authors` (plain comma string; template bolds "Barak Gahtan"), `status` (`published` | `preprint`), `arxiv`, `pdf` (URL-encoded `/files/...`), and a two-sentence `excerpt` (problem + result). Pub 12 retitled to the accepted "The Residual Stream's Effective Depth" (arXiv 2609.31098); pub 12 and pub 14 (arXiv 2604.01683) set to venue "Asian Conference on Machine Learning (ACML 2026), PMLR"; their bodies are the camera-ready abstracts from `~/Desktop/my-papers/Presented/`.
+- `_includes/archive-single.html` publications card: title, authors, venue (+ year from `date`), excerpt, links row (arXiv / Publisher / PDF). Robusta special case removed.
+- `_layouts/single.html`: same authors/venue/links block at the top of every `/publication/N` page.
+- `_pages/publications.md`: two groups, "Peer-reviewed publications" (`where: status == published`) then "Preprints and papers under review" (`where_exp: status != published`), each sorted by `order` desc; intro sentence updated.
+- `_sass/_cards.scss` + `_sass/_dark-mode.scss`: `.publication__authors`, `.publication__venue`, `.publication__links`, `.publications__group`.
+- `_pages/about.md`: bio now says "recently completed a research contract with Apple"; 3 new news items (10/2026 Apple contract completed; 9/2026 ACML acceptance x2, linking /publication/14 and /publication/12).
+- `_pages/about-page.md`: same Apple wording. `_pages/cv.md`: Apple role now "Deep Learning Researcher (Contract) ... (June 2026 - October 2026)", past tense.
+
+**Assumptions to confirm with Barak:** Apple end month = October 2026 (CV docx `BarakGahtan_CV26-9-26.docx` still says "Present"); cardio-drift author order Yuval David, Barak Gahtan, Alex M. Bronstein; Shuffle Gap (pub 13) kept as under review (no ACML outcome recorded); PMLR volume/pages for pubs 12 and 14 still unknown.
+
+**Gotcha:** a bare `$` inside an `excerpt` can open MathJax inline math on the list page; write "40 billion dollars", never "$40 billion". Pubs 14 and 15 have no thumbnail (cards render without the image column).

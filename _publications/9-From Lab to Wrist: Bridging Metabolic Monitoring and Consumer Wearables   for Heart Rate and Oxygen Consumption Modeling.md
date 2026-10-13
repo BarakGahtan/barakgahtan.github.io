@@ -1,24 +1,14 @@
 ---
-title: "From Lab to Wrist: Bridging Metabolic Monitoring and Consumer Wearables
-  for Heart Rate and Oxygen Consumption Modeling"
+title: "From Lab to Wrist: Bridging Metabolic Monitoring and Consumer Wearables for Heart Rate and Oxygen Consumption Modeling"
 order: 9
-excerpt: "First framework predicting instantaneous VO2 from consumer wearables, using a physiologically constrained ODE and neural Kalman filter."
+authors: "Barak Gahtan, Sanketh Vedula, Gil Samuelly Leichtag, Einat Kodesh, Alex M. Bronstein"
+venue: '27th ACM International Conference on Multimodal Interaction (ICMI 2025), oral presentation'
+status: published
+arxiv: "https://arxiv.org/abs/2505.00101"
+pdf: "/files/Lab-to-Wrist-final.pdf"
 thumbnail: "thumb-labtowrist.jpg"
-#collection: publications
 permalink: /publication/9
-#excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-#date: 2023-10-01
-venue: '27th ACM International Conference on Multimodal Interaction (ICMI 2025)'
-#slidesurl: ''
-#paperurl: 'https://ieeexplore.ieee.org/document/10302794'
-#citation: '@inproceedings{gahtan2023using,
-#  title={Using Deep Reinforcement Learning for mmWave Real-Time Scheduling},
-#  author={Gahtan, Barak and Cohen, Reuven and Bronstein, Alex M and Kedar, Gil},
-#  booktitle={2023 14th International Conference on Network of the Future (NoF)},
-#  pages={71--79},
-#  year={2023},
-#  organization={IEEE}
-#}'
+excerpt: "Instantaneous oxygen consumption (VO₂) is the reference measure of metabolic demand, but it normally requires a lab-grade breath analyzer. This framework predicts full VO₂ trajectories from smartwatch and chest-strap data alone: a physiologically constrained ODE with a neural Kalman filter models heart rate at 2.81 bpm MAE on over 3 million observations, and a sequence-to-sequence VO₂ model needs only one second of calibration to reach about 11% MAPE."
 ---
 
 Understanding physiological responses during running is critical for

@@ -1,26 +1,16 @@
 ---
 title: "Estimating the Number of HTTP/3 Responses in QUIC Using Deep Learning"
 order: 4
-excerpt: "Deep learning method to estimate HTTP/3 response counts from encrypted QUIC traffic, achieving 97% accuracy on 7M+ images."
-thumbnail: "thumb-http3.jpg"
-#collection: publications
-permalink: /publication/3
-#excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2025-05-26
+authors: "Barak Gahtan, Robert J. Shahla, Reuven Cohen, Alex M. Bronstein"
 venue: 'IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)'
-#slidesurl: ''
+status: published
+date: 2025-05-26
 paperurl: 'https://ieeexplore.ieee.org/document/11139934'
-#citation: '@INPROCEEDINGS{10741500,
-#  author={Gahtan, Barak and Cohen, Reuven and Bronstein, Alex M. and Shapira, Eli},
-#  booktitle={2024 15th International Conference on Network of the Future (NoF)}, 
-#  title={Data-Driven Cellular Network Selector for Vehicle Teleoperations}, 
-#  year={2024},
-#  volume={},
-#  number={},
-#  pages={63-71},
-#  keywords={Cellular networks;Machine learning algorithms;Time series analysis;Packet loss;Streaming media;Prediction algorithms;Real-time systems;Robots;Remote control;Testing},
-#  doi={10.1109/NoF62948.2024.10741500}}
-#'
+arxiv: "https://arxiv.org/abs/2410.06140"
+pdf: "/files/Estimating%20the%20Number%20of%20HTTP3%20Responses%20in%20QUIC%20Using%20Deep%20Learning.pdf"
+thumbnail: "thumb-http3.jpg"
+permalink: /publication/3
+excerpt: "QUIC encrypts almost everything, so network middleboxes can no longer see how many HTTP/3 responses a connection carries, a quantity that matters for load balancing and flood-attack detection. We turn encrypted QUIC traces into image sequences and train a deep model with a tailored loss, reaching up to 97% accuracy on more than 7 million images from 100,000 traces across 44,000 websites."
 ---
 
 QUIC, a new and increasingly used transport protocol, enhances TCP by offering improved security, performance, and stream multiplexing. These features, however, also impose challenges for network middle-boxes that need to monitor and analyze web traffic. This paper proposes a novel method to estimate the number of HTTP/3 responses in a given QUIC connection by an observer. This estimation reveals server behavior, client-server interactions, and data transmission efficiency, which is crucial for various applications such as designing a load balancing solution and detecting HTTP/3 flood attacks. The proposed scheme transforms QUIC connection traces into image sequences and uses machine learning (ML) models, guided by a tailored loss function, to predict response counts. Evaluations on more than seven million images-derived from 100,000 traces collected across 44,000 websites over four months-achieve up to 97% accuracy in both known and unknown server settings and 92% accuracy on previously unseen complete QUIC traces.

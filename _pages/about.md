@@ -7,11 +7,35 @@ redirect_from:
   - /about.html
 ---
 
-I’m Barak Gahtan, a deep learning researcher. I completed my PhD in Computer Science at the [Technion](https://www.technion.ac.il/en/) (2026), supervised by [Prof. Alex Bronstein](https://bron.cs.technion.ac.il/) and [Prof. Reuven Cohen](https://rcohen.cs.technion.ac.il/), and I currently work with Apple's Video Engineering group, modeling instantaneous VO₂ from 3D human pose in video. I build deep learning systems for real-world temporal data across wearables (physiology + activity recognition), communication networks (encrypted QUIC and teleoperation-oriented modeling), and spatiotemporal processes (differentiable eikonal solvers for wildfire propagation), with additional work on medical risk prediction from clinical records. I bring the same methods to large language models, developing diagnostics that probe how much of a model’s depth is genuine computation and whether a personalized model truly adapts to the individual. Outside the lab, I enjoy family time, coaching runners, exploring new trails, and training for my next marathon.
+I’m Barak Gahtan, a deep learning researcher. I completed my PhD in Computer Science at the [Technion](https://www.technion.ac.il/en/) (2026), supervised by [Prof. Alex Bronstein](https://bron.cs.technion.ac.il/) and [Prof. Reuven Cohen](https://rcohen.cs.technion.ac.il/), and I recently completed a research contract with Apple's Video Engineering group, modeling instantaneous VO₂ from 3D human pose in video. I build deep learning systems for real-world temporal data across wearables (physiology + activity recognition), communication networks (encrypted QUIC and teleoperation-oriented modeling), and spatiotemporal processes (differentiable eikonal solvers for wildfire propagation), with additional work on medical risk prediction from clinical records. I bring the same methods to large language models, developing diagnostics that probe how much of a model’s depth is genuine computation and whether a personalized model truly adapts to the individual. Outside the lab, I enjoy family time, coaching runners, exploring new trails, and training for my next marathon.
 
 <section id="academic-news" class="bg-gray-50 py-16">
   <div class="container mx-auto max-w-3xl px-6">
     <h2 class="text-3xl font-semibold mb-6">News</h2>
+<ul class="space-y-4">
+      <li class="flex">
+        <span class="w-1/3 font-semibold text-gray-800">10/2026</span>
+        <span class="w-2/3">
+          Completed my research contract with Apple's Video Engineering group, where I modeled instantaneous VO₂ from 3D human pose in video.
+        </span>
+      </li>
+    </ul>
+<ul class="space-y-4">
+      <li class="flex">
+        <span class="w-1/3 font-semibold text-gray-800">9/2026</span>
+        <a href="/publication/14" class="w-2/3 text-pink-600 hover:underline">
+          "Invertible Query-Key Coupling Composes with Attention Mechanisms" has been accepted to the Asian Conference on Machine Learning (ACML 2026)
+        </a>
+      </li>
+    </ul>
+<ul class="space-y-4">
+      <li class="flex">
+        <span class="w-1/3 font-semibold text-gray-800">9/2026</span>
+        <a href="/publication/12" class="w-2/3 text-pink-600 hover:underline">
+          "The Residual Stream's Effective Depth" has been accepted to the Asian Conference on Machine Learning (ACML 2026)
+        </a>
+      </li>
+    </ul>
 <ul class="space-y-4">
       <li class="flex">
         <span class="w-1/3 font-semibold text-gray-800">9/2026</span>

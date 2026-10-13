@@ -56,6 +56,34 @@
   margin-top: 0.25em;
 }
 
+.publication__authors {
+  font-size: 0.9em;
+  color: #333;
+  margin: 0 0 0.15em 0;
+}
+
+.publication__venue {
+  font-size: 0.85em;
+  color: #666;
+  margin: 0 0 0.35em 0;
+}
+
+.publication__links {
+  font-size: 0.85em;
+  margin: 0.35em 0 0 0;
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.publications__group {
+  font-size: 1.25rem;
+  margin: 2.5rem 0 0.5rem 0;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
 .card {
   background: #949090;
   border-radius: 8px;

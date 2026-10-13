@@ -1,13 +1,15 @@
 ---
-title: "Effective Residual-Stream Depth of Language Models"
+title: "The Residual Stream's Effective Depth"
 order: 12
-excerpt: "A residual-stream diagnostic for measuring how many statistically distinguishable representation states decoder-only language models traverse."
+authors: "Barak Gahtan, Ido Galil, Alex M. Bronstein"
+venue: "Asian Conference on Machine Learning (ACML 2026), PMLR"
+status: published
+arxiv: "https://arxiv.org/abs/2609.31098"
 thumbnail: "thumb-depth.jpg"
-#collection: publications
 permalink: /publication/12
-venue: "Preprint (under review)"
+excerpt: "Adding layers does not guarantee that a language model performs more distinct computation, and there was no calibrated way to measure how much of its depth is actually used. Effective depth treats the residual stream as a layer-indexed process and summarizes how quickly representations decorrelate: fifteen of sixteen decoder-only models (Qwen3.5, OLMo-2, Pythia) fall below the closed-form orthogonal-update reference, and matched controls attribute the gap to correlated residual updates rather than unused depth."
 ---
 
-We introduce effective depth ($D_{\text{eff}}$), a scalar diagnostic that treats the layer-wise residual stream of a transformer as a discrete-time process, measures how representation similarity decays with layer distance, and aggregates that profile into one number. Across sixteen decoder-only language models, $D_{\text{eff}}$ separates structural consequences of residual accumulation from empirical signatures of correlated residual updates. Matched references, token-normalisation, position controls, and top-principal-component controls show that the observed sub-reference regime is not reducible to simple BOS or top-PC artefacts. Intermediate checkpoints further suggest that the regime can be established early and remain stable through training. The diagnostic is best read as a global accumulated-state measure, not as a capability score or pruning recipe.
+We introduce effective depth ($D_{\text{eff}}$), a scalar diagnostic that treats the layer-wise residual stream of a transformer as a discrete-time process, measures how representation similarity decays with layer distance, and aggregates that profile into one number. Across sixteen decoder-only language models, $D_{\text{eff}}$ separates a structural consequence of residual accumulation from an empirical one: even maximally diverse orthogonal updates have the closed-form reference $F_L = 2L/(L+1) < 2$, yet fifteen of sixteen default measurements lie below $F_L$ (Qwen3.5: 32-44%, OLMo-2: 40-41%, Pythia: 23-28%). Matched references show that the gap is not caused by the persistent initial state or update-size imbalance, but is largely a calibrated signature of correlated residual updates rather than evidence that depth is unused. Symmetric position-0, token-normalisation, and top-PC controls show the regime is not reducible to BOS or top-PC artefacts: the lone above-reference default outlier joins the same regime, and all sixteen models are sub-reference after token-normalisation or top-1-PC removal. Intermediate checkpoints show that the regime is established early in OLMo-2 and stable through 5T tokens, while Pythia-1.4B follows a distinct decreasing trajectory. A controlled residual-carry intervention supports the mechanism, and $D_{\text{eff}}$ is best read as a global accumulated-state diagnostic, not as a capability score or pruning method.
 
-Preprint.
+Accepted at the Asian Conference on Machine Learning (ACML 2026), to appear in Proceedings of Machine Learning Research (PMLR). With Ido Galil and Alex M. Bronstein. Preprint: [arXiv:2609.31098](https://arxiv.org/abs/2609.31098).

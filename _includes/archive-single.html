@@ -14,19 +14,25 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
       </h2>
 
-      {% if post.title == "Robusta" %}
-        <p>Internship, can be sent upon request</p>
-      {% elsif post.venue or post.date %}
-        <p>
-          {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}
-          {% if post.venue and post.date %}, {% endif %}
-          {% if post.date %}{{ post.date | date: "%Y" }}{% endif %}
+      {% if post.authors %}
+        <p class="publication__authors">{{ post.authors | replace: "Barak Gahtan", "<strong>Barak Gahtan</strong>" }}</p>
+      {% endif %}
+      {% if post.venue or post.date %}
+        <p class="publication__venue">
+          {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.venue and post.date %}, {% endif %}{% if post.date %}{{ post.date | date: "%Y" }}{% endif %}
         </p>
       {% else %}
-        <p>Under review, can be sent upon request.</p>
+        <p class="publication__venue">Under review, can be sent upon request.</p>
       {% endif %}
       {% if post.excerpt %}
         <p class="publication__excerpt">{{ post.excerpt }}</p>
+      {% endif %}
+      {% if post.arxiv or post.paperurl or post.pdf %}
+        <p class="publication__links">
+          {% if post.arxiv %}<a href="{{ post.arxiv }}">arXiv</a>{% endif %}
+          {% if post.paperurl %}{% if post.arxiv %}&middot;{% endif %} <a href="{{ post.paperurl }}">Publisher</a>{% endif %}
+          {% if post.pdf %}{% if post.arxiv or post.paperurl %}&middot;{% endif %} <a href="{{ base_path }}{{ post.pdf }}">PDF</a>{% endif %}
+        </p>
       {% endif %}
     </div>
   </div>
