@@ -2,6 +2,29 @@
 
 Living session-handoff doc (global CLAUDE.md §10).
 
+## CURRENT STATE (2026-10-13, end of session; read this first)
+
+**Live site = `main` HEAD 49a6b6d at https://www.barakgahtan.com (GitHub Pages legacy branch build, verified).** Everything below is pushed; working tree clean except this file.
+
+**Accomplished today (4 pushes):**
+1. 67ee0ed: ACML 2026 acceptances (pubs 12, 14), Apple role marked as a completed contract, recruiter-style publications (authors, venue, two-sentence summaries, arXiv/Publisher/PDF links, grouped peer-reviewed vs under review).
+2. d60215e: redesign in place (Barak rejected the artifact prototype, asked for "a mix between my current design and the design you showed me... best for industry"): `_layouts/home.html` + `_data/home.yml`, `_data/news.yml` + `_pages/news.md`, `_sass/_home.scss` tokens, Inter/Instrument Sans/JetBrains Mono, navy dark palette, nav = Publications · CV · Projects · News · Running · Contact, internal files excluded from the build.
+3. 49d8c6e: designed thumbnail for pub 14 (`images/thumb-coupledqk.svg` -> `.jpg`).
+4. 3fffbe8 + 49a6b6d: CV "Academic Service" section (reviewer for ACM ICMI, IEEE conferences and journals, other venues; MSc mentoring); Apple start month corrected to MAY 2026 (news 5/2026, CV "May 2026 - October 2026").
+
+**Next steps (none started):**
+- Confirm with Barak: the hero status line in `/Users/barak/Projects/barakgahtan.github.io/_data/home.yml` ("Open to research scientist and applied scientist roles..."); the Apple END month (October assumed); whether reviewing should also appear on the home page highlights.
+- Thumbnail for pub 15 (cardio drift, no PDF locally); optional illustrations in the pub-14 style for pubs 12, 11, 9 (consistent 16:7).
+- Dated CV PDF in `files/` for the hero "Curriculum vitae" button (currently links to /cv/); his newest docx `/Users/barak/Library/Mobile Documents/com~apple~CloudDocs/Barak Folder/CV/BarakGahtan_CV26-9-26.docx` still says Apple "June ... Present"; CV summary rewrite draft was given in chat (AI-researcher framing) but not applied anywhere.
+- PMLR volume/pages for pubs 12 and 14 when the proceedings appear; optional filter chips on /publications/.
+- Longer term: Astro rebuild if the Jekyll skeleton limits (report section 3).
+
+**Key paths:** report `/Users/barak/research/academic-website-redesign-2026-10-13.md`; plan `/Users/barak/Projects/barakgahtan.github.io/tasks/todo.md`; lessons `tasks/lessons.md`; rejected prototype artifact https://claude.ai/artifact/3LPSKZzLrSwAXBPJwzs1ec (keep for reference only).
+
+**Local build (works, 3 s):** `cd /Users/barak/Projects/barakgahtan.github.io && PATH=/opt/homebrew/opt/ruby@3.3/bin:$PATH GEM_HOME=$HOME/.gem/ruby33 BUNDLE_PATH=$PWD/vendor/bundle $HOME/.gem/ruby33/bin/bundle exec jekyll build -d /tmp/_site_prod`. For file:// previews add `--config _config.yml,<cfg>` where cfg sets `url: "file:///path/to/_site"`. Mobile screenshots: `~/Library/Caches/ms-playwright/chromium_headless_shell-1223/chrome-headless-shell-mac-arm64/chrome-headless-shell --headless --window-size=390,3400 --virtual-time-budget=8000 --screenshot=out.png file://...` (Chrome.app headless ignores widths under ~500 px). Verify live: `gh api repos/BarakGahtan/barakgahtan.github.io/pages/builds/latest` (gh at /Users/barak/.local/bin/gh) then curl with a cache-busting query.
+
+**Gotchas:** never name a zsh variable `path` (clobbers PATH); kramdown turns ` | ` into tables; a bare `$` in an excerpt opens MathJax; `git add` with an explicitly named ignored path aborts the chain; the dark theme is `data-theme="dark"` on `<html>` set by `assets/js/dark-mode.js` (no CSS prefers-color-scheme fallback).
+
 ## 2026-09-04 — Full content refresh (bio, news, CV, publications)
 
 Sources of truth used: CV docx `/Users/barak/Library/Mobile Documents/com~apple~CloudDocs/Barak Folder/CV/BarakGahtan1-9-26.docx` (Sept 1, 2026) and `/Users/barak/Desktop/my-papers/` (Presented vs "Under review " folders, note trailing space in dir name).
