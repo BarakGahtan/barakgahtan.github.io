@@ -58,7 +58,13 @@ Awards & Grants
 * **Ministry of Science Scholarship** for graduate students serving in military reserves (2024).
 * **Technion Sports Excellence Scholarship** for athletic contributions.
 
-Service & Personal
+Academic Service
+======
+
+* Reviewer for ACM ICMI, IEEE conferences and journals, and other venues.
+* Mentor to several MSc students; project advisor for deep learning, vision, medical, network and LLM projects at the Technion.
+
+Personal
 ======
 
 * Major (Res.), Israel Defense Forces, 55th Paratroopers Brigade.
