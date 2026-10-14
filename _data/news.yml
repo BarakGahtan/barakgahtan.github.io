@@ -1,6 +1,6 @@
 # Newest first. `date` is the first of the month; the templates show month/year.
 - date: 2026-10-01
-  text: "Completed my research contract with Apple's Video Engineering group, where I modeled instantaneous VO₂ from 3D human pose in video."
+  text: "Completed my independent contract with Apple's Video Engineering group, where I modeled instantaneous VO₂ from 3D human pose in video."
 - date: 2026-09-01
   text: "\"Invertible Query-Key Coupling Composes with Attention Mechanisms\" has been accepted to the Asian Conference on Machine Learning (ACML 2026)."
   url: /publication/14

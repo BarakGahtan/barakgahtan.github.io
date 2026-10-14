@@ -12,7 +12,7 @@ redirect_from:
 Work Experience
 ======
 
-* **Deep Learning Researcher (Contract) · Apple, Video Engineering Group (May 2026 - October 2026)**
+* **Deep Learning Researcher (Independent Contractor) · Apple, Video Engineering Group (May 2026 - October 2026)**
 
   Developed deep learning models for physiological estimation from video: modeling instantaneous VO₂ and related metabolic dynamics from 3D human pose, including step-test protocols.
 

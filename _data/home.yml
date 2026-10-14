@@ -6,7 +6,7 @@ lede: >-
   missing, and collected far from the lab. I bring the structure of the domain, whether physiology, physics, or
   network behavior, into modern models so they are not only accurate but interpretable and reliable, and I apply the
   same lens to large language models, asking what they actually compute rather than trusting their headline scores.
-  I completed my PhD at the Technion in 2026 with Alex Bronstein and Reuven Cohen, and spent 2026 as a research
+  I completed my PhD at the Technion in 2026 with Alex Bronstein and Reuven Cohen, and spent 2026 as an independent
   contractor with Apple's Video Engineering group.
 status: "Open to research scientist and applied scientist roles in LLM understanding, physics-informed AI and sensing."
 buttons:
@@ -37,7 +37,7 @@ highlights:
     caption: "First instantaneous VO₂ from a consumer smartwatch"
     url: /publication/9
   - label: "Technion · Apple"
-    caption: "PhD in Computer Science; research contractor, Video Engineering"
+    caption: "PhD in Computer Science; independent contractor, Apple Video Engineering"
     url: /cv/
 themes:
   - title: "What transformers actually compute"
