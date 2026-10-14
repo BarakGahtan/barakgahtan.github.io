@@ -2,12 +2,12 @@
 eyebrow: "Deep learning researcher · PhD, Technion (2026)"
 headline: "I study what deep models actually compute, and how to build physical and physiological structure into them."
 lede: >-
-  I build deep learning systems for things that are hard to measure: what happens inside a language model, how fire
-  spreads across terrain, and how the body responds to exercise. Recently that has meant diagnostics that show how
-  much of a transformer's depth is real computation, a differentiable solver that learns wildfire spread from
-  observed fire perimeters, and models that estimate oxygen consumption from a smartwatch or from a video of someone
-  running. I completed my PhD at the Technion in 2026 with Alex Bronstein and Reuven Cohen, and spent 2026 as a
-  research contractor with Apple's Video Engineering group.
+  My research is about deep learning for real-world temporal and spatiotemporal data: signals that are noisy, partly
+  missing, and collected far from the lab. I bring the structure of the domain, whether physiology, physics, or
+  network behavior, into modern models so they are not only accurate but interpretable and reliable, and I apply the
+  same lens to large language models, asking what they actually compute rather than trusting their headline scores.
+  I completed my PhD at the Technion in 2026 with Alex Bronstein and Reuven Cohen, and spent 2026 as a research
+  contractor with Apple's Video Engineering group.
 status: "Open to research scientist and applied scientist roles in LLM understanding, physics-informed AI and sensing."
 buttons:
   - label: "Curriculum vitae"
