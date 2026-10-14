@@ -16,7 +16,7 @@ buttons:
   - label: "Google Scholar"
     url: https://scholar.google.com/citations?user=Uph8rcwAAAAJ&hl=en&oi=ao
   - label: "arXiv"
-    url: https://arxiv.org/a/gahtan_b_1
+    url: "https://arxiv.org/search/?searchtype=author&query=Gahtan%2C+B"
 links:
   - label: "GitHub"
     url: https://github.com/BarakGahtan
