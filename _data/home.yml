@@ -1,6 +1,6 @@
 # Home page content. Edit text here; layout lives in _layouts/home.html.
 eyebrow: "Deep learning researcher · PhD, Technion (2026)"
-headline: "I study what deep models actually compute, and how to build physical and physiological structure into them."
+headline: "Models for hard-to-measure signals, with the physics and physiology built in."
 lede: >-
   My research is about deep learning for real-world temporal and spatiotemporal data: signals that are noisy, partly
   missing, and collected far from the lab. I bring the structure of the domain, whether physiology, physics, or
