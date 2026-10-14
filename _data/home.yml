@@ -2,11 +2,12 @@
 eyebrow: "Deep learning researcher · PhD, Technion (2026)"
 headline: "I study what deep models actually compute, and how to build physical and physiological structure into them."
 lede: >-
-  My recent work builds calibrated diagnostics for language models: effective depth, the shuffle gap and
-  invertible query-key coupling, with two first-author papers at ACML 2026. Alongside, I keep classical structure
-  inside the learning loop: a differentiable Randers-Finsler eikonal solver for wildfire spread (SGP 2026,
-  Computer Graphics Forum) and physiologically constrained models that estimate VO₂ from smartwatches and from
-  3D human pose in video (ACM ICMI 2025, Apple). PhD advised by Alex Bronstein and Reuven Cohen.
+  I build deep learning systems for things that are hard to measure: what happens inside a language model, how fire
+  spreads across terrain, and how the body responds to exercise. Recently that has meant diagnostics that show how
+  much of a transformer's depth is real computation, a differentiable solver that learns wildfire spread from
+  observed fire perimeters, and models that estimate oxygen consumption from a smartwatch or from a video of someone
+  running. I completed my PhD at the Technion in 2026 with Alex Bronstein and Reuven Cohen, and spent 2026 as a
+  research contractor with Apple's Video Engineering group.
 status: "Open to research scientist and applied scientist roles in LLM understanding, physics-informed AI and sensing."
 buttons:
   - label: "Curriculum vitae"
