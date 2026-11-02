@@ -90,3 +90,7 @@ Barak rejected the artifact prototype ("something different... a mix between my 
 **2026-10-13 (late):** pub 14 now has a thumbnail, a designed illustration of the mechanism (q,k -> invertible coupling -> q',k' -> causal softmax map) rendered from `images/thumb-coupledqk.svg` to `thumb-coupledqk.jpg` (1120x490, 16:7, site palette). Recipe: edit the SVG, render with the Playwright headless shell at `--force-device-scale-factor=2`, `sips -Z 1120` to JPEG. Pub 15 (cardio drift) still has no image; no PDF is available locally for it. Commit 49d8c6e, verified live.
 
 **2026-10-13 (correction from Barak):** Apple start month is MAY 2026, not June (news item now 5/2026; CV says May 2026 - October 2026). His CV docx still says June; the end month (October) remains his to confirm.
+
+- 2026-10-14: home headline changed to "Models for hard-to-measure signals, with the physics and physiology built in." (commit 8368e6a, Barak picked it from four options). CV docx was rebuilt the same day; see memory user_apple_contractor.md.
+
+- 2026-11-02: external links open in a new tab. `assets/js/external-links.js` (loaded from `_includes/scripts.html`) adds target=_blank and rel=noopener to any anchor whose host, www stripped, differs from the page host; same-site, in-page and mailto links are untouched. Verified in headless Chrome on the local build (52 external anchors marked across /, /publications/, /cv/, /about-page/; 0 internal anchors touched).
