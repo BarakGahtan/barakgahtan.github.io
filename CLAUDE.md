@@ -1,16 +1,25 @@
 # barakgahtan.github.io
 
-Academic personal website (GitHub Pages). Includes the BarakFinance link card.
+Personal academic site, Astro 7, deployed to GitHub Pages by GitHub Actions on every push to `main`
+(custom domain www.barakgahtan.com via `public/CNAME`). Rebuilt from the Jekyll/academicpages site on 2026-11-03;
+the old site is tagged `jekyll-final` and kept on branch `jekyll-archive`.
+
+## Working rules
+
+- Content is data: edit `src/data/*.yaml`, `src/content/publications/*.md`, `src/content/posts/*.md`,
+  `src/pages/*.md`. Layout lives in `src/layouts`, `src/components`, `src/pages/*.astro`; tokens in
+  `src/styles/global.css` (light and dark via `light-dark()`, theme toggle sets `data-theme`).
+- Keep old URLs working. New redirects go in `astro.config.mjs`; publication ids must stay as they are
+  (`/publication/9`, `/publication/UsingDeepReinforcement`).
+- Links to other hosts open in a new tab at build time (`rehype-external-links` for Markdown, `linkAttrs()` in
+  `src/lib/site.ts` for templates). Raw HTML anchors in Markdown need the attributes written by hand.
+- No em-dashes anywhere on the site. Dates in `news.yaml` are quoted strings.
+- Never put the phone number on the web CV. The Word CV in iCloud remains the PDF master.
+- Verify before calling anything done: `npm run build`, `npm run check`, then a headless Chrome screenshot pass
+  (`/Applications/Google Chrome.app/Contents/MacOS/Google Chrome --headless=new --screenshot=... --window-size=...`
+  against `python3 -m http.server -d dist`).
 
 ## Methodology
 
-Follows the global operating guide (`~/.claude/CLAUDE.md`): plan mode for
-non-trivial work; `tasks/todo.md` (plan) + `tasks/lessons.md` (corrections) +
-`tasks/HANDOFF.md` (living session state); automatic context handoff at 45%/70%
-(§10 — handoff slug = this directory name: `barakgahtan.github.io`); memory hygiene (§1.3).
-
-## Links
-
-- Research wiki search: `~/.claude/wiki/.venv/bin/python ~/.claude/wiki/wiki_search.py --json --k 6 "<query>"`
-
-<!-- Stub seeded 2026-07-10 by the org-wide standardization pass. Extend freely. -->
+Follows the global operating guide (`~/.claude/CLAUDE.md`): plan mode for non-trivial work; `tasks/todo.md` (plan),
+`tasks/lessons.md` (corrections), `tasks/HANDOFF.md` (living session state); handoff slug = `barakgahtan.github.io`.

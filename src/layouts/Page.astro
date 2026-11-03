@@ -1,0 +1,30 @@
+---
+// Layout for markdown pages (src/pages/*.md) and simple article pages.
+import Base from './Base.astro';
+
+interface Fields {
+  title?: string;
+  description?: string;
+  eyebrow?: string;
+  lede?: string;
+  wide?: boolean;
+}
+interface Props extends Fields {
+  frontmatter?: Fields;
+}
+
+const fm: Fields = Astro.props.frontmatter ?? Astro.props;
+---
+
+<Base title={fm.title} description={fm.description} wide={fm.wide}>
+  <article>
+    <div class="page-head">
+      {fm.eyebrow && <p class="eyebrow">{fm.eyebrow}</p>}
+      <h1>{fm.title}</h1>
+      {fm.lede && <p class="lede">{fm.lede}</p>}
+    </div>
+    <div class="prose">
+      <slot />
+    </div>
+  </article>
+</Base>

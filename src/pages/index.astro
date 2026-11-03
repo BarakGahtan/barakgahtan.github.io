@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import PubEntry from '../components/PubEntry.astro';
+import NewsList from '../components/NewsList.astro';
+import { home, news, profile } from '../lib/data';
+import { linkAttrs, noHyphenBreaks } from '../lib/site';
+
+const pubs = await getCollection('publications');
+const featured = pubs.filter((p) => p.data.featured).sort((a, b) => b.data.order - a.data.order);
+---
+
+<Base wide>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">{home.eyebrow}</p>
+      <h1 class="hero__title">{noHyphenBreaks(home.headline)}</h1>
+      <p class="hero__lede">{home.lede}</p>
+      {home.status && <p class="hero__status"><span class="hero__dot" aria-hidden="true"></span>{home.status}</p>}
+      <div class="actions">
+        {home.buttons.map((b) => (
+          <a class:list={['btn', { 'btn--primary': b.primary }]} href={b.url} {...linkAttrs(b.url)}>{b.label}</a>
+        ))}
+      </div>
+      <ul class="inline-links" id="contact">
+        {home.links.map((l) => <li><a href={l.url} {...linkAttrs(l.url)}>{l.label}</a></li>)}
+      </ul>
+    </div>
+    <img class="hero__photo" src={profile.photo} alt={profile.name} width="800" height="800" />
+  </section>
+
+  <section class="highlights" aria-label="Highlights">
+    {home.highlights.map((h) => (
+      <a class="hl" href={h.url}><b>{h.label}</b><span>{h.caption}</span></a>
+    ))}
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Selected work</h2><a href="/publications/">All {pubs.length} publications</a></div>
+    <ul class="pub-list">{featured.map((p) => <PubEntry pub={p} />)}</ul>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Research themes</h2><a href="/about-page/">More about my research</a></div>
+    <div class="themes">
+      {home.themes.map((t) => (
+        <div class="theme">
+          <h3>{t.title}</h3>
+          <p>{t.text}</p>
+          <div class="theme__papers">{t.papers.map((pp) => <a href={pp.url}>{pp.title}</a>)}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>News</h2><a href="/news/">All news</a></div>
+    <NewsList items={news.slice(0, 8)} />
+  </section>
+</Base>

@@ -94,3 +94,24 @@ Barak rejected the artifact prototype ("something different... a mix between my 
 - 2026-10-14: home headline changed to "Models for hard-to-measure signals, with the physics and physiology built in." (commit 8368e6a, Barak picked it from four options). CV docx was rebuilt the same day; see memory user_apple_contractor.md.
 
 - 2026-11-02: external links open in a new tab. `assets/js/external-links.js` (loaded from `_includes/scripts.html`) adds target=_blank and rel=noopener to any anchor whose host, www stripped, differs from the page host; same-site, in-page and mailto links are untouched. Verified in headless Chrome on the local build (52 external anchors marked across /, /publications/, /cv/, /about-page/; 0 internal anchors touched).
+
+## 2026-11-03: site rebuilt on Astro 7 (branch `astro`, worktree /Users/barak/Projects/barakgahtan.github.io-astro)
+
+Barak asked for a complete redo ("theme wise, the engine behind it, everything") and delegated the decisions ("I trust you").
+- Engine: Astro 7.4 with `@astrojs/sitemap`, `@astrojs/rss`, `@rollup/plugin-yaml`, `rehype-external-links` (needs the
+  `@astrojs/markdown-remark` bridge because Astro 7 defaults to the Sätteri Markdown processor), fontsource fonts
+  (Newsreader variable for headings, Inter variable for body, IBM Plex Mono for labels). No Tailwind, one `global.css`.
+- Content ported by a one-off script (scratchpad `port/port.mjs`): 13 publications → `src/content/publications/<id>.md`
+  (ids = old permalink tails), 7 posts → `src/content/posts/blog-N.md` (URLs `/blog/blog-N/` unchanged), 6 markdown pages
+  in `src/pages`, `home.yaml` and `news.yaml` copied. LaTeX in three abstracts converted to HTML/Unicode; em-dashes removed.
+- New pages: home, publications (two groups, year shown once), publication detail with abstract, CV from `src/data/cv.yaml`
+  (content of the 14 Oct 2026 Word CV, no phone number, print button), news, `/running/` hub (old `/posts/` redirects to it),
+  404, `/feed.xml`, `/sitemap.xml` endpoint pointing at `sitemap-index.xml`.
+- Redirects in `astro.config.mjs` for every retired URL (Academic, teaching, resume, contact, talks, talkmap, sitemap page,
+  the three award pages → `/cv/#awards`). URL parity: all 51 URLs of the old sitemap resolve (checked locally with curl).
+- Deployment: `.github/workflows/deploy.yml` (actions/checkout@v7, withastro/action@v6, actions/deploy-pages@v5). Pages source
+  must be set to GitHub Actions (`gh api -X PUT repos/BarakGahtan/barakgahtan.github.io/pages -f build_type=workflow`).
+  Rollback: tag `jekyll-final`, branch `jekyll-archive`; see README.
+- Verification done: `npm run build` (32 pages), `npm run check` (0 errors), headless Chrome screenshots desktop/phone/dark.
+- Open items for Barak: whether to add a CV PDF download (the Word CV carries his phone number), BibTeX per paper, and
+  whether the running section should stay in the main navigation.

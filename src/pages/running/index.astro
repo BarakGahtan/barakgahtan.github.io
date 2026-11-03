@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { profile } from '../../lib/data';
+import { linkAttrs, monthYear } from '../../lib/site';
+
+const posts = (await getCollection('posts')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const strava = profile.links.find((l) => l.label === 'Strava');
+const resources = [
+  { title: 'Marathon Race Guide', url: '/race-guide/', text: 'Twenty top marathon courses ranked by how friendly they are to a personal best.' },
+  { title: 'Pace Calculator', url: '/pace-calculator/', text: 'Pace conversion table with race equivalents.' },
+  { title: 'Recommended Books', url: '/recommended-books/', text: 'A curated collection of running books.' },
+  { title: 'Recommended Podcasts', url: '/recommended-podcasts/', text: 'Running podcasts worth listening to.' },
+];
+---
+
+<Base title="Running" description="Marathon running, coaching, and posts on the science of running: shoes, VO2, lactate and nutrition.">
+  <div class="page-head">
+    <p class="eyebrow">Running</p>
+    <h1>Running</h1>
+    <p class="lede">
+      I have run long distances for over a decade and race for the ASICS FrontRunner team, with a marathon best of 2:43:22.
+      I also coach amateur long-distance runners. These pages collect what I have learned along the way.
+      {strava && <>{' '}Training is on <a href={strava.url} {...linkAttrs(strava.url)}>Strava</a>.</>}
+    </p>
+  </div>
+
+  <section class="section">
+    <div class="section-head"><h2>Resources</h2></div>
+    <ul class="news">
+      {resources.map((r) => (
+        <li><span class="meta">Guide</span><span><a href={r.url}>{r.title}</a>: {r.text}</span></li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Posts</h2><a href="/feed.xml">RSS</a></div>
+    <ul class="news">
+      {posts.map((p) => (
+        <li>
+          <time datetime={p.data.date.toISOString().slice(0, 7)}>{monthYear(p.data.date)}</time>
+          <span><a href={`/blog/${p.id}/`}>{p.data.title}</a></span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>

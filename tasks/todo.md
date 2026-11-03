@@ -1,24 +1,21 @@
-# TODO: site redesign (started 2026-10-13)
+# Site rebuild on Astro (2026-11-03)
 
-Goal: replace the tight academicpages layout with a spacious, well-typeset researcher site that a recruiter can scan in ten seconds.
+Goal: replace the Jekyll/academicpages site with an Astro 7 site, new design, same domain and URLs.
 
-Research + proposal
-- [x] Audit current site (desktop 1440, true 390 mobile, theme variables): `/Users/barak/research/academic-website-redesign-2026-10-13.md` section 1
-- [x] Design-research pass (principles, exemplars, what recruiters scan for)
-- [x] Template evaluation pass (restyle in place vs al-folio vs Hugo Blox vs Astro/Tailwind)
-- [x] Prototype home + publications layout with two visual directions: https://claude.ai/artifact/3LPSKZzLrSwAXBPJwzs1ec
-- [x] Barak rejected both prototype directions; asked for a mix of the current site and the new design, tuned for industry (2026-10-13)
-- [x] Rebuild path: restyle in place (keeps masthead, profile sidebar on inner pages, all personal pages)
+- [x] Archive the Jekyll site (tag `jekyll-final`, branch `jekyll-archive`), work on branch `astro` in a worktree
+- [x] Scaffold Astro 7 (sitemap, RSS, YAML data, rehype-external-links, fontsource fonts)
+- [x] Port content: 13 publications and 7 posts as content collections, 6 markdown pages, home/news data
+- [x] Write layouts, components, global stylesheet (light-dark tokens, Newsreader + Inter + IBM Plex Mono)
+- [x] Pages: home, publications, publication detail, CV (from cv.yaml), news, running hub, posts, 404, feed.xml
+- [x] Redirects for every retired Jekyll URL (Academic, teaching, contact, talks, award pages, sitemap)
+- [x] Build locally, run `astro check`, fix errors
+- [x] URL parity: every one of the 51 old sitemap URLs resolves (page, file or redirect)
+- [x] Visual QA in headless Chrome at desktop and phone widths, light and dark
+- [x] Rewrite README.md and CLAUDE.md for the Astro site, update tasks/HANDOFF.md
+- [ ] Merge to main, switch Pages to GitHub Actions, verify the live site, record the rollback recipe
 
-Implementation (after approval)
-- [x] Built and verified locally (Jekyll via Homebrew ruby@3.3, vendor/bundle) before pushing to main
-- [x] Tokens + type scale + both themes in `_sass/_home.scss`; fonts in `_variables.scss`; dark palette in `_dark-mode.scss`
-- [x] Home: hero, highlights, selected work (4 featured cards), themes + news (`_layouts/home.html`, `_data/home.yml`)
-- [x] Publications page: grouped rows kept, intro fixed, wider column (filter chips deferred)
-- [x] Inner pages: wider column, sidebar without the Follow button
-- [x] Pub 14 thumbnail: designed attention-coupling illustration (`images/thumb-coupledqk.jpg`, editable SVG source `images/thumb-coupledqk.svg`); still open: pub 15 thumbnail, consistent 16:7 crops for the other featured papers
-- [x] Navigation: Publications · CV · Projects · News · Running · Contact; old URLs untouched (`/about-page/`, `/Academic/` still exist)
-- [ ] Verify live at 1440 and 390, light and dark after the push
-
-Review
-- [ ] Record what changed, open items, and lessons in `tasks/HANDOFF.md` and `tasks/lessons.md`
+## Decisions
+- Astro over al-folio/Hugo Blox: typed content, zero runtime JS, Node toolchain already present.
+- Running material stays at its old URLs, grouped under /running/ and kept out of the main story.
+- Web CV comes from `src/data/cv.yaml`; the Word document stays the PDF master. No phone number on the web.
+- External links open in a new tab at build time (rehype plugin + `linkAttrs` helper), replacing the runtime script.

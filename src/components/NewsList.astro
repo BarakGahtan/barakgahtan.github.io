@@ -1,0 +1,19 @@
+---
+import type { NewsItem } from '../lib/data';
+import { monthYear } from '../lib/site';
+
+interface Props {
+  items: NewsItem[];
+}
+
+const { items } = Astro.props;
+---
+
+<ul class="news">
+  {items.map((n) => (
+    <li>
+      <time datetime={n.date.slice(0, 7)}>{monthYear(n.date)}</time>
+      <span>{n.url ? <a href={n.url}>{n.text}</a> : n.text}</span>
+    </li>
+  ))}
+</ul>

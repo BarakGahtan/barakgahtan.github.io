@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { cv, profile } from '../lib/data';
+import { linkAttrs, venueLine } from '../lib/site';
+
+const selected = (await getCollection('publications'))
+  .filter((p) => p.data.featured)
+  .sort((a, b) => b.data.order - a.data.order);
+const contactLinks = profile.links.filter((l) => l.label !== 'Strava');
+---
+
+<Base title="CV" description={cv.summary}>
+  <article class="cv">
+    <div class="cv-head">
+      <div>
+        <p class="eyebrow">Curriculum vitae</p>
+        <h1>{cv.name}</h1>
+        <p class="lede">{cv.tagline}</p>
+      </div>
+      <button class="btn cv-actions" type="button" id="print-cv">Print or save as PDF</button>
+    </div>
+    <ul class="inline-links">
+      <li><a href={`mailto:${profile.email}`}>{profile.email}</a></li>
+      {contactLinks.map((l) => <li><a href={l.url} {...linkAttrs(l.url)}>{l.label}</a></li>)}
+    </ul>
+
+    <section class="cv-section">
+      <h2>Summary</h2>
+      <p>{cv.summary}</p>
+      <dl class="cv-kv">
+        <dt>Methods</dt><dd>{cv.methods}</dd>
+        <dt>Tools</dt><dd>{cv.tools}</dd>
+      </dl>
+    </section>
+
+    <section class="cv-section">
+      <h2>Experience</h2>
+      {cv.experience.map((job) => (
+        <div class="cv-item">
+          <p class="cv-item__title">{job.role}</p>
+          <span class="cv-item__dates">{job.dates}</span>
+          <p class="cv-item__org">{job.org}</p>
+          {job.bullets && <ul>{job.bullets.map((b) => <li>{b}</li>)}</ul>}
+        </div>
+      ))}
+    </section>
+
+    <section class="cv-section">
+      <h2>Education</h2>
+      {cv.education.map((deg) => (
+        <div class="cv-item">
+          <p class="cv-item__title">{deg.degree}</p>
+          <span class="cv-item__dates">{deg.dates}</span>
+          <p class="cv-item__org">{deg.org}</p>
+          {deg.note && <ul><li>{deg.note}</li></ul>}
+        </div>
+      ))}
+    </section>
+
+    <section class="cv-section">
+      <h2>Selected publications</h2>
+      <ol class="cv-pubs">
+        {selected.map((p) => (
+          <li>
+            <a href={`/publication/${p.id}/`}>{p.data.title}</a>
+            <span class="meta">{venueLine(p.data.venue_short, p.data.year)}</span>
+          </li>
+        ))}
+      </ol>
+      <p style="margin-top: .75rem; font-size: .95rem;"><a href="/publications/">All publications</a></p>
+    </section>
+
+    <section class="cv-section" id="awards">
+      <h2>Awards and grants</h2>
+      <ul class="cv-list">{cv.awards.map((a) => <li>{a}</li>)}</ul>
+    </section>
+
+    <section class="cv-section">
+      <h2>Academic service</h2>
+      <ul class="cv-list">{cv.service.map((s) => <li>{s}</li>)}</ul>
+    </section>
+
+    <section class="cv-section">
+      <h2>Personal</h2>
+      <ul class="cv-list">{cv.personal.map((s) => <li>{s}</li>)}</ul>
+    </section>
+  </article>
+</Base>
+
+<script>
+  document.getElementById('print-cv')?.addEventListener('click', () => window.print());
+</script>

@@ -1,0 +1,21 @@
+---
+import { profile } from '../lib/data';
+import { linkAttrs } from '../lib/site';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <ul class="inline-links">
+      <li><a href={`mailto:${profile.email}`}>{profile.email}</a></li>
+      {profile.links.map((l) => <li><a href={l.url} {...linkAttrs(l.url)}>{l.label}</a></li>)}
+    </ul>
+    <ul class="inline-links">
+      <li><a href="/projects/">Projects</a></li>
+      <li><a href="/running/">Running</a></li>
+      <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+    <span>© {year} Barak Gahtan</span>
+  </div>
+</footer>

@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { authorParts, linkAttrs, venueLine } from '../lib/site';
+
+interface Props {
+  pub: CollectionEntry<'publications'>;
+  thumb?: boolean;
+}
+
+const { pub, thumb = true } = Astro.props;
+const d = pub.data;
+const url = `/publication/${pub.id}/`;
+const summary = d.takeaway ?? d.excerpt;
+const publisherLabel = d.paperurl?.includes('doi.org') ? 'DOI' : 'Publisher';
+---
+
+<li class:list={['pub', { 'pub--no-thumb': !thumb }]}>
+  {thumb && (d.thumbnail
+    ? <a class="pub__thumb" href={url}><img src={`/images/${d.thumbnail}`} alt="" loading="lazy" width="1120" height="490" /></a>
+    : <a class="pub__thumb pub__thumb--type" href={url}>{d.tile ?? 'Paper'}</a>)}
+  <div>
+    <p class="pub__meta meta">{venueLine(d.venue_short, d.year)}</p>
+    <h3><a href={url}>{d.title}</a></h3>
+    <p class="pub__authors">{authorParts(d.authors).map((part) => (part.me ? <strong>{part.text}</strong> : part.text))}</p>
+    {summary && <p class="pub__takeaway">{summary}</p>}
+    <p class="pub__links">
+      {d.arxiv && <a href={d.arxiv} {...linkAttrs(d.arxiv)}>arXiv</a>}
+      {d.paperurl && <a href={d.paperurl} {...linkAttrs(d.paperurl)}>{publisherLabel}</a>}
+      {d.pdf && <a href={d.pdf}>PDF</a>}
+      <a href={url}>Details</a>
+    </p>
+  </div>
+</li>

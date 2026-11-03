@@ -1,0 +1,30 @@
+---
+import { getCollection, render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { monthYear } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({ params: { id: post.id }, props: { post } }));
+}
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<Base title={post.data.title} description={post.data.description ?? `${post.data.title}, a post on running by Barak Gahtan.`}>
+  <article>
+    <div class="page-head">
+      <p class="eyebrow"><a href="/running/">Running</a> · {monthYear(post.data.date)}</p>
+      <h1>{post.data.title}</h1>
+    </div>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</Base>

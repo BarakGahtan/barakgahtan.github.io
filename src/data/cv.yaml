@@ -1,0 +1,69 @@
+# Web CV. The Word document in iCloud (Barak Folder/CV) remains the master for the PDF version.
+name: Barak Gahtan
+tagline: Deep learning researcher · PhD, Technion (2026) · Tel Aviv, Israel
+summary: >-
+  Deep learning researcher (PhD, Technion, 2026) building models for signals that are hard to measure:
+  physiological state from wearables and video, physical spread processes, and the internals of language models.
+  Produced the first instantaneous VO₂ estimates from a consumer smartwatch (ACM ICMI 2025, oral), extended them
+  to 3D human pose in video as an independent contractor with Apple's Video Engineering group, made eikonal PDE
+  solvers differentiable (SGP 2026), and wrote two first-author ACML 2026 papers on what transformers actually
+  compute. Author of 13 papers, 12 as first author; reviewer for ACM ICMI and IEEE venues.
+methods: State-space and temporal modeling, Kalman filtering, neural ODEs, differentiable PDE solvers, physics-informed deep learning, LLM analysis, signal processing.
+tools: Python, PyTorch, CUDA, DDP, Slurm, Hugging Face, NumPy, pandas, Linux, Git.
+experience:
+  - role: Deep Learning Researcher (Independent Contractor)
+    org: Apple, Video Engineering Group
+    dates: May 2026 – October 2026
+    bullets:
+      - Developed deep learning models that estimate instantaneous VO₂ and physiological state from 3D human pose in video, including step-test protocols, extending the Lab-to-Wrist smartwatch framework to camera-based sensing.
+  - role: Graduate Researcher and Teaching Assistant
+    org: Technion, Computer Science Department
+    dates: April 2021 – October 2026
+    bullets:
+      - "Led four large-scale data collections: the Lab-to-Wrist running dataset (880 hours of smartwatch and ECG heart rate, plus a 30-runner lab cohort with synchronized smartwatch, chest strap, portable metabolic analyzer and blood lactate), six months of wearable monitoring of 135 soldiers (15M+ data-minutes), 100 cellular test drives with DriveU, and 100,000 QUIC traces."
+      - Mentored several MSc students, providing day-to-day guidance on research, implementation, and experimental evaluation.
+      - Project advisor for deep learning, vision, medical data, communication data and LLM projects.
+      - Collaborated with the Israel Olympic Committee and the IQFoil national team on ML-driven analysis of training data toward Paris 2024.
+      - Head TA for Data Structures (234218) across six semesters; TA for Computer Networks (236334).
+  - role: Research Engineer Intern
+    org: Huawei Research Labs, System and Network Architecture team
+    dates: July 2023 – February 2024
+    bullets:
+      - Developed a deep-reinforcement-learning approach for predicting traffic demand matrices in data-center networks, enabling dynamic ToR switch port reconfiguration with optical circuit switching.
+  - role: Research Engineer Intern
+    org: Accenture Research Labs, Cyber Security Research team
+    dates: July 2022 – November 2022
+    bullets:
+      - Built NLP models with CyBERT and BERT for cybersecurity knowledge-graph construction, linking CAPEC attack patterns to the SMESH knowledge graph, and developed ML severity scoring for CWE-product-vendor triples.
+  - role: Research Engineer Intern
+    org: Yahoo Research, Scalables team
+    dates: July 2021 – November 2021
+    bullets:
+      - Co-developed Robusta, a hybrid PMem-DRAM cache with DRAM-like latency, high capacity and a warm start on recovery from failures.
+  - role: Software Engineering Research Intern
+    org: IBM Research Labs, Hybrid Cloud Quality Technologies
+    dates: October 2019 – March 2021
+    bullets:
+      - Developed data-science solutions for parallel job-execution optimization in cloud infrastructure and automatic test-code generation.
+education:
+  - degree: MSc and PhD in Computer Science, direct track
+    org: Technion, Israel Institute of Technology
+    dates: April 2021 – June 2026
+    note: "Advisors: Prof. Alex Bronstein and Prof. Reuven Cohen. Focus: deep learning."
+  - degree: BSc in Computer Engineering
+    org: Technion, Israel Institute of Technology
+    dates: 2016 – 2021
+    note: Combined Computer Science and Electrical Engineering program. Summa cum laude (Winter 2020).
+awards:
+  - "MAFAT, Israel National Research Directorate (2026): co-author of the proposal and assistant investigator on \"Adaptive Video Transmission over a Drone Ad-hoc Network using Reinforcement Learning\" (PI: Prof. Reuven Cohen, one-year grant)."
+  - VATAT Prize for student research in data science at Tech.AI (2024).
+  - Faculty Merit Excellence for Research (December 2023).
+  - Ministry of Science Scholarship for graduate students serving in military reserves (2024).
+  - Technion Sports Excellence Scholarship for athletic contributions.
+service:
+  - Reviewer for ACM ICMI, IEEE conferences and journals, and other venues.
+  - Mentor to several MSc students; project advisor for deep learning, vision, medical, network and LLM projects at the Technion.
+personal:
+  - Major (Res.), Israel Defense Forces, 55th Paratroopers Brigade.
+  - "Long-distance running athlete and coach; marathon PB 2:43:22 (Valencia)."
+  - "Languages: Hebrew (native), English (fluent)."

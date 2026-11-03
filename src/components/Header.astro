@@ -1,0 +1,20 @@
+---
+import { nav } from '../lib/data';
+import ThemeToggle from './ThemeToggle.astro';
+
+const path = Astro.url.pathname;
+const isActive = (item: { url: string; match?: string[] }) =>
+  [item.url, ...(item.match ?? [])].some((prefix) => path.startsWith(prefix));
+---
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="/">Barak Gahtan</a>
+    <nav class="site-nav" aria-label="Main">
+      {nav.main.map((item) => (
+        <a href={item.url} aria-current={isActive(item) ? 'page' : undefined}>{item.label}</a>
+      ))}
+      <ThemeToggle />
+    </nav>
+  </div>
+</header>

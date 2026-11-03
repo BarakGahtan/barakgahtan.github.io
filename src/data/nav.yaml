@@ -1,0 +1,14 @@
+# Main navigation. `match` lists path prefixes that count as "this section" for the active state.
+main:
+  - label: Publications
+    url: /publications/
+    match: [/publications/, /publication/]
+  - label: Research
+    url: /about-page/
+  - label: CV
+    url: /cv/
+  - label: News
+    url: /news/
+  - label: Running
+    url: /running/
+    match: [/running/, /blog/, /race-guide/, /pace-calculator/, /recommended-books/, /recommended-podcasts/]

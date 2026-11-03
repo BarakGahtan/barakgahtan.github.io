@@ -1,0 +1,44 @@
+---
+import { getCollection, render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { authorParts, linkAttrs, venueLine } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const pubs = await getCollection('publications');
+  return pubs.map((pub) => ({ params: { id: pub.id }, props: { pub } }));
+}
+
+interface Props {
+  pub: CollectionEntry<'publications'>;
+}
+
+const { pub } = Astro.props;
+const d = pub.data;
+const { Content } = await render(pub);
+const publisherLabel = d.paperurl?.includes('doi.org') ? 'DOI' : 'Publisher';
+---
+
+<Base title={d.title} description={d.takeaway ?? d.excerpt}>
+  <article>
+    <div class="page-head">
+      <p class="eyebrow"><a href="/publications/">Publications</a> · {venueLine(d.venue_short, d.year)}</p>
+      <h1>{d.title}</h1>
+      <p class="pub-detail__meta">{authorParts(d.authors).map((part) => (part.me ? <strong>{part.text}</strong> : part.text))}</p>
+      <p class="pub-detail__meta pub-detail__venue">{d.venue}</p>
+      <p class="pub__links">
+        {d.arxiv && <a href={d.arxiv} {...linkAttrs(d.arxiv)}>arXiv</a>}
+        {d.paperurl && <a href={d.paperurl} {...linkAttrs(d.paperurl)}>{publisherLabel}</a>}
+        {d.pdf && <a href={d.pdf}>PDF</a>}
+      </p>
+    </div>
+    {d.thumbnail && (
+      <figure class="pub-detail__fig"><img src={`/images/${d.thumbnail}`} alt="" width="1120" height="490" /></figure>
+    )}
+    {d.takeaway && <p class="lede">{d.takeaway}</p>}
+    <div class="prose">
+      <h2>Abstract</h2>
+      <Content />
+    </div>
+  </article>
+</Base>

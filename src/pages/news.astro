@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import NewsList from '../components/NewsList.astro';
+import { news } from '../lib/data';
+---
+
+<Base title="News" description="Papers accepted, preprints posted, and positions held, newest first.">
+  <div class="page-head">
+    <p class="eyebrow">News</p>
+    <h1>News</h1>
+    <p class="lede">Papers accepted, preprints posted, and positions held, newest first.</p>
+  </div>
+  <NewsList items={news} />
+</Base>
