@@ -12,7 +12,7 @@ Goal: replace the Jekyll/academicpages site with an Astro 7 site, new design, sa
 - [x] URL parity: every one of the 51 old sitemap URLs resolves (page, file or redirect)
 - [x] Visual QA in headless Chrome at desktop and phone widths, light and dark
 - [x] Rewrite README.md and CLAUDE.md for the Astro site, update tasks/HANDOFF.md
-- [ ] Merge to main, switch Pages to GitHub Actions, verify the live site, record the rollback recipe
+- [x] Merge to main, switch Pages to GitHub Actions, verify the live site, record the rollback recipe (live 2026-11-03 14:46, run 41638433956)
 
 ## Decisions
 - Astro over al-folio/Hugo Blox: typed content, zero runtime JS, Node toolchain already present.

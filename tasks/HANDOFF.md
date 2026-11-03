@@ -115,3 +115,9 @@ Barak asked for a complete redo ("theme wise, the engine behind it, everything")
 - Verification done: `npm run build` (32 pages), `npm run check` (0 errors), headless Chrome screenshots desktop/phone/dark.
 - Open items for Barak: whether to add a CV PDF download (the Word CV carries his phone number), BibTeX per paper, and
   whether the running section should stay in the main navigation.
+
+**2026-11-03 14:46, live.** Pages source switched to GitHub Actions (`build_type=workflow`), `astro` pushed to `main` as 9129f73,
+deploy run 41638433956 succeeded. Live checks: home, publications, CV, running, posts, feed, sitemap.xml, robots, PDFs all 200;
+old URLs redirect (meta refresh) and `/publication/9` 301s to the trailing-slash form; 404 page served; headless Chrome audit on the
+live home and books pages found every external link marked `target=_blank rel=noopener` and no internal link touched. The main checkout
+now holds the Astro tree (`npm install` done, `vendor/` removed); the `astro` worktree and branch were deleted after the merge.
