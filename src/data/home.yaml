@@ -1,7 +1,7 @@
 # Home page content. Layout lives in src/pages/index.astro.
 eyebrow: Deep learning researcher · PhD, Technion (2026)
 headline: Models for hard-to-measure signals, with the physics and physiology built in.
-lede: "My research is about deep learning for real-world temporal and spatiotemporal data: signals that are noisy, partly missing, and collected far from the lab. I bring the structure of the domain, whether physiology, physics, or network behavior, into modern models so they are not only accurate but interpretable and reliable, and I apply the same lens to large language models, asking what they actually compute rather than trusting their headline scores. I completed my PhD at the Technion in 2026 with Alex Bronstein and Reuven Cohen, and spent 2026 as an independent contractor with Apple's Video Engineering group."
+lede: "My research is about deep learning for real-world temporal and spatiotemporal data: signals that are noisy, partly missing, and collected far from the lab. I bring the structure of the domain, whether physiology, physics, or network behavior, into modern models so they are not only accurate but interpretable and reliable, and I apply the same lens to large language models, asking what they actually compute rather than trusting their headline scores. I completed my PhD at the Technion in 2026 with Alex Bronstein and Reuven Cohen, and worked as an independent contractor with Apple's Video Engineering group from May to October 2026."
 status: Open to research scientist and applied scientist roles in LLM understanding, physics-informed AI and sensing.
 buttons:
   - label: Curriculum vitae
@@ -27,7 +27,7 @@ highlights:
     caption: First instantaneous VO₂ from a consumer smartwatch
     url: /publication/9/
   - label: Technion · Apple
-    caption: PhD in Computer Science; independent contractor, Apple Video Engineering
+    caption: PhD in Computer Science; former independent contractor, Apple Video Engineering
     url: /cv/
 themes:
   - title: What transformers actually compute
