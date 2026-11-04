@@ -121,3 +121,13 @@ deploy run 41638433956 succeeded. Live checks: home, publications, CV, running, 
 old URLs redirect (meta refresh) and `/publication/9` 301s to the trailing-slash form; 404 page served; headless Chrome audit on the
 live home and books pages found every external link marked `target=_blank rel=noopener` and no internal link touched. The main checkout
 now holds the Astro tree (`npm install` done, `vendor/` removed); the `astro` worktree and branch were deleted after the merge.
+
+## 2026-11-04: Apple contract is a past role everywhere
+Barak asked that the site no longer present him as an Apple independent contractor. The CV entry already had the May to
+October 2026 dates, but the home lede ("spent 2026 as an independent contractor...") and the home highlight ("independent
+contractor, Apple Video Engineering") read as current. Commit 812e3da: lede now "worked as an independent contractor with
+Apple's Video Engineering group from May to October 2026", highlight caption "former independent contractor, Apple Video
+Engineering", research page "from May to October 2026 I worked as an independent contractor...". Rule added to CLAUDE.md,
+lesson to tasks/lessons.md. Deploy run 41770879660 succeeded; live home, research, CV and news pages checked.
+Noticed but not fixed (out of scope): `src/pages/race-guide.md` still carries 15 kramdown `{: #id}` heading markers that
+render as literal text on the live race guide; fixing them needs a check that Astro's auto heading ids match the old anchors.
