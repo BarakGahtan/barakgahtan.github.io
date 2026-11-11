@@ -33,4 +33,4 @@ Goal: replace the Jekyll/academicpages site with an Astro 7 site, new design, sa
 - [x] PDFs replaced with published versions: Lab to Wrist (ACM), VisQUIC (MeditCom), ANS (NoF), mmWave (NoF), Eikonal (CGF typeset), ML-ENHANCE (newer draft)
 - [x] PDFs added: Effective Depth and Coupled QK (ACML camera-ready main + supplement), Shuffle Gap, Cardiovascular Drift
 - [x] Build, check, screenshots, link audit, deploy, live verification
-- Review: DecQUIC and WearableMil files in the papers folder are text-identical to the site copies, left as is. "Adapt the Data, Not the Model" (third author) is in the folder but not on the site; not added without Barak's word.
+- Review: DecQUIC and WearableMil files in the papers folder are text-identical to the site copies, left as is.

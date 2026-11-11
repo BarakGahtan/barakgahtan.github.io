@@ -151,4 +151,4 @@ AARL.pdf (NoF camera-ready), Differentiable_Eikonal_Solvers_v4.pdf (CGF typeset,
 Cardiovascular-Drift-from-3D-Running-Pose.pdf, The-Residual-Streams-Effective-Depth-ACML2026.pdf, Invertible-Query-Key-Coupling-ACML2026.pdf,
 Evaluating-Temporal-Models-at-Matched-Information.pdf (Betamixing.pdf deleted). Links added: ACM DOI 10.1145/3716553.3750815 (pub 9),
 IEEE Xplore 11104435 (pub 5). Open: PMLR v353 pages/DOIs for pubs 12 and 14 once proceedings.mlr.press/v353 is live (ACML runs 1 Dec 2026);
-"Adapt the Data, Not the Model" (third author, under review) not on the site; race-guide `{: #id}` markers still unfixed.
+race-guide `{: #id}` markers still unfixed.
