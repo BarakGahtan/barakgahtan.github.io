@@ -131,3 +131,12 @@ Engineering", research page "from May to October 2026 I worked as an independent
 lesson to tasks/lessons.md. Deploy run 41770879660 succeeded; live home, research, CV and news pages checked.
 Noticed but not fixed (out of scope): `src/pages/race-guide.md` still carries 15 kramdown `{: #id}` heading markers that
 render as literal text on the live race guide; fixing them needs a check that Astro's auto heading ids match the old anchors.
+
+## 2026-11-11: new role, AI Researcher at a stealth company
+Barak started in November 2026 as an "AI Researcher" at a stealth company (unnamed on purpose), working on LLM inference and
+post-training. Commit 9b137f9: home eyebrow "AI Researcher · PhD, Technion (2026)", hero status line now states the role (the
+"open to roles" line is gone; status gets noHyphenBreaks like the headline), CV tagline, summary and a first experience entry
+"November 2026 – present" (start month assumed from "I'm starting"), research page sentence, news item (Nov 2026), site meta
+description and default page title. CLAUDE.md records the fact. Deploy run 42989010078 succeeded; live home, research, CV and
+news pages checked (title, meta description, no "Open to research scientist" left). Screenshots: scratchpad shots3/ (desktop,
+phone, CV). Open: the race-guide `{: #id}` markers (see 2026-11-04) are still unfixed.
