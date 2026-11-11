@@ -26,3 +26,11 @@ Goal: replace the Jekyll/academicpages site with an Astro 7 site, new design, sa
 - [x] Research page sentence, news item (Nov 2026), site meta description, CLAUDE.md fact
 - [x] Build, type check, screenshots, deploy, live verification
 - Review: hero status line replaces the open-to-roles line; status gets noHyphenBreaks like the headline; default page title now 'Barak Gahtan, AI Researcher'. Start month November 2026 is assumed from "I'm starting" on 2026-11-11.
+
+## 2026-11-11: publication links and PDFs refresh
+- [x] Temporal ESS entry: AISTATS 2027 version "Evaluating Temporal Models at Matched Information" (title, abstract, excerpt, year, PDF from ~/Desktop/195_Evaluating_Temporal_Models.pdf; Betamixing.pdf removed)
+- [x] Publisher links: ACM DOI for Lab to Wrist, IEEE Xplore for VisQUIC
+- [x] PDFs replaced with published versions: Lab to Wrist (ACM), VisQUIC (MeditCom), ANS (NoF), mmWave (NoF), Eikonal (CGF typeset), ML-ENHANCE (newer draft)
+- [x] PDFs added: Effective Depth and Coupled QK (ACML camera-ready main + supplement), Shuffle Gap, Cardiovascular Drift
+- [x] Build, check, screenshots, link audit, deploy, live verification
+- Review: DecQUIC and WearableMil files in the papers folder are text-identical to the site copies, left as is. "Adapt the Data, Not the Model" (third author) is in the folder but not on the site; not added without Barak's word.

@@ -140,3 +140,15 @@ post-training. Commit 9b137f9: home eyebrow "AI Researcher · PhD, Technion (202
 description and default page title. CLAUDE.md records the fact. Deploy run 42989010078 succeeded; live home, research, CV and
 news pages checked (title, meta description, no "Open to research scientist" left). Screenshots: scratchpad shots3/ (desktop,
 phone, CV). Open: the race-guide `{: #id}` markers (see 2026-11-04) are still unfixed.
+
+## 2026-11-11 (later): publication links and PDFs refreshed
+Sources: `/Users/barak/Library/Mobile Documents/com~apple~CloudDocs/Barak Folder/Technion-Stuff/Barak_Papers/` (13 PDFs, June 2026),
+`/Users/barak/Desktop/Barak's folder/accepted-acml2026/` (ACML camera-ready main + supplement for effective depth and coupled QK, 30 Oct 2026,
+PMLR volume 353 printed in the headers), `/Users/barak/Desktop/195_Evaluating_Temporal_Models.pdf` (AISTATS 2027 submission, anonymized).
+Pub 10 is now "Evaluating Temporal Models at Matched Information" (arXiv 2508.06066 still carries the older title; Barak must upload v4 himself).
+Replaced in place: Lab-to-Wrist-final.pdf (ACM version), Exploring QUIC Dynamics (MeditCom version), Data-Driven Cellular (NoF, no arXiv stamp),
+AARL.pdf (NoF camera-ready), Differentiable_Eikonal_Solvers_v4.pdf (CGF typeset, 48 p), ML_ENHANCE.pdf (53 p draft). New: The-Shuffle-Gap.pdf,
+Cardiovascular-Drift-from-3D-Running-Pose.pdf, The-Residual-Streams-Effective-Depth-ACML2026.pdf, Invertible-Query-Key-Coupling-ACML2026.pdf,
+Evaluating-Temporal-Models-at-Matched-Information.pdf (Betamixing.pdf deleted). Links added: ACM DOI 10.1145/3716553.3750815 (pub 9),
+IEEE Xplore 11104435 (pub 5). Open: PMLR v353 pages/DOIs for pubs 12 and 14 once proceedings.mlr.press/v353 is live (ACML runs 1 Dec 2026);
+"Adapt the Data, Not the Model" (third author, under review) not on the site; race-guide `{: #id}` markers still unfixed.
