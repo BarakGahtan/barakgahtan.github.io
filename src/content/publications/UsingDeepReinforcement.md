@@ -9,7 +9,7 @@ featured: false
 order: 2
 excerpt: Real-time link scheduling in 5G millimeter-wave mesh networks has to decide which links to activate, and at what power, within a few milliseconds per slot. AARL is a model-free deep reinforcement learning scheduler that makes these decisions inside the strict time constraints of 5G mmWave networks.
 arxiv: https://arxiv.org/abs/2210.01423
-paperurl: https://ieeexplore.ieee.org/document/10302794
+paperurl: https://doi.org/10.1109/NOF58724.2023.10302794
 pdf: /files/AARL.pdf
 thumbnail: thumb-mmwave.jpg
 ---

@@ -152,3 +152,8 @@ Cardiovascular-Drift-from-3D-Running-Pose.pdf, The-Residual-Streams-Effective-De
 Evaluating-Temporal-Models-at-Matched-Information.pdf (Betamixing.pdf deleted). Links added: ACM DOI 10.1145/3716553.3750815 (pub 9),
 IEEE Xplore 11104435 (pub 5). Open: PMLR v353 pages/DOIs for pubs 12 and 14 once proceedings.mlr.press/v353 is live (ACML runs 1 Dec 2026);
 race-guide `{: #id}` markers still unfixed.
+
+## 2026-11-11 (later still): DOI links for every published paper
+Crossref lookup by title: all seven proceedings papers have DOIs. The five IEEE entries (NoF 2023, NoF 2024, ICMLCN 2025, ICHI 2025,
+MeditCom 2025) now link the DOI instead of the IEEE Xplore page, so every published entry shows "DOI" like the ACM and CGF ones.
+The two ACML 2026 papers have no DOI yet: proceedings.mlr.press/v353 returned 404 on 2026-11-11.
