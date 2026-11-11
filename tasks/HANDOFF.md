@@ -157,3 +157,7 @@ race-guide `{: #id}` markers still unfixed.
 Crossref lookup by title: all seven proceedings papers have DOIs. The five IEEE entries (NoF 2023, NoF 2024, ICMLCN 2025, ICHI 2025,
 MeditCom 2025) now link the DOI instead of the IEEE Xplore page, so every published entry shows "DOI" like the ACM and CGF ones.
 The two ACML 2026 papers have no DOI yet: proceedings.mlr.press/v353 returned 404 on 2026-11-11.
+
+## 2026-11-11 (evening): plain "Publications" heading
+
+- Barak: "i dont think such a title is necessary" about the "13 papers, 12 as first author" headline on /publications/. The h1 is now "Publications" (same eyebrow + plain h1 pattern as /news/), the meta description no longer counts papers, and the unused first-author count was removed from `src/pages/publications/index.astro`. The per-section "N papers" labels and the CV summary sentence ("Author of 13 papers, 12 as first author") were left as they are.

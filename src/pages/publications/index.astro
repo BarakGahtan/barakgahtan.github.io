@@ -7,14 +7,13 @@ import { linkAttrs } from '../../lib/site';
 const pubs = (await getCollection('publications')).sort((a, b) => b.data.order - a.data.order);
 const published = pubs.filter((p) => p.data.status === 'published');
 const preprints = pubs.filter((p) => p.data.status !== 'published');
-const firstAuthor = pubs.filter((p) => p.data.authors.startsWith('Barak Gahtan')).length;
 const scholar = 'https://scholar.google.com/citations?user=Uph8rcwAAAAJ&hl=en&oi=ao';
 ---
 
-<Base title="Publications" description={`${pubs.length} papers by Barak Gahtan, ${firstAuthor} as first author, with summaries and links to arXiv, publisher pages and PDFs.`} wide>
+<Base title="Publications" description="Publications by Barak Gahtan, with summaries and links to arXiv, publisher pages and PDFs." wide>
   <div class="page-head">
     <p class="eyebrow">Publications</p>
-    <h1>{pubs.length} papers, {firstAuthor} as first author</h1>
+    <h1>Publications</h1>
     <p class="lede">Peer-reviewed papers first, then preprints and papers under review, each with a short summary. Also on <a href={scholar} {...linkAttrs(scholar)}>Google Scholar</a>.</p>
   </div>
 
