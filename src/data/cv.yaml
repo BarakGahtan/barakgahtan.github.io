@@ -1,8 +1,9 @@
 # Web CV. The Word document in iCloud (Barak Folder/CV) remains the master for the PDF version.
 name: Barak Gahtan
-tagline: Deep learning researcher · PhD, Technion (2026) · Tel Aviv, Israel
+tagline: AI Researcher · PhD, Technion (2026) · Tel Aviv, Israel
 summary: >-
-  Deep learning researcher (PhD, Technion, 2026) building models for signals that are hard to measure:
+  AI Researcher at a stealth company, working on LLM inference and post-training, with a PhD from the Technion (2026)
+  on models for signals that are hard to measure:
   physiological state from wearables and video, physical spread processes, and the internals of language models.
   Produced the first instantaneous VO₂ estimates from a consumer smartwatch (ACM ICMI 2025, oral), extended them
   to 3D human pose in video as an independent contractor with Apple's Video Engineering group, made eikonal PDE
@@ -11,6 +12,11 @@ summary: >-
 methods: State-space and temporal modeling, Kalman filtering, neural ODEs, differentiable PDE solvers, physics-informed deep learning, LLM analysis, signal processing.
 tools: Python, PyTorch, CUDA, DDP, Slurm, Hugging Face, NumPy, pandas, Linux, Git.
 experience:
+  - role: AI Researcher
+    org: Stealth company
+    dates: November 2026 – present
+    bullets:
+      - Research on large language model inference and post-training.
   - role: Deep Learning Researcher (Independent Contractor)
     org: Apple, Video Engineering Group
     dates: May 2026 – October 2026

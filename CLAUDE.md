@@ -17,6 +17,8 @@ the old site is tagged `jekyll-final` and kept on branch `jekyll-archive`.
 - Never put the phone number on the web CV. The Word CV in iCloud remains the PDF master.
 - The Apple engagement (independent contractor, Video Engineering, May to October 2026) is over. Every mention
   on the site is past tense with its dates; never present it as a current role or affiliation.
+- Current role since November 2026: AI Researcher at a stealth company, working on LLM inference and post-training.
+  The company is unnamed on purpose; never guess or add a name.
 - Verify before calling anything done: `npm run build`, `npm run check`, then a headless Chrome screenshot pass
   (`/Applications/Google Chrome.app/Contents/MacOS/Google Chrome --headless=new --screenshot=... --window-size=...`
   against `python3 -m http.server -d dist`).

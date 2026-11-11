@@ -1,4 +1,6 @@
 # Newest first. date is the first of the month; templates show month and year.
+- date: "2026-11-01"
+  text: Started as an AI Researcher at a stealth company, working on LLM inference and post-training.
 - date: "2026-10-01"
   text: Completed my independent contract with Apple's Video Engineering group, where I modeled instantaneous VO₂ from 3D human pose in video.
 - date: "2026-09-01"

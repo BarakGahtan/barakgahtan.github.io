@@ -1,8 +1,8 @@
 # Home page content. Layout lives in src/pages/index.astro.
-eyebrow: Deep learning researcher · PhD, Technion (2026)
+eyebrow: AI Researcher · PhD, Technion (2026)
 headline: Models for hard-to-measure signals, with the physics and physiology built in.
 lede: "My research is about deep learning for real-world temporal and spatiotemporal data: signals that are noisy, partly missing, and collected far from the lab. I bring the structure of the domain, whether physiology, physics, or network behavior, into modern models so they are not only accurate but interpretable and reliable, and I apply the same lens to large language models, asking what they actually compute rather than trusting their headline scores. I completed my PhD at the Technion in 2026 with Alex Bronstein and Reuven Cohen, and worked as an independent contractor with Apple's Video Engineering group from May to October 2026."
-status: Open to research scientist and applied scientist roles in LLM understanding, physics-informed AI and sensing.
+status: AI Researcher at a stealth company since November 2026, working on LLM inference and post-training.
 buttons:
   - label: Curriculum vitae
     url: /cv/

@@ -19,3 +19,10 @@ Goal: replace the Jekyll/academicpages site with an Astro 7 site, new design, sa
 - Running material stays at its old URLs, grouped under /running/ and kept out of the main story.
 - Web CV comes from `src/data/cv.yaml`; the Word document stays the PDF master. No phone number on the web.
 - External links open in a new tab at build time (rehype plugin + `linkAttrs` helper), replacing the runtime script.
+
+## 2026-11-11: new role (AI Researcher, stealth company)
+- [x] Home: eyebrow, lede sentence, status line replaces "open to roles"
+- [x] CV: tagline, summary, experience entry (November 2026 - present, start month assumed)
+- [x] Research page sentence, news item (Nov 2026), site meta description, CLAUDE.md fact
+- [x] Build, type check, screenshots, deploy, live verification
+- Review: hero status line replaces the open-to-roles line; status gets noHyphenBreaks like the headline; default page title now 'Barak Gahtan, AI Researcher'. Start month November 2026 is assumed from "I'm starting" on 2026-11-11.
