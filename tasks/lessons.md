@@ -14,3 +14,6 @@ A markdown line containing ` | ` (e.g. `**Role | Company (dates)**`) is parsed b
 
 ## 2026-11-04: a finished role still read as current
 - The CV entry had an end date, but the home highlight ("independent contractor, Apple Video Engineering") and the lede ("spent 2026 as...") still read as a current affiliation. When a role ends, grep the whole site for the employer and make every mention past tense with explicit dates, not only the CV entry.
+
+## 2026-11-11: no statistic headlines
+- Barak rejected the "13 papers, 12 as first author" h1 on /publications/ ("i dont think such a title is necessary"). Page headings are plain nouns that match the eyebrow (Publications, News, Research); counts and other stats belong in section meta labels or the CV summary, never in a page title or the meta description.
