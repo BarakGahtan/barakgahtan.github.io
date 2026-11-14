@@ -6,7 +6,7 @@ import cvRaw from '../data/cv.yaml';
 
 export interface Link { label: string; url: string; primary?: boolean }
 export interface Home {
-  eyebrow: string; headline: string; lede: string; status?: string;
+  eyebrow: string; headline: string; lede: string[]; status?: string;
   buttons: Link[]; links: Link[];
   highlights: { label: string; caption: string; url: string }[];
   themes: { title: string; text: string; papers: { title: string; url: string }[] }[];
@@ -17,7 +17,7 @@ export interface Profile { name: string; email: string; photo: string; links: Li
 export interface CvJob { role: string; org: string; dates: string; bullets?: string[] }
 export interface CvDegree { degree: string; org: string; dates: string; note?: string }
 export interface Cv {
-  name: string; tagline: string; summary: string; methods: string; tools: string;
+  name: string; tagline: string; summary: string[]; methods: string; tools: string;
   experience: CvJob[]; education: CvDegree[]; awards: string[]; service: string[]; personal: string[];
 }
 

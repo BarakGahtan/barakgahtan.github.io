@@ -17,3 +17,6 @@ A markdown line containing ` | ` (e.g. `**Role | Company (dates)**`) is parsed b
 
 ## 2026-11-11: no statistic headlines
 - Barak rejected the "13 papers, 12 as first author" h1 on /publications/ ("i dont think such a title is necessary"). Page headings are plain nouns that match the eyebrow (Publications, News, Research); counts and other stats belong in section meta labels or the CV summary, never in a page title or the meta description.
+
+## 2026-11-14: a job title is not the site's title
+- The 11 Nov update put the new job title ("AI Researcher") in the home eyebrow, tab title and CV tagline. Barak wants the site titled "Deep learning researcher", each summary to open with what he does now, and the PhD work in its own paragraph that shows its range. Keep an employer's job title inside the sentence that describes the role.

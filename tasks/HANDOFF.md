@@ -161,3 +161,11 @@ The two ACML 2026 papers have no DOI yet: proceedings.mlr.press/v353 returned 40
 ## 2026-11-11 (evening): plain "Publications" heading
 
 - Barak: "i dont think such a title is necessary" about the "13 papers, 12 as first author" headline on /publications/. The h1 is now "Publications" (same eyebrow + plain h1 pattern as /news/), the meta description no longer counts papers, and the unused first-author count was removed from `src/pages/publications/index.astro`. The per-section "N papers" labels and the CV summary sentence ("Author of 13 papers, 12 as first author") were left as they are.
+
+## 2026-11-14: "Deep learning researcher", current work first
+Barak starts at the stealth company on 15 Nov 2026 (confirmed). He asked that the site title be "Deep learning researcher" and that
+each summary open with what he does now (LLM inference and post-training), followed by a paragraph on the range of his PhD work.
+Done: home h1 "Deep learning researcher" (was "Models for hard-to-measure signals, with the physics and physiology built in."),
+eyebrow "PhD, Technion (2026)", two-paragraph lede, status line removed; Research page rewritten the same way (area paragraphs in
+the past tense); CV tagline and two-paragraph summary; tab title and site description. `lede`/`summary` are now string lists.
+Unchanged: the "Technion · Apple" highlight card, the November news item, the CV experience entry.

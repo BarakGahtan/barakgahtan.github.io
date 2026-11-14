@@ -34,3 +34,11 @@ Goal: replace the Jekyll/academicpages site with an Astro 7 site, new design, sa
 - [x] PDFs added: Effective Depth and Coupled QK (ACML camera-ready main + supplement), Shuffle Gap, Cardiovascular Drift
 - [x] Build, check, screenshots, link audit, deploy, live verification
 - Review: DecQUIC and WearableMil files in the papers folder are text-identical to the site copies, left as is.
+
+## 2026-11-14: "Deep learning researcher", current work first
+- [x] Home: h1 "Deep learning researcher", eyebrow "PhD, Technion (2026)", lede split into two paragraphs (current work, then the range of the PhD work); status line dropped because its sentence now opens the lede
+- [x] Research page: opens with the current role, then a PhD paragraph; the four area paragraphs moved to the past tense
+- [x] CV: tagline "Deep learning researcher · PhD, Technion (2026) · Tel Aviv, Israel"; summary split into current work and a PhD paragraph (network traffic added to the range)
+- [x] Default page title and site description say deep learning researcher
+- [x] Build, check, screenshots (1440 and 600 px), deploy, live verification
+- Review: `lede` (home.yaml) and `summary` (cv.yaml) are now string lists, one per paragraph. Start date confirmed by Barak: 15 Nov 2026, so "November 2026 – present" and the November news item stand.

@@ -2,7 +2,7 @@ export const SITE = {
   url: 'https://www.barakgahtan.com',
   name: 'Barak Gahtan',
   description:
-    'Barak Gahtan, AI Researcher at a stealth company (PhD, Technion 2026), working on LLM inference and post-training. Diagnostics for language models, differentiable physics solvers, and physiological sensing from wearables and video.',
+    'Barak Gahtan, deep learning researcher (PhD, Technion 2026). Currently working on LLM inference and post-training at a stealth company; PhD research on physiological sensing from wearables and video, differentiable physics solvers, network traffic, and diagnostics for language models.',
 };
 
 const ownSite = /^https?:\/\/(www\.)?barakgahtan\.com(\/|$)/;

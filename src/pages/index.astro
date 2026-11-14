@@ -15,7 +15,7 @@ const featured = pubs.filter((p) => p.data.featured).sort((a, b) => b.data.order
     <div>
       <p class="eyebrow">{home.eyebrow}</p>
       <h1 class="hero__title">{noHyphenBreaks(home.headline)}</h1>
-      <p class="hero__lede">{home.lede}</p>
+      {home.lede.map((para) => <p class="hero__lede">{para}</p>)}
       {home.status && <p class="hero__status"><span class="hero__dot" aria-hidden="true"></span>{noHyphenBreaks(home.status)}</p>}
       <div class="actions">
         {home.buttons.map((b) => (

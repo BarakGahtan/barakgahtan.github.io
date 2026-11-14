@@ -10,7 +10,7 @@ const selected = (await getCollection('publications'))
 const contactLinks = profile.links.filter((l) => l.label !== 'Strava');
 ---
 
-<Base title="CV" description={cv.summary}>
+<Base title="CV" description={cv.summary.join(' ')}>
   <article class="cv">
     <div class="cv-head">
       <div>
@@ -27,7 +27,7 @@ const contactLinks = profile.links.filter((l) => l.label !== 'Strava');
 
     <section class="cv-section">
       <h2>Summary</h2>
-      <p>{cv.summary}</p>
+      {cv.summary.map((para) => <p>{para}</p>)}
       <dl class="cv-kv">
         <dt>Methods</dt><dd>{cv.methods}</dd>
         <dt>Tools</dt><dd>{cv.tools}</dd>
