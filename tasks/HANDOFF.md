@@ -169,3 +169,7 @@ Done: home h1 "Deep learning researcher" (was "Models for hard-to-measure signal
 eyebrow "PhD, Technion (2026)", two-paragraph lede, status line removed; Research page rewritten the same way (area paragraphs in
 the past tense); CV tagline and two-paragraph summary; tab title and site description. `lede`/`summary` are now string lists.
 Unchanged: the "Technion · Apple" highlight card, the November news item, the CV experience entry.
+
+## 2026-11-20: Apple out of the home highlights
+Barak asked why Apple was in the fourth highlight card. It now reads "Technion" / "PhD in Computer Science, 2026" (still links /cv/).
+Apple remains as dated past experience in the home intro's last sentence, the Research page, the CV and the October news item.

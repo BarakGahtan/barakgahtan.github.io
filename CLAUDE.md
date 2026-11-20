@@ -16,7 +16,8 @@ the old site is tagged `jekyll-final` and kept on branch `jekyll-archive`.
 - No em-dashes anywhere on the site. Dates in `news.yaml` are quoted strings.
 - Never put the phone number on the web CV. The Word CV in iCloud remains the PDF master.
 - The Apple engagement (independent contractor, Video Engineering, May to October 2026) is over. Every mention
-  on the site is past tense with its dates; never present it as a current role or affiliation.
+  on the site is past tense with its dates; never present it as a current role or affiliation. Apple stays out of the
+  home highlights row (Barak, 2026-11-20); it appears only as past experience (home intro, Research page, CV, news).
 - Current role since 15 November 2026: AI Researcher at a stealth company, working on LLM inference and post-training.
   The company is unnamed on purpose; never guess or add a name. "AI Researcher" is only the job title (CV entry and the
   sentence that describes the role). The site's own title is "Deep learning researcher" (home h1, tab title, CV tagline).

@@ -20,3 +20,6 @@ A markdown line containing ` | ` (e.g. `**Role | Company (dates)**`) is parsed b
 
 ## 2026-11-14: a job title is not the site's title
 - The 11 Nov update put the new job title ("AI Researcher") in the home eyebrow, tab title and CV tagline. Barak wants the site titled "Deep learning researcher", each summary to open with what he does now, and the PhD work in its own paragraph that shows its range. Keep an employer's job title inside the sentence that describes the role.
+
+## 2026-11-20: past roles do not belong in the highlights row
+- The fourth home highlight still read "Technion · Apple ... former independent contractor, Apple Video Engineering". Barak: "why do we need Apple there?" The card is now "Technion / PhD in Computer Science, 2026". When a role ends, take it out of the highlight cards entirely; past experience lives in the intro, the Research page and the CV.
