@@ -21,6 +21,8 @@ const publications = defineCollection({
     arxiv: z.url().optional(),
     paperurl: z.url().optional(),
     pdf: z.string().optional(),
+    supplement: z.string().optional(),
+    talk: z.url().optional(),
     thumbnail: z.string().optional(),
     tile: z.string().optional(),
   }),

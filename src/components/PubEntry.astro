@@ -27,6 +27,8 @@ const publisherLabel = d.paperurl?.includes('doi.org') ? 'DOI' : 'Publisher';
       {d.arxiv && <a href={d.arxiv} {...linkAttrs(d.arxiv)}>arXiv</a>}
       {d.paperurl && <a href={d.paperurl} {...linkAttrs(d.paperurl)}>{publisherLabel}</a>}
       {d.pdf && <a href={d.pdf}>PDF</a>}
+      {d.supplement && <a href={d.supplement}>Supplement</a>}
+      {d.talk && <a href={d.talk} {...linkAttrs(d.talk)}>Talk</a>}
       <a href={url}>Details</a>
     </p>
   </div>

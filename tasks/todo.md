@@ -42,3 +42,11 @@ Goal: replace the Jekyll/academicpages site with an Astro 7 site, new design, sa
 - [x] Default page title and site description say deep learning researcher
 - [x] Build, check, screenshots (1440 and 600 px), deploy, live verification
 - Review: `lede` (home.yaml) and `summary` (cv.yaml) are now string lists, one per paragraph. Start date confirmed by Barak: 15 Nov 2026, so "November 2026 – present" and the November news item stand.
+
+## 2026-11-27: ACML camera-ready PDFs and the SGP talk
+- [x] PDF links of pubs 12 and 14 now serve the 16-page camera-ready papers Barak put on the Desktop (`96_The_Residual_Stream_s_Effec.pdf`, `85_Invertible_Query_Key_Coupli.pdf`; byte-identical to the OpenReview uploads). Same URLs as before.
+- [x] Supplements served separately (`*-ACML2026-supplement.pdf`, from the 30 Oct upload folders) behind a new "Supplement" link; the old merged files were exactly paper + supplement, so nothing was lost
+- [x] New optional fields `supplement` and `talk` in the publication schema; rendered on the list entries and detail pages
+- [x] SGP paper (pub 11): "Talk" link to the SGP 2026 YouTube recording (https://www.youtube.com/watch?v=jNNdN8-zxcQ, channel "Symposium on Geometry Processing 2026")
+- [x] Build, check, link and file audit, screenshots, deploy, live verification
+- Review: PMLR v353 still returned 404 on 2026-11-27, so the ACML entries still have no publisher link or DOI.

@@ -173,3 +173,9 @@ Unchanged: the "Technion · Apple" highlight card, the November news item, the C
 ## 2026-11-20: Apple out of the home highlights
 Barak asked why Apple was in the fourth highlight card. It now reads "Technion" / "PhD in Computer Science, 2026" (still links /cv/).
 Apple remains as dated past experience in the home intro's last sentence, the Research page, the CV and the October news item.
+
+## 2026-11-27: ACML camera-ready PDFs and the SGP talk
+The ACML PDF links (pubs 12, 14) now serve the 16-page camera-ready papers from the Desktop (byte-identical to the OpenReview
+uploads); the supplements are separate files behind a new "Supplement" link. Pub 11 has a "Talk" link to the SGP 2026 YouTube
+recording. Schema gained optional `supplement` and `talk`. Open: PMLR v353 still 404 on 2026-11-27 (add publisher links when live);
+ACML posters exist in `~/Desktop/Barak's folder/accepted-acml2026/*/poster*` and `acml-talk-poster` if Barak wants them on the site.
